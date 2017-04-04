@@ -978,7 +978,7 @@ body#index #content .thin center a[href*="user.php"]:hover {
 	font-size: 								13px;
 	color: 									rgba(0,0,0,0.55);
 	background: 							rgba(255,255,255,0.9);
-	padding:								25px;
+	padding:								15px 25px;
 }
 
 .box .pad strong {
@@ -1068,6 +1068,7 @@ ul.pagination li {
 
 .box table tr td {
 	clear: 									both;
+	position: 								relative;
 }
 
 .box table tr td li {
@@ -1186,6 +1187,17 @@ ul.pagination li {
 	text-overflow:							ellipsis;
 	white-space: 							nowrap;
 	overflow: 								hidden;
+}
+
+.box.newspage table tr td > span#forumrecent a:after {
+	content: 								'';
+	display: 								block;
+	width: 									100%;
+	height: 								inherit;
+	position: 								absolute;
+    top: 									0;
+    left: 									0;
+    width: 									100%;
 }
 
 .box table tr:hover,
