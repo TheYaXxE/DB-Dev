@@ -225,7 +225,7 @@ input[type=button]:hover {
 -----------------------{  5. Body & Wrapper  }---------------------
 -----------------------------------------------------------------*/
 body {
-	background:								url("bg.png") center fixed, #f1f1f1;
+	background:								url("images/bg.png") center fixed, #f1f1f1;
 	background-size: 						cover;
 	font-family: 							"Open Sans", Helvetica;
 }
@@ -240,7 +240,7 @@ body:before {
 	right: 									0;
 	z-index: 								-1;
 	opacity: 								0.5;
-	background: 							url("noise-bg.png");
+	background: 							url("images/noise-bg.png");
 }
 
 #wrapper {
@@ -290,7 +290,7 @@ body:before {
 
 #header #logocenter #lolgo a#linkroot {
 	display: 								block;
-	background: 							url("logo.png");
+	background: 							url("images/logo.png");
 	background-size: 						164px 34px;
 	width: 									inherit;
 	height:									inherit;
@@ -431,11 +431,11 @@ body:before {
 }
 
 #header > #userinfo > ul#userinfo_stats li.user_stat_pics#stats_seeding a img {
-	background: 							url("upload.png");
+	background: 							url("images/upload.png");
 }
 
 #header > #userinfo > ul#userinfo_stats li.user_stat_pics#stats_leeching a img {
-	background: 							url("download.png");
+	background: 							url("images/download.png");
 }
 
 
@@ -594,7 +594,7 @@ body:before {
 	font-size: 								0;
 }
 #header > #userinfo > ul#userinfo_major li#nav_dbbucket a:after {
-	background: 							url("dbbucket-icon.png");
+	background: 							url("images/dbbucket-icon.png");
 }
 
 /* Donate */
@@ -610,7 +610,7 @@ body:before {
 
 /* Log Out */
 #header > #userinfo > ul#userinfo_major li#nav_donate + li a:after {
-	background: 							url("logout-icon.png");
+	background: 							url("images/logout-icon.png");
 }
 
 /* Bottom Icons */
@@ -682,12 +682,12 @@ body:before {
 	box-shadow: inset 						-1px 0 0 #F0F0F0;
 }
 #header > #userinfo > ul#userinfo_username li:nth-child(2) img {
-	background-image: 						url("user-settings-icon.png");
+	background-image: 						url("images/user-settings-icon.png");
 }
 #header > #userinfo > ul#userinfo_major li.user_stat_pics:before {
 	right: 									calc( 68px * 2 );
     border-radius: 							0 0 0 4px;
-	background: 							url("user-settings-icon.png") center, #FFF;
+	background: 							url("images/user-settings-icon.png") center, #FFF;
 		background-size: 						26px 19px;
 	background-repeat: 						no-repeat;
 	box-shadow: 							inset -1px 0 0 #F0F0F0;
@@ -698,11 +698,11 @@ body:before {
 	right:									calc( 68px - 12px ); /* Subtract user menu offset */
 }
 #header > #userinfo > ul#userinfo_username li.user_stat_pics + .user_stat_pics img {
-	background-image:						url("user-inbox-icon.png");
+	background-image:						url("images/user-inbox-icon.png");
 }
 #header > #userinfo > ul#userinfo_major li.user_stat_pics:after {
 	right:									68px;
-	background: 							url("user-inbox-icon.png") center, #FFF;
+	background: 							url("images/user-inbox-icon.png") center, #FFF;
 		background-size: 						26px 19px;
 	background-repeat: 						no-repeat;
 }
@@ -719,11 +719,11 @@ body:before {
 	box-shadow: 							inset 1px 0 0 #F0F0F0;
 }
 #header > #userinfo > ul#userinfo_major li.user_stat_pics img {
-	background-image: 						url("user-rss-icon.png");
+	background-image: 						url("images/user-rss-icon.png");
 }
 
 #header > #userinfo > ul#userinfo_major li:last-child a:hover img {
-	background-image: 						url("user-rss-color-icon.png");
+	background-image: 						url("images/user-rss-color-icon.png");
 }
 
 /* Hide user menu by default */
@@ -835,39 +835,39 @@ body:before {
 }
 
 #header > #menu > ul li#nav_index a:before {
-	background: 							url("home-icon.png");
+	background: 							url("images/home-icon.png");
 }
 
 #header > #menu > ul li#nav_torrents a:before {
-	background: 							url("torrents-icon.png");
+	background: 							url("images/torrents-icon.png");
 }
 
 #header > #menu > ul li#nav_requests a:before {
-	background: 							url("requests-icon.png");
+	background: 							url("images/requests-icon.png");
 }
 
 #header > #menu > ul li#nav_movieindex a:before {
-	background: 							url("movieindex-icon.png");
+	background: 							url("images/movieindex-icon.png");
 }
 
 #header > #menu > ul li#nav_forums a:before {
-	background: 							url("forum-icon.png");
+	background: 							url("images/forum-icon.png");
 }
 
 #header > #menu > ul li#nav_helpdesk a:before {
-	background: 							url("help-icon.png");
+	background: 							url("images/help-icon.png");
 }
 
 #header > #menu > ul li#nav_irc a:before {
-	background: 							url("chat-icon.png");
+	background: 							url("images/chat-icon.png");
 }
 
 #header > #menu > ul li#nav_top10 a:before {
-	background: 							url("top10-icon.png");
+	background: 							url("images/top10-icon.png");
 }
 
 #header > #menu > ul li#nav_bonus a:before {
-	background: 							url("bonus-icon.png");
+	background: 							url("images/bonus-icon.png");
 }
 
 /* Current State */
@@ -1486,7 +1486,7 @@ a#lightbox-secNav-btnClose > img {
 	height: 20px;
 	padding-left: 20px;
 	overflow: hidden;
-	background: url("close-btn.png") center no-repeat;
+	background: url("images/close-btn.png") center no-repeat;
 	background-size: 20px;
 }
 
@@ -1514,7 +1514,7 @@ a#lightbox-loading-link {
 a#lightbox-loading-link > img {
 	width: 60px;
 	height: 60px;
-	background: url("loading.gif") center no-repeat;
+	background: url("images/loading.gif") center no-repeat;
 	background-size: 60px;
 	overflow: hidden;
 	padding-left: 60px;
@@ -1541,7 +1541,7 @@ img[src*="smileys"] {
 }
 
 img[src*="smile.gif"] {
-	background-image: 							url("smiley_1.png");
+	background-image: 							url("images/smiley_1.png");
 }
 
 
