@@ -871,17 +871,20 @@ body:before {
 }
 
 /* Current State */
-body#index #header > #menu > ul li#nav_index:before {
+body#index #header > #menu > ul li#nav_index:before,
+body#bonus #header > #menu > ul li#nav_bonus:before {
 	background: 							-webkit-linear-gradient(rgba(255,255,255,0.65),rgba(255,255,255,0.55));
 	background: 							-moz-linear-gradient(rgba(255,255,255,0.65),rgba(255,255,255,0.55));
 	background: 							-o-linear-gradient(rgba(255,255,255,0.65),rgba(255,255,255,0.55));
 	background: 							-ms-linear-gradient(rgba(255,255,255,0.65),rgba(255,255,255,0.55));
 	background: 							linear-gradient(rgba(255,255,255,0.65),rgba(255,255,255,0.55));
 }
-body#index #header > #menu > ul li#nav_index a {
+body#index #header > #menu > ul li#nav_index a,
+body#bonus #header > #menu > ul li#nav_bonus a {
 	color: 									rgba(0,0,0,0.76);
 }
-body#index #header > #menu > ul li#nav_index a:before {
+body#index #header > #menu > ul li#nav_index a:before,
+body#bonus #header > #menu > ul li#nav_bonus a:before {
 	opacity: 1;
 }
 
