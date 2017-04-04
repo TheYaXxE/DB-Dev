@@ -225,7 +225,7 @@ input[type=button]:hover {
 -----------------------{  5. Body & Wrapper  }---------------------
 -----------------------------------------------------------------*/
 body {
-	background:								url("images/bg.png") center fixed, #f1f1f1;
+	background:								url("images/bg.jpg") center fixed, #f1f1f1;
 	background-size: 						cover;
 	font-family: 							"Open Sans", Helvetica;
 }
