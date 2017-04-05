@@ -121,57 +121,81 @@ table {
 /*-----------------------------------------------------------------
 ----------------------{  3. CSS Animations  }----------------------
 -----------------------------------------------------------------*/
+/* Animation Poll Bars */
 @-webkit-keyframes poll_move {
 	0% {
-		width: 0;
+		width: 								0;
 	}
 	100% {
-		width: 100%;
+		width: 								100%;
 	}
 }
-
 @-moz-keyframes poll_move {
 	0% {
-		width: 0;
+		width: 								0;
 	}
 	100% {
-		width: 100%;
+		width: 								100%;
 	}
 }
-
-keyframes poll_move {
+@keyframes poll_move {
 	0% {
-		width: 0;
+		width: 								0;
 	}
 	100% {
-		width: 100%;
+		width: 								100%;
 	}
 }
 
+/* Show Modal Close Button */
 @-webkit-keyframes modal_close_btn {
 	0% {
-		transform: translate3d(0,-100%,0);
+		transform: 							translate3d(0,-100%,0);
 	}
 	100% {
-		transform: translate3d(0,0,0);
+		transform: 							translate3d(0,0,0);
 	}
 }
-
 @-moz-keyframes modal_close_btn {
 	0% {
-		transform: translate3d(0,-100%,0);
+		transform: 							translate3d(0,-100%,0);
 	}
 	100% {
-		transform: translate3d(0,0,0);
+		transform: 							translate3d(0,0,0);
+	}
+}
+@keyframes modal_close_btn {
+	0% {
+		transform: 							translate3d(0,-100%,0);
+	}
+	100% {
+		transform: 							translate3d(0,0,0);
 	}
 }
 
-keyframes modal_close_btn {
+/* Fade element out */
+@-webkit-keyframes fadeOut {
 	0% {
-		transform: translate3d(0,-100%,0);
+		opacity: 							1;
 	}
 	100% {
-		transform: translate3d(0,0,0);
+		opacity: 							0;
+	}
+}
+@-moz-keyframes fadeOut {
+	0% {
+		opacity: 							1;
+	}
+	100% {
+		opacity: 							0;
+	}
+}
+@keyframes fadeOut {
+	0% {
+		opacity: 							1;
+	}
+	100% {
+		opacity: 							0;
 	}
 }
 
@@ -486,6 +510,7 @@ body:before {
 #header > #userinfo > ul#userinfo_username li a {
 	color: 									#FFF;
 }
+
 
 /*----------------------{  6.2. User Menu  }---------------------*/
 /*
@@ -908,6 +933,7 @@ body#bonus #header > #menu > ul li#nav_bonus:before {
 	background: 							-o-linear-gradient(rgba(255,255,255,0.65),rgba(255,255,255,0.55));
 	background: 							-ms-linear-gradient(rgba(255,255,255,0.65),rgba(255,255,255,0.55));
 	background: 							linear-gradient(rgba(255,255,255,0.65),rgba(255,255,255,0.55));
+	box-shadow: 							0 2px 10px rgba(0,0,0,0.04);
 }
 body#index #header > #menu > ul li#nav_index a,
 body#bonus #header > #menu > ul li#nav_bonus a {
@@ -1265,17 +1291,33 @@ ul.pagination li {
 
 .box.newspage #show-case:after {
     content: 								'';
-    position: 								absolute;
     width: 									100%;
     height: 								6px;
+    position: 								absolute;
     bottom: 								0;
     left: 									0;
+	z-index: 20;
     background: 							#FFF;
 }
 
 .box.newspage #show-case img {
-	width: 									100%;
-		cursor: 							pointer;
+	width: 									calc( 100% - 12px );
+	cursor: 								pointer;
+	position: 								absolute;
+	top: 									6px;
+	left: 									6px;
+	z-index: 								10;
+}
+
+/* Fade posters in and out - Smoothless animation */
+.box.newspage #show-case img:first-child {
+	z-index:								20;
+}
+
+.box.newspage #show-case img:first-child ~ img:last-child {
+	display: 								inline !important;
+	opacity:								0 !important;
+	animation: 								fadeOut 1s forwards;
 }
 
 /*------------------------{  8.3. Poll  }------------------------*/
