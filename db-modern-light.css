@@ -614,7 +614,7 @@ body:before {
 }
 
 /* Bottom Icons */
-#header > #userinfo > ul#userinfo_major li:last-child,
+#header > #userinfo > ul#userinfo_major li.user_stat_pics,
 #header > #userinfo > ul#userinfo_username li.user_stat_pics {
 	display: 								block;
 	width: 									68px;
@@ -630,22 +630,44 @@ body:before {
 	top: 									-27px;
 }
 
-#header > #userinfo > ul#userinfo_major li:last-child a,
+#header > #userinfo > ul#userinfo_major li.user_stat_pics a,
 #header > #userinfo > ul#userinfo_username li.user_stat_pics a {
 	display: 								block;
 	width: 									100%;
 	height: 								42px;
-		padding: 								11.5px 0;
 	background-color: 						#FFF;
+		position: 								relative;
+		padding: 								11.5px 0;
 		text-align: 							center;
 }
 
-#header > #userinfo > ul#userinfo_major li:last-child a:hover,
+#header > #userinfo > ul#userinfo_major li.user_stat_pics a:hover,
 #header > #userinfo > ul#userinfo_username li.user_stat_pics a:hover {
 	background:								#f4f4f4;
 }
 
-#header > #userinfo > ul#userinfo_major li:last-child img,
+#header > #userinfo > ul#userinfo_major li.user_stat_pics a:after,
+#header > #userinfo > ul#userinfo_username li.user_stat_pics a:after {
+	content: 								'';
+    display: 								block;
+    width: 									100%;
+    height: 								100%;
+    background-size: 						26px 19px;
+    background-repeat: 						no-repeat;
+    background-position: 					center;
+    background-color: 						#f4f4f4;
+    opacity: 								0;
+    position: 								absolute;
+    top: 									0;
+    left: 									0;
+}
+
+#header > #userinfo > ul#userinfo_major li.user_stat_pics a:hover:after,
+#header > #userinfo > ul#userinfo_username li.user_stat_pics a:hover:after {
+	opacity: 								1;
+}
+
+#header > #userinfo > ul#userinfo_major li.user_stat_pics img,
 #header > #userinfo > ul#userinfo_username li.user_stat_pics img {
 	display: 								inline-block;
 	width: 									26px;
@@ -684,6 +706,9 @@ body:before {
 #header > #userinfo > ul#userinfo_username li:nth-child(2) img {
 	background-image: 						url("images/user-settings-icon.png");
 }
+#header > #userinfo > ul#userinfo_username li:nth-child(2) a:after {
+	background-image: 						url("images/user-settings-icon.png");
+}
 #header > #userinfo > ul#userinfo_major li.user_stat_pics:before {
 	right: 									calc( 68px * 2 );
     border-radius: 							0 0 0 4px;
@@ -700,6 +725,9 @@ body:before {
 #header > #userinfo > ul#userinfo_username li.user_stat_pics + .user_stat_pics img {
 	background-image:						url("images/user-inbox-icon.png");
 }
+#header > #userinfo > ul#userinfo_username li.user_stat_pics + .user_stat_pics a:after {
+	background-image: 						url("images/user-inbox-icon.png");
+}
 #header > #userinfo > ul#userinfo_major li.user_stat_pics:after {
 	right:									68px;
 	background: 							url("images/user-inbox-icon.png") center, #FFF;
@@ -713,7 +741,6 @@ body:before {
 	right: 									0;
 	border-radius: 							0 0 4px 0;
 }
-/* Note: Centrer img og background image på knap og faux ordenligt. Lav billede til bredte 26 */
 #header > #userinfo > ul#userinfo_major li.user_stat_pics a {
 	border-radius: 							0 0 4px 0;
 	box-shadow: 							inset 1px 0 0 #F0F0F0;
@@ -722,10 +749,14 @@ body:before {
 	background-image: 						url("images/user-rss-icon.png");
 }
 
+#header > #userinfo > ul#userinfo_major li.user_stat_pics a:after {
+	background-image: 						url("images/user-rss-color-icon.png");
+}
+/*
 #header > #userinfo > ul#userinfo_major li:last-child a:hover img {
 	background-image: 						url("images/user-rss-color-icon.png");
 }
-
+*/
 /* Hide user menu by default */
 #userinfo_major,
 #userinfo_username .user_stat_pics {
