@@ -786,7 +786,6 @@ body:before {
 
 #header > #menu > ul li {
 	display: 								inline-block;
-	width:									100px;
 	height: 								90px;
 	position:								relative;
 }
@@ -809,7 +808,7 @@ body:before {
 }
 
 #header > #menu > ul li a {
-	display: 								block;
+	display: 								inline-block;
 	width:									inherit;
 	height: 								inherit;
 	font-size: 								14px;
@@ -818,7 +817,7 @@ body:before {
 	color: 									rgba(0,0,0,0.62);
 	position: 								relative;
 	z-index: 								1;
-	padding: 								19px 0;
+	padding: 								18px 22px;
 }
 
 /* Menu Icons */
