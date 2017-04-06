@@ -1563,6 +1563,47 @@ ul.pagination li {
 }
 
 
+
+/* Linkbox Buttons */
+.linkbox {
+	font-size: 0;
+}
+
+.linkbox a {
+	display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    background: black;
+    position: relative;
+    padding: 0 10px;
+    margin-right: 10px;
+}
+
+.linkbox a:last-child {
+	margin-right: 0;
+}
+
+.linkbox a[onmousedown]:before,
+.linkbox a[onmousedown]:after {
+	display: inline-block;
+    content: '';
+    width: 16px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    background: black;
+}
+
+.linkbox a[onmousedown]:before {
+    left: 0;
+}
+
+.linkbox a[onmousedown]:after {
+    right: 0;
+}
+
+
 /*-----------------------------------------------------------------
 --------------------------{  9. Footer  }--------------------------
 -----------------------------------------------------------------*/
