@@ -1527,6 +1527,35 @@ ul.stats.nobullet li b {
 }
 
 
+/* Placering */
+.box:nth-child(3) .head.colhead_dark:before {
+    content: 'Placering %';
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 6px;
+    vertical-align: middle;
+}
+
+.box:nth-child(3) .head.colhead_dark:after {
+    content: '(Hold mus over for værdi)';
+    font-size: 11px;
+    vertical-align: middle;
+}
+
+.box:nth-child(3) ul.stats.nobullet li[title]:not([title=""]):after {
+    content: 'i';
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    line-height: 15px;
+    font-size: 9px;
+    color: #FFF;
+    background: #559dff;
+    border-radius: 50%;
+    float: right;
+    margin-top: 10px;
+}
 
 
 /*-----------------------------------------------------------------
