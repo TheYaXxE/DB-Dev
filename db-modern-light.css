@@ -1095,7 +1095,7 @@ body#index #content .thin center a[href*="user.php"]:hover {
 .box .pad img[src*="user_thanks.png"] {
 	width: 30px;
 	height: 19px;
-	background: url("user_thanks.png") center no-repeat;
+	background: url("images/user_thanks.png") center no-repeat;
 	background-size: 30px 19px;
 	padding-left: 30px;
 	overflow: hidden;
