@@ -5,7 +5,7 @@
 // 															     //
 //  Version:											  0.0.1  //
 //	Created by:								 		   TheYaXxE  //
-// 	Last change:									   29-03-17  //
+// 	Last change:									   06-04-17  //
 //  Licensed to:								 DanishBits.org  //
 // 															     //
 // 	Description:											     //
@@ -41,8 +41,8 @@
 -------------------------------------------------------------------
 ///////////////////////////////////////////////////////////////////
 // 															     //
-//   1. Fonts --------------------------------------- l.     70  //
-//   2. CSS Reset and Clearfix ---------------------- l.     76  //
+//   1. Fonts --------------------------------------- l.     71  //
+//   2. CSS Reset and Clearfix ---------------------- l.     77  //
 //   3. CSS Animations ------------------------------ l.      ?  //
 //   4. Global Styles ------------------------------- l.      ?  //
 //   5. Body & Wrapper ------------------------------ l.      ?  //
@@ -59,7 +59,9 @@
 //	    8.2. Popular Movies and Shows --------------- l.      ?  //
 //	    8.3. Poll ----------------------------------- l.      ?  //
 //   9. Footer Section ------------------------------ l.      ?  //
-//  12. Emoticons / Smileys ------------------------- l.      ?  //
+//  XX. Profile Site -------------------------------- l.      ?  //
+//  XX. FancyBox ------------------------------------ l.      ?  //
+//  XX. Emoticons / Smileys ------------------------- l.      ?  //
 // 															     //
 ///////////////////////////////////////////////////////////////////
 -------------------------------------------------------------------
@@ -150,17 +152,27 @@ table {
 /* Show Modal Close Button */
 @-webkit-keyframes modal_close_btn {
 	0% {
+		opacity:							0;
 		transform: 							translate3d(0,-100%,0);
 	}
+	0%, 30% {
+		opacity:							0;
+	}
 	100% {
+		opacity: 							1;
 		transform: 							translate3d(0,0,0);
 	}
 }
 @-moz-keyframes modal_close_btn {
 	0% {
+		opacity:							0;
 		transform: 							translate3d(0,-100%,0);
 	}
+	0%, 30% {
+		opacity:							0;
+	}
 	100% {
+		opacity: 							1;
 		transform: 							translate3d(0,0,0);
 	}
 }
@@ -168,7 +180,11 @@ table {
 	0% {
 		transform: 							translate3d(0,-100%,0);
 	}
+	0%, 30% {
+		opacity:							0;
+	}
 	100% {
+		opacity: 							1;
 		transform: 							translate3d(0,0,0);
 	}
 }
@@ -958,6 +974,7 @@ body#bonus #header > #menu > ul li#nav_bonus a:before {
 #content .thin {
 	width: 									1050px;
 	min-width:								auto !important;
+		position: relative;
 }
 
 #content .thin:after {
@@ -969,6 +986,20 @@ body#bonus #header > #menu > ul li#nav_bonus a:before {
 #content .thin center {
 	font-size: 								13px;
 	color: 									rgba(0,0,0,0.6);
+}
+
+#content .thin h2 {
+	font-size: 								30px;
+    font-weight: 							700;
+    	line-height: 78%;
+    color: 									rgba(0,0,0,0.8);
+    	margin-bottom: 20px;
+}
+
+#content .thin h2 + .linkbox {
+	position: absolute;
+	top: 0;
+	right: 0;
 }
 
 /* New user
@@ -992,6 +1023,7 @@ body#index #content .thin center a[href*="user.php"]:hover {
 	float: 									right;
 }
 
+
 /*------------------------{  7.1. Boxes  }-----------------------*/
 .box {
 	width: 									100%;
@@ -1013,17 +1045,24 @@ body#index #content .thin center a[href*="user.php"]:hover {
 	line-height: 							49px;
 	font-family: 							"Open Sans", Helvetica;
 	font-size: 								15px;
+	font-weight: 							600;
 	color: 									rgba(0,0,0,0.8);
 	text-align: 							center;
 	background: 							rgba(243,243,243,0.54);
+	padding: 								0 25px;
 	box-shadow: 							inset 0 -1px 0 rgba(1,1,1,0.06);
+}
+
+.box .head.colhead_dark {
+	padding:								0;
 }
 
 .box.newspage {
 	height:									initial !important;
 }
 
-.box .head strong {
+.box .head strong,
+.box .head span {
 	font-weight: 							600;
 }
 
@@ -1031,6 +1070,15 @@ body#index #content .thin center a[href*="user.php"]:hover {
 	font-size: 								13px;
 	color: 									rgba(0,0,0,0.3);
 	margin-left: 							5px;
+	font-weight:							400;
+}
+
+.box .head ~ .head {
+	height: 35px;
+		font-size: 13px;
+		font-weight: 600;
+	background:								rgba(255,255,255,0.9);
+	box-shadow: 							inset 0 1px 0 rgba(1,1,1,0.06);
 }
 
 .box .pad {
@@ -1044,6 +1092,23 @@ body#index #content .thin center a[href*="user.php"]:hover {
 	color: 									rgba(0,0,0,0.75);
 }
 
+.box .pad img[src*="user_thanks.png"] {
+	width: 30px;
+	height: 19px;
+	background: url("user_thanks.png") center no-repeat;
+	background-size: 30px 19px;
+	padding-left: 30px;
+	overflow: hidden;
+	margin: 0 5px;
+}
+
+.box .pad ~ .pad img:first-child {
+    margin-left: 0;
+}
+
+.box .pad img[src*="user_thanks.png"] ~ img:last-child {
+    margin-right: 0;
+}
 /*--------------------{  7.2. Torrent Table  }-------------------*/
 
 /*--------------------{  7.3. Forum Table  }---------------------*/
@@ -1320,6 +1385,12 @@ ul.pagination li {
 	animation: 								fadeOut 1s forwards;
 }
 
+.box .head.colhead_dark + div:not(.pad) {
+	width: 									100%;
+	background:								rgba(255,255,255,0.9);
+	padding: 								6px;
+}
+
 /*------------------------{  8.3. Poll  }------------------------*/
 .box .pad #poll_results {
 	font-size: 								0;
@@ -1430,6 +1501,32 @@ ul.pagination li {
 .box .pad ul.poll.nobullet > li.graph .right_poll {
 	display: 								none;
 }
+
+
+
+/* Profile Site */
+ul.stats.nobullet li {
+	width: 100%;
+    height: 35px;
+    line-height: 35px;
+    font-size: 13px;
+    padding: 0 12px;
+    color: rgba(0,0,0,0.55);
+}
+
+ul.stats.nobullet li:nth-child(odd) {
+	background: rgba(255,255,255,0.9)
+}
+
+ul.stats.nobullet li:nth-child(even) {
+    background: rgba(247,247,247,0.8);
+}
+
+ul.stats.nobullet li b {
+	float: right;
+}
+
+
 
 
 /*-----------------------------------------------------------------
@@ -1612,6 +1709,20 @@ a#lightbox-loading-link > img {
 body#bonus #myCanvas {
 	cursor: 
 }
+
+#header > #userinfo > ul#userinfo_major:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: -5px;
+    right: 30px;
+    border: 5px solid transparent;
+    border-top: 0;
+    border-bottom-color: white;
+}
+
 
 
 /*-----------------------------------------------------------------
