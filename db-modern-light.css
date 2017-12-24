@@ -1178,6 +1178,21 @@ table.forum_list td.avatar {
 	padding: 10px;
 }
 
+td.avatar::after {
+    display: block;
+    width: 15px;
+    height: 15px;
+    background: #FFF;
+    position: absolute;
+    content: '';
+    top: 16px;
+    right: -9px;
+    border: 1px solid #e3e3e3;
+    border-left: 0;
+    border-bottom: 0;
+    transform: rotate(45deg);
+}
+
 table.forum_list td.body {
 	padding: 10px;
 	padding-left: 20px;
