@@ -1097,7 +1097,8 @@ body#index #content .thin center a[href*="user.php"]:hover {
 	font-weight: 							600;
 }
 
-.box span.time {
+.box .head span.time,
+.box .forum_post span.time {
 	font-size: 								13px;
 	color: 									rgba(0,0,0,0.3);
 	margin-left: 							5px;
@@ -1122,6 +1123,35 @@ body#index #content .thin center a[href*="user.php"]:hover {
 		clear: 									both;
 
 }
+
+/* Report & Quote icons / buttons */
+.forum_post span.time ~ a {
+	font-size: 0;
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid red;
+}
+
+.forum_post a[href*="#postformy"] {
+
+}
+
+.forum_post a[href*="reports.php"] {
+	
+}
+
+/* Go to top icon / button */
+.forum_post tr td span:last-child a {
+    font-size: 0;
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid red;
+}
+
 
 .box .pad strong {
 	color: 									rgba(0,0,0,0.75);
