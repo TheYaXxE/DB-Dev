@@ -1172,6 +1172,17 @@ table.forum_list tr:not(.colhead):nth-child(odd) {
 	background: rgba(247,247,247,0.8);
 }
 
+table.forum_list td.avatar {
+    width: 170px;
+    border-right: 1px solid #e3e3e3;
+	padding: 10px;
+}
+
+table.forum_list td.body {
+	padding: 10px;
+	padding-left: 20px;
+}
+
 /* Pagination */
 ul.pagination {
 	display: table;
