@@ -1079,6 +1079,14 @@ body#index #content .thin center a[href*="user.php"]:hover {
 	padding:								0;
 }
 
+.forum_post tr:first-child td {
+	padding-left: 25px;
+}
+
+.forum_post tr:first-child td + td {
+	padding-right: 25px;
+}
+
 .box.newspage {
 	height:									initial !important;
 }
@@ -1088,7 +1096,7 @@ body#index #content .thin center a[href*="user.php"]:hover {
 	font-weight: 							600;
 }
 
-.box .head span.time {
+.box span.time {
 	font-size: 								13px;
 	color: 									rgba(0,0,0,0.3);
 	margin-left: 							5px;
@@ -1189,6 +1197,7 @@ table.forum_post td.avatar {
     width: 170px;
     border-right: 1px solid #e3e3e3;
 	padding: 10px;
+	position: relative;
 }
 
 table.forum_post td.avatar::after {
@@ -1198,7 +1207,7 @@ table.forum_post td.avatar::after {
     background: #FFF;
     position: absolute;
     content: '';
-    top: 16px;
+    top: 14px;
     right: -9px;
     border: 1px solid #e3e3e3;
     border-left: 0;
