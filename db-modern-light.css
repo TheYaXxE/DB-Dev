@@ -3,9 +3,9 @@
 -------------------------------------------------------------------
 ///////////////////////////////////////////////////////////////////
 // 															     //
-//  Version:											  0.0.1  //
+//  Version:											  0.1.0  //
 //	Created by:								 		   TheYaXxE  //
-// 	Last change:									   06-04-17  //
+// 	Last change:									   24-12-17  //
 //  Licensed to:								 DanishBits.org  //
 // 															     //
 // 	Description:											     //
@@ -260,6 +260,26 @@ input[type=button]:hover {
 	background:								#3d8ac1 !important;
 }
 
+/* Alert Boxes */
+#alerts {
+	width: 1050px;
+	text-align: center;
+	padding-top: 30px;
+	margin: 0 auto;
+}
+#alerts a {
+	display: inline-block;
+    width: 100%;
+    font-size: 14px;
+    background: rgba(30, 193, 122, 0.18);
+    box-shadow: 0 0 0 1px rgba(20, 148, 87, 0.42);
+    border-radius: 4px;
+    padding: 10px 40px;
+}
+#alerts a font {
+	color: rgba(12, 107, 62, 0.62) !important;
+}
+
 
 /*-----------------------------------------------------------------
 -----------------------{  5. Body & Wrapper  }---------------------
@@ -294,7 +314,7 @@ body:before {
 #header {
 	width:									100%;
 	min-width:								auto !important;
-	height:									145px;
+	min-height:								145px;
 	position:								relative;
 	font-family: 							"Open Sans", Helvetica;
 }
@@ -921,6 +941,10 @@ body:before {
 	background: 							url("images/movieindex-icon.png");
 }
 
+#header > #menu > ul li#nav_movieserie a:before {
+	background: 							url("images/movieserie-icon.png");
+}
+
 #header > #menu > ul li#nav_forums a:before {
 	background: 							url("images/forum-icon.png");
 }
@@ -989,18 +1013,13 @@ body#bonus #header > #menu > ul li#nav_bonus a:before {
 }
 
 #content .thin h2 {
-	font-size: 								36px;
+	font-size: 								32px;
     font-weight: 							700;
-    	line-height: 78%;
+    line-height: 							78%;
     color: 									rgba(0,0,0,0.8);
-    	margin-bottom: 20px;
+    margin-bottom: 							20px;
 }
 
-#content .thin h2 + .linkbox {
-	position: absolute;
-	top: 0;
-	right: 0;
-}
 
 /* New user
 body#index #content .thin center a[href*="user.php"] {
@@ -1050,6 +1069,7 @@ body#index #content .thin center a[href*="user.php"]:hover {
 	text-align: 							center;
 	background: 							rgba(243,243,243,0.54);
 	padding: 								0 25px;
+		overflow: 								hidden;
 	box-shadow: 							inset 0 -1px 0 rgba(1,1,1,0.06);
 }
 
@@ -1086,6 +1106,8 @@ body#index #content .thin center a[href*="user.php"]:hover {
 	color: 									rgba(0,0,0,0.55);
 	background: 							rgba(255,255,255,0.9);
 	padding:								15px 25px;
+		clear: 									both;
+
 }
 
 .box .pad strong {
@@ -1543,7 +1565,7 @@ ul.pagination li {
 .box:nth-child(3) .head.colhead_dark:after {
     content: 								'(Hold mus over for værdi)';
     font-size: 								11px;
-    font-weight: 							200px;
+    font-weight: 							200;
     vertical-align: 						middle;
 }
 
@@ -1562,41 +1584,114 @@ ul.pagination li {
     margin-top: 							10px;
 }
 
-
-
 /* Linkbox Buttons */
 .linkbox {
-	font-size: 0;
+	font-size: 								0;
 }
 
 .linkbox a {
-	display: inline-block;
-    height: 28px;
-    line-height: 28px;
-    font-size: 14px;
-    background: black;
-    position: relative;
-    padding: 0px 11px;
-    margin-right: 10px;
+	display: 								inline-block;
+    height: 								28px;
+    line-height: 							28px;
+    font-size: 								13px;
+    background: 							rgba(243,243,243,0.54);
+    color: 									rgba(0,0,0,0.6);
+    border-radius: 							4px;
+    box-shadow: 							0 0 0 1px rgba(0,0,0,0.06),
+    										0 2px 8px rgba(0,0,0,0.06);
+    position: 								relative;
+    padding: 								0px 12px;
+    margin-right: 							10px;
+    vertical-align: 						top;
+}
+
+.linkbox a:hover {
+	background: 							rgba(255,255,255,0.84);
+}
+
+.linkbox a:before {
+	content: 								'';
+	display: 								inline-block;
+	width: 									14px;
+	height: 								14px;
+	background-size: 						14px !important;
+	background-repeat: 						no-repeat !important;
+	background-position: 					center !important;
+	vertical-align: 						top;
+	margin: 								7px 0;
+	margin-right: 							7px;
+}
+
+.linkbox a:last-of-type {
+	margin-right: 							0;
+}
+
+#content .thin h2 + .linkbox:after {
+	content: 								'';
+    display: 								block;
+    width: 									100%;
+    margin:		 							20px 0;
+    border-bottom: 							1px solid rgba(0,0,0,0.1);
+}
+
+/* Linkbox Buttons - No text *//*
+.linkbox {
+	font-size: 								0;
+	position: 								absolute;
+	top: 									0;
+	right: 									0;
 }
 
 .linkbox a {
-	display: inline-block;
-    height: 28px;
-    line-height: 28px;
-    font-size: 13px;
-    background: rgba(255,255,255,0.56);
-    color: rgba(0,0,0,0.6);
-    border-radius: 4px;
-    box-shadow: 0 0 0 1px rgba(0,0,0,0.06),
-    			0 2px 8px rgba(0,0,0,0.06);
-    position: relative;
-    padding: 0px 15px;
-    margin-right: 10px;
+	display: 								inline-block;
+    height: 								28px;
+    line-height: 							28px;
+    background: 							rgba(243,243,243,0.54);
+    color: 									rgba(0,0,0,0.6);
+    border-radius: 							4px;
+    box-shadow: 							0 0 0 1px rgba(0,0,0,0.06),
+    										0 2px 8px rgba(0,0,0,0.06);
+    position: 								relative;
+    padding: 								0px 12px;
+    margin-right: 							10px;
+    vertical-align: 						top;
 }
 
-.linkbox a:last-child {
-	margin-right: 0;
+.linkbox a:hover {
+	background: 							rgba(255,255,255,0.84);
+}
+
+.linkbox a:before {
+	content: 								'';
+	display: 								inline-block;
+	width: 									14px;
+	height: 								14px;
+	background-size: 						14px !important;
+	background-repeat: 						no-repeat !important;
+	background-position: 					center !important;
+	vertical-align: 						top;
+	margin: 								7px 0;
+}
+
+.linkbox a:hover:after {
+	content: 'Anmeld Bruger';
+	display: inline-block;
+	white-space: nowrap;
+	height: 20px;
+	line-height: 20px;
+	padding: 0 10px;
+	font-size: 12px;
+	color: #FFF;
+	background: rgba(0,0,0,0.6);
+	border-radius: 4px;
+	position: absolute;
+	top: -25px;
+	left: 50%;
+	transform: translate3d(-50%,0,0);
+}
+
+.linkbox a:last-of-type {
+	margin-right: 							0;
 }
 
 #content .thin h2:after {
@@ -1605,6 +1700,87 @@ ul.pagination li {
 	width: 100%;
 	margin-top: 15px;
     border-bottom: 1px solid rgba(0,0,0,0.1);
+}*/
+
+/* Tooltip solution (no text)
+.linkbox a[href*="action=report"]:after {
+    content: 'Anmeld Bruger';
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    background: rgba(0,0,0,0.8);
+    position: absolute;
+    top: 0;
+    font-size: 11px;
+    color: #FFF;
+    white-space: nowrap;
+    padding: 0 10px;
+    border-radius: 3px;
+    top: -26px;
+    left: 50%;
+    transform: translate3d(-50%,0,0);
+}
+
+
+
+/*----{ My Profile Buttons }----*/
+.linkbox a[onmousedown] {
+	font-size: 0;
+}
+
+.linkbox a[onmousedown]:after {
+	display: inline-block;
+	font-size: 13px;
+}
+
+.linkbox a[onmousedown*="uploads"]:after {
+	content: 'Uploads';
+}
+
+.linkbox a[onmousedown*="bookmarks"]:after {
+	content: 'Bogmærker';
+}
+
+.linkbox a[onmousedown*="notifications"]:after {
+	content: 'Notifikationer';
+}
+
+.linkbox a[onmousedown*="subscriptions"]:after {
+	content: 'Abonnementer';
+}
+
+.linkbox a[onmousedown*="comments"]:after {
+	content: 'Kommentar';
+}
+
+.linkbox a[onmousedown*="friends"]:after {
+	content: 'Venner';
+}
+
+.linkbox a[onmousedown*="gifts"]:after {
+	content: 'Gaver';
+}
+
+
+/*----{ Profile Buttons }----*/
+/* Compose Message */
+.linkbox a[href*="action=compose"]:before {
+	background: url("images/btn-icon_compose-user.png");
+}
+
+/* Block User */
+.linkbox a[href*="action=block"]:before {
+	background: url("images/btn-icon_block-user.png");
+}
+
+/* Add User */
+.linkbox a[href*="action=add"]:before {
+	background: url("images/btn-icon_add-user.png");
+}
+
+/* Report User */
+.linkbox a[href*="action=report"]:before {
+	background: url("images/btn-icon_report-user.png");
 }
 
 /*
@@ -1809,20 +1985,6 @@ a#lightbox-loading-link > img {
 body#bonus #myCanvas {
 	cursor: 
 }
-
-#header > #userinfo > ul#userinfo_major:after {
-    content: '';
-    display: block;
-    width: 0;
-    height: 0;
-    position: absolute;
-    top: -5px;
-    right: 30px;
-    border: 5px solid transparent;
-    border-top: 0;
-    border-bottom-color: white;
-}
-
 
 
 /*-----------------------------------------------------------------
