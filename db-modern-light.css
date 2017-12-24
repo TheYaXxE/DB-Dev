@@ -1172,13 +1172,26 @@ table.forum_list tr:not(.colhead):nth-child(odd) {
 	background: rgba(247,247,247,0.8);
 }
 
-table.forum_list td.avatar {
+/* Pagination */
+ul.pagination {
+	display: table;
+	margin: 0 auto;
+}
+
+ul.pagination li {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background: red;
+}
+
+table.forum_post td.avatar {
     width: 170px;
     border-right: 1px solid #e3e3e3;
 	padding: 10px;
 }
 
-td.avatar::after {
+table.forum_post td.avatar::after {
     display: block;
     width: 15px;
     height: 15px;
@@ -1193,23 +1206,11 @@ td.avatar::after {
     transform: rotate(45deg);
 }
 
-table.forum_list td.body {
+table.forum_post td.body {
 	padding: 10px;
 	padding-left: 20px;
 }
 
-/* Pagination */
-ul.pagination {
-	display: table;
-	margin: 0 auto;
-}
-
-ul.pagination li {
-	display: inline-block;
-	width: 40px;
-	height: 40px;
-	background: red;
-}
 
 /*-----------------------------------------------------------------
 ----------------------{  8. Sidebar Section  }---------------------
