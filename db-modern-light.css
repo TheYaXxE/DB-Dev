@@ -1293,7 +1293,7 @@ form#quickpostform #quickreplytext .container .sceditor-container {
 }
 
 form#quickpostform #quickreplytext .container .sceditor-container .sceditor-toolbar {
-	width: 100%;
+	width: 100% !important;
     height: 45px;
     line-height: 49px;
     font-family: "Open Sans", Helvetica;
@@ -1305,6 +1305,15 @@ form#quickpostform #quickreplytext .container .sceditor-container .sceditor-tool
     padding: 0 25px;
     overflow: hidden;
     box-shadow: inset 0 -1px 0 rgba(1,1,1,0.06);
+    border-bottom: 0;
+}
+
+form#quickpostform #quickreplytext .container .sceditor-container iframe {
+	width: 100% !important;
+	height: auto !important;
+	margin: 0 !important;
+	padding: 12px;
+	background: #FFF;
 }
 
 
