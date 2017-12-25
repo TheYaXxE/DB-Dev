@@ -1263,13 +1263,23 @@ table.forum_post td.body blockquote {
 -----------------------------------------------------------------*/
 ul.stats a[href*="action=vote_tag"] {
 	display: inline-block;
-	width: 20px;
-	height: 20px;
-	font-size: 0;
+	width: 24px;
+    height: 24px;
+    font-size: 0;
+    position: relative;
+    overflow: hidden;
+    color: rgba(0,0,0,0.6);
+    border-radius: 3px;
+    padding: 0 5px;
+    background: #ecedee;
+}
+
+ul.stats a[href*="action=vote_tag"] {
+	
 }
 
 ul.stats a[href*="action=vote_tag&way=down"] {
-	
+
 }
 
 
