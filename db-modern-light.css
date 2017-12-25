@@ -1528,9 +1528,12 @@ input#subscribebox + label::before {
 }
 
 /*----------------{  8.1. Latest Forum Activity  }---------------*/
+
+/*
 .box.newspage table tr {
 	height:									25px;
 }
+*/
 
 /*
 .box table tr:nth-child(even),
