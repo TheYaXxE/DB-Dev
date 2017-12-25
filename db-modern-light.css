@@ -1502,6 +1502,12 @@ input#subscribebox + label::before {
 }
 
 
+
+
+
+
+
+
 /*----------------{  Default Box Table layout  }---------------*/
 .box table tr {
 	width: 100%;
@@ -1527,9 +1533,17 @@ input#subscribebox + label::before {
 	padding-right: 							12px;
 }
 
+
+
 /*----------------{  8.1. Latest Forum Activity  }---------------*/
 .sidebar .box.newspage table tr.rowb {
 	height:									25px;
+}
+
+
+/*----------------{  8.1. DB Games  }---------------*/
+.box.newspage + .box:not(.newspage) table tr:first-child {
+    display: none;
 }
 
 /*
