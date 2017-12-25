@@ -1288,7 +1288,7 @@ ul.stats a[href*="action=vote_tag&way=down"] {
 
 /* Editor */
 form#quickpostform #quickreplytext .container .sceditor-container {
-	width: 100%;
+	width: 100% !important;
 	background: transparent;
 }
 
