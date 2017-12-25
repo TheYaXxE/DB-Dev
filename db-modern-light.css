@@ -1563,6 +1563,7 @@ input#subscribebox + label::before {
     width: 									100%;
 }
 
+/*
 .box table tr:hover,
 .box.newspage table tr:hover:not(:last-child) {
 	background:								rgba(44,129,188,0.9);
@@ -1577,6 +1578,7 @@ input#subscribebox + label::before {
 	height: 								46px;
 	background: 							rgba(255,255,255,0.9);
 }
+*/
 
 .box.newspage table tr:last-child td {
 	padding: 								0 12px;
