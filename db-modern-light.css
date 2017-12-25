@@ -260,6 +260,18 @@ input[type=button]:hover {
 	background:								#3d8ac1 !important;
 }
 
+input[type=submit] {
+    height: 24px;
+    font-size: 13px;
+    color: #FFF;
+    position: relative;
+    overflow: hidden;
+    border-radius: 3px;
+    padding: 0 15px;
+    background: #3d8ac1;
+    cursor: pointer;
+}
+
 /* Alert Boxes */
 #alerts {
 	width: 1050px;
