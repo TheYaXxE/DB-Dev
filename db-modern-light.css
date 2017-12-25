@@ -1506,6 +1506,16 @@ input#subscribebox + label::before {
 	height:									25px;
 }
 
+/* Default Box Table layout */
+.box table tr:nth-child(even) {
+	background: 							rgba(255,255,255,0.9);
+}
+
+/* Default Box Table layout */
+.box table tr:nth-child(odd) {
+	background: 							rgba(247,247,247,0.8);
+}
+
 /*
 .box table tr:nth-child(even),
 .box.newspage table tr:nth-child(odd):not(:last-child) {
@@ -1578,11 +1588,12 @@ input#subscribebox + label::before {
 	height: 								46px;
 	background: 							rgba(255,255,255,0.9);
 }
-*/
+
 
 .box.newspage table tr:last-child td {
 	padding: 								0 12px;
 }
+*/
 
 /*--------------{  8.2. Popular Movies and Shows  }--------------*/
 .box.newspage #show-case {
