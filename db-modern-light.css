@@ -407,7 +407,7 @@ body:before {
 	color: 									rgba(255,255,255,0.34);
 }
 
-#header > #userinfo > ul#userinfo_stats li:not(#stats_ratio):not(#stats_connectable),
+#header > #userinfo > ul#userinfo_stats li:not(#stats_ratio):not(#stats_connectable):not(#stats_spin):not(#stats_skrab),
 #header > #userinfo > ul#userinfo_stats li:not(#stats_connectable):nth-last-child(2) {
 	-webkit-transition:						all .12s ease-in-out;
 	-moz-transition:							all .12s ease-in-out;
@@ -416,16 +416,16 @@ body:before {
 	transition:								all .12s ease-in-out;
 }
 
-#header > #userinfo > ul#userinfo_stats li:not(#stats_ratio):not(#stats_connectable) {
+#header > #userinfo > ul#userinfo_stats li:not(#stats_ratio):not(#stats_connectable):not(#stats_spin):not(#stats_skrab) {
 	opacity:									0;
 }
 
 /* Ratio Tooltip */
-#header > #userinfo > ul#userinfo_stats li:not(#stats_ratio):not(#stats_connectable) {
+#header > #userinfo > ul#userinfo_stats li:not(#stats_ratio):not(#stats_connectable):not(#stats_spin):not(#stats_skrab) {
 	background: 							rgba(0,0,0,0.42);
 }
 
-#header > #userinfo > ul#userinfo_stats:hover li:not(#stats_ratio):not(#stats_connectable) {
+#header > #userinfo > ul#userinfo_stats:hover li:not(#stats_ratio):not(#stats_connectable):not(#stats_spin):not(#stats_skrab) {
 	pointer-events: 						initial;
 	opacity: 								1;
 	-webkit-transition-delay: 				0.1s;
@@ -857,7 +857,10 @@ body:before {
 	width: 									100%;
 	min-width: 								initial;
 	height: 								90px;
+	/*
 	background:								rgba(243,243,243,0.54);
+	*/
+	background: 							rgba(232, 243, 251, 0.54);
 	/*
 	box-shadow: 							0 5px 35px rgba(0,0,0,0.06),
 											0 2px 4px rgba(0,0,0,0.04),
