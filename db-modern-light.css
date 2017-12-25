@@ -1139,7 +1139,7 @@ body#index #content .thin center a[href*="user.php"]:hover {
 }
 
 .forum_post a[href*="reports.php"] {
-	
+
 }
 
 /* Go to top icon / button */
@@ -1250,6 +1250,26 @@ table.forum_post td.body {
 	padding: 10px;
 	padding-left: 20px;
 }
+
+table.forum_post td.body blockquote {
+	border: 2px dashed rgba(245, 107, 9, 0.77);
+    padding: 10px;
+    margin-left: 20px;
+    background: #fffaf7
+}
+
+/*-----------------------------------------------------------------
+--------------------{  ?. Single Torrent Page  }-------------------
+-----------------------------------------------------------------*/
+ul.stats a[href*="action=vote_tag"] {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	font-size: 0;
+}
+
+ul.stats a[href*="action=vote_tag&way=down"]
+
 
 
 /*-----------------------------------------------------------------
