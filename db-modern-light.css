@@ -1527,6 +1527,7 @@ input#subscribebox + label::before {
 }
 
 .box table tr:hover,
+.box.newspage table tr:hover,
 .sidebar .box table tr:hover {
 	background:								rgba(44,129,188,0.9);
 }
