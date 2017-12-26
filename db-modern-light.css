@@ -1513,12 +1513,12 @@ input#subscribebox + label::before {
 }
 
 .box table tr:nth-child(even),
-.sidebar .box.newspage table tr:nth-child(odd):not(:last-child) {
+.box.newspage table tr:nth-child(odd):not(:last-child) {
 	background: 							rgba(255,255,255,0.9);
 }
 
 .box table tr:nth-child(odd),
-.sidebar .box.newspage table tr:nth-child(even):not(:last-child) {
+.box.newspage table tr:nth-child(even):not(:last-child) {
 	background: 							rgba(247,247,247,0.8);
 }
 
