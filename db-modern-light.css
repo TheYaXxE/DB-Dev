@@ -1501,13 +1501,6 @@ input#subscribebox + label::before {
 	right: 									0;
 }
 
-.box table tr:hover {
-	background:								rgba(44,129,188,0.9);
-}
-
-
-
-
 
 
 /*----------------{  Default Box Table layout  }---------------*/
@@ -1523,6 +1516,10 @@ input#subscribebox + label::before {
 
 .box table tr:nth-child(odd) {
 	background: 							rgba(247,247,247,0.8);
+}
+
+.box table tr:hover {
+	background:								rgba(44,129,188,0.9);
 }
 
 .box table tr td > span a {
