@@ -1609,14 +1609,14 @@ input#subscribebox + label::before {
 	display: none;
 }
 
-.box table tr:hover,
-.box.newspage table tr:hover,
+.box table:not(.forum_post):not(.torrent_table_details) tr:hover,
+.box.newspage table:not(.forum_post):not(.torrent_table_details) tr:hover,
 .sidebar .box table tr:hover {
 	background:								rgba(44,129,188,0.9);
 }
 
 .box table tr:hover td > li,
-.main_column table tr:hover td,
+.main_column table:not(.forum_post):not(.torrent_table_details) tr:hover td,
 .sidebar .box.newspage table tr:hover:not(:last-child) td > span a {
     color: #FFF;
 }
