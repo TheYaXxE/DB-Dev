@@ -1615,7 +1615,7 @@ input#subscribebox + label::before {
 	background:								rgba(44,129,188,0.9);
 }
 
-.box table tr:hover td > li,
+.box table:not(.forum_post):not(.torrent_table_details) tr:hover td > li,
 .main_column table:not(.forum_post):not(.torrent_table_details) tr:hover td,
 .sidebar .box.newspage table tr:hover:not(:last-child) td > span a {
     color: #FFF;
