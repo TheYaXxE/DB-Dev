@@ -1340,7 +1340,7 @@ img[src*="gratis2.png"] {
 /*-----------------------------------------------------------------
 --------------------{  ?. Single Torrent Page  }-------------------
 -----------------------------------------------------------------*/
-body.torrents .box::after {
+body#torrents .box::after {
     content: '';
     display: block;
     width: 100%;
@@ -1355,6 +1355,7 @@ body.torrents .box::after {
 /* Album Cover box */
 .box.box_albumart {
 	background: #FFF;
+	padding: 6px;
 }
 
 .box.box_albumart * {
