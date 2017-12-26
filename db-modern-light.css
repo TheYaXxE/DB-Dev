@@ -1522,6 +1522,10 @@ input#subscribebox + label::before {
 	background: 							rgba(247,247,247,0.8);
 }
 
+.sidebar .box.newspage table tr:nth-child(13) {
+	display: none;
+}
+
 .box table tr:hover,
 .sidebar .box table tr:hover:not(:last-child) {
 	background:								rgba(44,129,188,0.9);
