@@ -1430,12 +1430,12 @@ input#subscribebox + label::before {
 .box table tr td {
 	clear: 									both;
 	position: 								relative;
+	color: 									rgba(0,0,0,0.55);
 }
 
 .box table tr td li {
-	height:									35px;
+	height:									inherit;
 	padding: 								0 12px;
-	color: 									rgba(0,0,0,0.55);
 	position: 								relative;
 }
 
