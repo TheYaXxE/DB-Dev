@@ -1546,9 +1546,14 @@ input#subscribebox + label::before {
 	height:									25px;
 }
 
+.sidebar .box.newspage table tr:last-child {
+    height: 46px;
+    background: rgba(255,255,255,0.9);
+}
+
 
 /*----------------{  8.1. DB Games  }---------------*/
-.box.newspage + .box:not(.newspage) table tr:first-child {
+.sidebar .box.newspage + .box:not(.newspage) table tr:first-child {
     display: none;
 }
 
