@@ -1376,6 +1376,22 @@ img[src*="download-ikoner-imdb-v2"] {
 	background-image: url(images/imdb-icon.png);
 }
 
+img[src*="download-ikoner-download-v2"] {
+	background-image: url(images/download-ikoner-download-v2.png);
+}
+
+img[src*="download-ikoner-720p-v2.png"] {
+
+}
+
+img[src*="download-ikoner-1080p-v2.png"] {
+
+}
+
+img[src*="download-ikoner-4k-v2.png"] {
+
+}
+
 /* Editor */
 form#quickpostform #quickreplytext .container .sceditor-container {
 	width: 100% !important;
