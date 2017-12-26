@@ -1495,10 +1495,12 @@ input#subscribebox + label::before {
 
 .box.newspage table tr:last-child td > span a:before {
 	left: 									0;
+	right: 									initial;
 }
 
 .box.newspage table tr:last-child td > span a:after {
 	right: 									0;
+	left: 									initial;
 }
 
 
@@ -1518,7 +1520,7 @@ input#subscribebox + label::before {
 	background: 							rgba(247,247,247,0.8);
 }
 
-.main_column .box table tr:hover,
+.box table tr:hover,
 .sidebar .box table tr:hover:not(:last-child) {
 	background:								rgba(44,129,188,0.9);
 }
