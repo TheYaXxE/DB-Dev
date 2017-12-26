@@ -1557,7 +1557,7 @@ input#subscribebox + label::before {
 
 .box table tr:hover td > li,
 .main_column table tr:hover td,
-.sidebar .box.newspage table tr:hover td > span a {
+.sidebar .box.newspage table tr:hover:not(:last-child) td > span a {
     color: #FFF;
 }
 
