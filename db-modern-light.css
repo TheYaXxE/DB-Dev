@@ -1145,6 +1145,17 @@ body#index #content .thin center a[href*="user.php"]:hover {
 
 }
 
+/* Recomended Torrents */
+.box a[rel="lightbox"].hover-lib {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.box a[rel="lightbox"].hover-lib span[class*="flaticon"]::before {
+	font-size: 18px;
+    margin: 0;
+}
+
 /* Report & Quote icons / buttons */
 .forum_post span.time ~ a {
 	font-size: 0;
