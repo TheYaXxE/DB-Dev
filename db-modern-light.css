@@ -1361,6 +1361,20 @@ ul.stats a[href*="action=vote_tag&way=down"] {
 
 }
 
+/* Download Icons */
+img[src*="download-ikoner"] {
+	display: inline-block;
+	width: 72px;
+	height: 72px;
+	background-repeat: no-repeat;
+	background-size: 72px;
+	overflow: hidden;
+	padding-left: 72px;
+}
+
+img[src*="download-ikoner-imdb-v2"] {
+	background: url(images/imdb-icon.png);
+}
 
 /* Editor */
 form#quickpostform #quickreplytext .container .sceditor-container {
