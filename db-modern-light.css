@@ -1381,10 +1381,12 @@ img[src*="download-ikoner-download-v2"] {
 }
 
 img[src*="download-ikoner-720p-v2.png"] {
+	background-image: url(images/download-ikoner-720p-v2.png);
 
 }
 
 img[src*="download-ikoner-1080p-v2.png"] {
+	background-image: url(images/download-ikoner-1080p-v2.png);
 
 }
 
