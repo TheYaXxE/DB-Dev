@@ -1340,6 +1340,41 @@ img[src*="gratis2.png"] {
 /*-----------------------------------------------------------------
 --------------------{  ?. Single Torrent Page  }-------------------
 -----------------------------------------------------------------*/
+body.torrents .box::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: calc( 100% - 45px );
+    position: absolute;
+    left: 0;
+    top: 45px;
+    background: #FFF;
+    z-index: -1;
+}
+
+/* Album Cover box */
+.box.box_albumart {
+	background: #FFF;
+}
+
+.box.box_albumart * {
+	padding: 0;
+	margin: 0;
+}
+
+.box.box_albumart img {
+    width: 100%;
+    max-width: 100% !important;
+    height: auto;
+}
+
+/* Links Box */
+.box.box_albumart + .box p {
+	font-size: 0;
+	line-height: 0;
+	padding: 12px;
+}
+
 ul.stats a[href*="action=vote_tag"] {
 	display: inline-block;
 	width: 24px;
