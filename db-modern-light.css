@@ -1519,7 +1519,7 @@ input#subscribebox + label::before {
 }
 
 .main_column .box table tr:hover,
-.sidebar .box.newspage table tr:hover:not(:last-child) {
+.sidebar .box table tr:hover:not(:last-child) {
 	background:								rgba(44,129,188,0.9);
 }
 
