@@ -1431,6 +1431,25 @@ img[src*="download-ikoner-4k-v2.png"] {
 
 }
 
+#main_column table.torrent_table_details {
+	border-radius: 4px;
+    box-shadow: 0 5px 35px rgba(0,0,0,0.06),
+    			0 3px 6px rgba(0,0,0,0.06),
+    			0 0 0 1px rgba(1,1,1,0.04);
+    overflow: hidden;
+    position: relative;
+}
+
+#main_column table.torrent_table_details .group_torrent,
+#main_column table.torrent_table_details .pad {
+	background: #FFF;
+}
+
+#main_column table.torrent_table_details tr td .nfo_wrap {
+	display: none;
+}
+
+
 /* Editor */
 form#quickpostform #quickreplytext .container .sceditor-container {
 	width: 100% !important;
