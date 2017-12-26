@@ -3,9 +3,9 @@
 -------------------------------------------------------------------
 ///////////////////////////////////////////////////////////////////
 // 															     //
-//  Version:											  0.1.0  //
+//  Version:											  0.1.2  //
 //	Created by:								 		   TheYaXxE  //
-// 	Last change:									   24-12-17  //
+// 	Last change:									   26-12-17  //
 //  Licensed to:								 DanishBits.org  //
 // 															     //
 // 	Description:											     //
@@ -1073,6 +1073,7 @@ body#index #content .thin center a[href*="user.php"]:hover {
 											0 3px 6px rgba(0,0,0,0.06),
 											0 0 0 1px rgba(1,1,1,0.04);
 	overflow: 								hidden;
+	position:								relative;
 }
 
 .box:last-child {
