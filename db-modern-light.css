@@ -1431,7 +1431,7 @@ img[src*="download-ikoner-4k-v2.png"] {
 
 }
 
-#main_column table.torrent_table_details {
+.main_column table.torrent_table_details {
 	border-radius: 4px;
     box-shadow: 0 5px 35px rgba(0,0,0,0.06),
     			0 3px 6px rgba(0,0,0,0.06),
@@ -1440,12 +1440,12 @@ img[src*="download-ikoner-4k-v2.png"] {
     position: relative;
 }
 
-#main_column table.torrent_table_details .group_torrent,
-#main_column table.torrent_table_details .pad {
+.main_column table.torrent_table_details .group_torrent,
+.main_column table.torrent_table_details .pad {
 	background: #FFF;
 }
 
-#main_column table.torrent_table_details tr td .nfo_wrap {
+.main_column table.torrent_table_details tr td .nfo_wrap {
 	display: none;
 }
 
