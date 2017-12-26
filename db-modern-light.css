@@ -1373,7 +1373,7 @@ img[src*="download-ikoner"] {
 }
 
 img[src*="download-ikoner-imdb-v2"] {
-	background: url(images/imdb-icon.png);
+	background-image: url(images/imdb-icon.png);
 }
 
 /* Editor */
