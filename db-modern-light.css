@@ -1551,6 +1551,10 @@ input#subscribebox + label::before {
     background: rgba(255,255,255,0.9);
 }
 
+.sidebar .box.newspage table tr:last-child td {
+    padding: 0 12px;
+}
+
 
 /*----------------{  8.1. DB Games  }---------------*/
 .sidebar .box.newspage + .box:not(.newspage) table tr:first-child {
