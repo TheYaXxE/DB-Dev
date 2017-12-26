@@ -1518,8 +1518,14 @@ input#subscribebox + label::before {
 	background: 							rgba(247,247,247,0.8);
 }
 
-.box table tr:hover {
+.box table tr:hover,
+.sidebar .box.newspage table tr:hover:not(:last-child) {
 	background:								rgba(44,129,188,0.9);
+}
+
+.box table tr:hover td > li,
+.sidebar .box.newspage table tr:hover:not(:last-child) td > span a {
+    color: #FFF;
 }
 
 .box table tr td > span a {
