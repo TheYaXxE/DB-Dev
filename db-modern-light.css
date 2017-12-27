@@ -1150,6 +1150,14 @@ body#index #content .thin center a[href*="user.php"]:hover {
     margin: 0;
 }
 
+.pagination a {
+	min-width: 38px;
+	background: rgba(243,243,243,.54);
+    box-shadow: 0 5px 35px rgba(0,0,0,0.06),
+    			0 3px 6px rgba(0,0,0,0.06),
+    			0 0 0 1px rgba(1,1,1,0.04);
+}
+
 .pagination a:before,
 .linkbox a::before {
 	display: none;
@@ -1200,8 +1208,8 @@ body#index #content .thin center a[href*="user.php"]:hover {
 */
 
 .forum_post tr.colhead_dark td + td {
-	width: 									140px !important;
 	font-size:								0;
+	padding-left: 							0;
 	padding-right: 							15px;
 	text-align: 							right;
 }
