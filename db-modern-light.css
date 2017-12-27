@@ -1065,6 +1065,27 @@ body#index #content .thin center a[href*="user.php"]:hover {
 
 
 /*------------------------{  7.1. Boxes  }-----------------------*/
+.box,
+.forum_post {
+	width: 									100%;
+	margin-bottom: 							20px;
+	border-radius: 							4px;
+	box-shadow: 							0 5px 35px rgba(0,0,0,0.06),
+											0 3px 6px rgba(0,0,0,0.06),
+											0 0 0 1px rgba(1,1,1,0.04);
+	position:								relative;
+}
+
+.box:last-of-type {
+	margin-bottom: 							0;
+}
+
+
+
+
+/*------------------------{  7.1. Forum  }-----------------------*/
+
+
 
 
 /*--------------------{  7.2. Torrent Table  }-------------------*/
