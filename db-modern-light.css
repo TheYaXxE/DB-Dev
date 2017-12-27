@@ -1084,7 +1084,7 @@ body#index #content .thin center a[href*="user.php"]:hover {
 .forum_post .colhead_dark {
 	width: 									100%;
 	height: 								45px;
-	line-height: 							49px;
+	line-height: 							45px;
 	font-family: 							"Open Sans", Helvetica;
 	font-size: 								15px;
 	font-weight: 							600;
@@ -1102,11 +1102,13 @@ body#index #content .thin center a[href*="user.php"]:hover {
 /*------------------------{  7.1. Forum  }-----------------------*/
 .forum_post tr.colhead_dark td {
 	padding-left: 							25px;
+	text-align: 							left;
 }
 
 .forum_post tr.colhead_dark td + td {
 	width: 									140px !important;
 	padding-right: 							25px;
+	text-align: 							right;
 }
 
 /* Forum post Like-counter */
@@ -1132,6 +1134,23 @@ body#index #content .thin center a[href*="user.php"]:hover {
     padding: 								10px;
     position: 								relative;
 }
+
+/* Avatar arrow *//*
+table.forum_post td.avatar::after {
+	display: 								block;
+	width: 									15px;
+	height: 								15px;
+	background: 							#FFF;
+	position: 								absolute;
+	content: 								'';
+	top: 									14px;
+	right: 									-9px;
+	border: 								1px solid #e3e3e3;
+	border-left: 							0;
+	border-bottom: 							0;
+	transform: 								rotate(45deg);
+}
+*/
 
 .forum_post tr td.body {
     padding: 								10px;
