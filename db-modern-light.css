@@ -1063,33 +1063,6 @@ body#index #content .thin center a[href*="user.php"]:hover {
 	float: 									right;
 }
 
-.forum_post + .linkbox::after {
-    content: '';
-    display: block;
-    width: 100%;
-    border-bottom: 2px dashed rgba(0,0,0,.2);
-    margin-top: 35px;
-}
-
-.pagination {
-    width: 100%;
-    display: table;
-    margin-top: 20px;
-}
-
-.pagination a,
-.pagination span {
-    display: inline-block;
-    float: initial;
-    padding: 10px !important;
-    margin: 0;
-}
-
-.pagination a:before,
-.linkbox a::before {
-	display: none;
-}
-
 
 /*------------------------{  7.1. Boxes  }-----------------------*/
 .box,
@@ -1143,14 +1116,32 @@ body#index #content .thin center a[href*="user.php"]:hover {
 	clear: 									both;
 }
 
-.box + .linkbox::before {
-	display: 								block;
-	content: 								'';
-	width: 									100%;
-	border-bottom: 							2px dashed rgba(0,0,0,.2);
-	margin-top: 							40px;
+.box + .linkbox::after {
+    content: '';
+    display: block;
+    width: 100%;
+    border-bottom: 2px dashed rgba(0,0,0,.2);
+    margin-top: 35px;
 }
 
+.pagination {
+    width: 100%;
+    display: table;
+    margin-top: 20px;
+}
+
+.pagination a,
+.pagination span {
+    display: inline-block;
+    float: initial;
+    padding: 10px !important;
+    margin: 0;
+}
+
+.pagination a:before,
+.linkbox a::before {
+	display: none;
+}
 
 
 /*------------------------{  7.1. Forum  }-----------------------*/
@@ -1370,7 +1361,7 @@ input#subscribebox + label::before {
 	font-size: 								0;
 }
 
-.linkbox a {
+.linkbox:not(.pagination) a {
 	display: 								inline-block;
     height: 								28px;
     line-height: 							28px;
@@ -1386,11 +1377,11 @@ input#subscribebox + label::before {
     vertical-align: 						top;
 }
 
-.linkbox a:hover {
+.linkbox:not(.pagination) a:hover {
 	background: 							rgba(255,255,255,0.84);
 }
 
-.linkbox a:before {
+.linkbox:not(.pagination) a:before {
 	content: 								'';
 	display: 								inline-block;
 	width: 									14px;
@@ -1403,7 +1394,7 @@ input#subscribebox + label::before {
 	margin-right: 							7px;
 }
 
-.linkbox a:last-of-type {
+.linkbox:not(.pagination) a:last-of-type {
 	margin-right: 							0;
 }
 
