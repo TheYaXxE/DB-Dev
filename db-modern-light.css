@@ -1095,6 +1095,12 @@ body#index #content .thin center a[href*="user.php"]:hover {
 	box-shadow: 							inset 0 -1px 0 rgba(1,1,1,0.06);
 }
 
+.box .pad,
+.forum_post .body {
+	font-size: 13px;
+	color: rgba(0,0,0,0.55);
+	clear: both;
+}
 
 
 
