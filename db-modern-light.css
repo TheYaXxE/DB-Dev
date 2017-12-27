@@ -1116,8 +1116,8 @@ body#index #content .thin center a[href*="user.php"]:hover {
 	clear: 									both;
 }
 
-.box > .head + *:not(.pad):not(table):not(ul)::after,
-.box > .colhead_dark + *:not(.pad):not(table):not(ul)::after {
+.box > .head + *:not(table):not(ul)::after,
+.box > .colhead_dark + *:not(table):not(ul)::after {
 	content: '';
 	width: 100%;
 	height: calc( 100% - 45px );
