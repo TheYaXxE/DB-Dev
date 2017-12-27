@@ -1174,11 +1174,17 @@ body#index #content .thin center a[href*="user.php"]:hover {
 	text-align: 							center !important;
 	border-radius: 							5px;
 	padding: 								0 7px;
-	background: 							#1bb54e;
 	vertical-align: 						middle;
 }
 
-.forum_post tr.colhead_dark td + td > span[id*="likes"] > * {
+.forum_post tr.colhead_dark td + td > span[id*="likes"] b {
+	display: block;
+	min-width: inherit;
+	height: inherit;
+	background: 							#1bb54e;
+}
+
+.forum_post tr.colhead_dark td + td > span[id*="likes"] > b {
 	color: 									#FFF;
 }
 
