@@ -1169,23 +1169,24 @@ body#index #content .thin center a[href*="user.php"]:hover {
 	display: 								inline-block;
 	min-width: 								25px;
 	height: 								25px;
+	vertical-align: 						middle;
+}
+
+.forum_post tr.colhead_dark td + td > span[id*="likes"] b {
+	display: 								block;
+	min-width: 								inherit;
+	height: 								inherit;
 	line-height: 							25px;
 	font-size: 								12px !important;
 	text-align: 							center !important;
 	border-radius: 							5px;
 	padding: 								0 7px;
-	vertical-align: 						middle;
+	background: 							rgba(0,0,0,.2);
 }
 
-.forum_post tr.colhead_dark td + td > span[id*="likes"] b {
-	display: block;
-	min-width: inherit;
-	height: inherit;
-	background: 							#1bb54e;
-}
-
-.forum_post tr.colhead_dark td + td > span[id*="likes"] > b {
+.forum_post tr.colhead_dark td + td > span[id*="likes"] font[color="green"] b {
 	color: 									#FFF;
+	background: 							#1bb54e;
 }
 
 .forum_post tr.colhead_dark + tr {
