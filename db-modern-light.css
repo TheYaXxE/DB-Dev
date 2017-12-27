@@ -1361,7 +1361,7 @@ input#subscribebox + label::before {
 	font-size: 								0;
 }
 
-.linkbox:not(.pagination) a {
+.linkbox > a {
 	display: 								inline-block;
     height: 								28px;
     line-height: 							28px;
@@ -1377,11 +1377,11 @@ input#subscribebox + label::before {
     vertical-align: 						top;
 }
 
-.linkbox:not(.pagination) a:hover {
+.linkbox > a:hover {
 	background: 							rgba(255,255,255,0.84);
 }
 
-.linkbox:not(.pagination) a:before {
+.linkbox > a:before {
 	content: 								'';
 	display: 								inline-block;
 	width: 									14px;
@@ -1394,7 +1394,7 @@ input#subscribebox + label::before {
 	margin-right: 							7px;
 }
 
-.linkbox:not(.pagination) a:last-of-type {
+.linkbox > a:last-of-type {
 	margin-right: 							0;
 }
 
