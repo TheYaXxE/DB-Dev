@@ -1116,6 +1116,18 @@ body#index #content .thin center a[href*="user.php"]:hover {
 	clear: 									both;
 }
 
+.box > .head + *:not(table):not(ul)::after,
+.box > .colhead_dark + *:not(table):not(ul)::after {
+	content: '';
+	width: 100%;
+	height: calc( 100% - 45px );
+	position: absolute;
+	top: 45px;
+	left: 0;
+	z-index: -1;
+	background: rgba(255,255,255,.9);
+}
+
 .box + .linkbox::after {
     content: '';
     display: block;
