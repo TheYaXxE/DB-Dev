@@ -1100,8 +1100,30 @@ body#index #content .thin center a[href*="user.php"]:hover {
 
 
 /*------------------------{  7.1. Forum  }-----------------------*/
+.forum_post tr.colhead_dark td {
+    padding-left: 25px;
+}
 
+.forum_post tr.colhead_dark td + td {
+    width: 140px !important;
+    padding-right: 25px;
+}
 
+/* Forum post Like-counter */
+.forum_post tr.colhead_dark td + td > span[id*="likes"] {
+    display: inline-block;
+    min-width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 30px;
+    padding: 0 7px;
+    text-align: center !important;
+    background: #1bb54e;
+}
+
+.forum_post tr.colhead_dark td + td > span[id*="likes"] > * {
+	color: #FFF;
+}
 
 
 /*--------------------{  7.2. Torrent Table  }-------------------*/
