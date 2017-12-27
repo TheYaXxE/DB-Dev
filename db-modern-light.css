@@ -1131,7 +1131,7 @@ body#index #content .thin center a[href*="user.php"]:hover {
 	background: 							rgba(255,255,255,.9);
 }
 
-.forum_post tr.colhead_dark + tr td.avatar {
+.forum_post tr td.avatar {
     width: 									170px;
     border-right: 							1px solid #e3e3e3;
     padding: 								10px;
@@ -1155,9 +1155,25 @@ table.forum_post td.avatar::after {
 }
 */
 
-.forum_post tr.colhead_dark + tr td.body {
+.forum_post tr td.body {
     padding: 								10px;
     padding-left: 							20px;
+}
+
+.forum_post tr td.body blockquote {
+	font-style: 							italic;
+	background: 							#fffaf7;
+    border: 								2px dashed rgba(245, 107, 9, 0.77);
+    padding: 								10px;
+    margin-left: 							20px;
+}
+
+.forum_post tr td.body blockquote.blockqoute2 {
+	font-style: 							normal;
+    background: 							#FFF;
+    border: 								1px dashed rgba(187, 187, 187, 0.77);
+    padding: 								6px !important;
+    margin:									0;
 }
 
 /*--------------------{  7.2. Torrent Table  }-------------------*/
