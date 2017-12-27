@@ -1179,14 +1179,20 @@ body#index #content .thin center a[href*="user.php"]:hover {
 	line-height: 							25px;
 	font-size: 								12px !important;
 	text-align: 							center !important;
+	color: 									#FFF;
 	border-radius: 							5px;
 	padding: 								0 7px;
 	background: 							rgba(0,0,0,.2);
 }
 
 .forum_post tr.colhead_dark td + td > span[id*="likes"] font[color="green"] b {
-	color: 									#FFF;
 	background: 							#1bb54e;
+}
+
+.forum_post tr.colhead_dark td + td > span[id*="likes"] font[color="green"] b::before {
+	display: 								inline-block;
+	content: 								'+';
+	margin-right: 							1px;
 }
 
 .forum_post tr.colhead_dark + tr {
