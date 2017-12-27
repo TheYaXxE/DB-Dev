@@ -1144,11 +1144,11 @@ body#index #content .thin center a[href*="user.php"]:hover {
 	height: 								25px;
 	line-height: 							25px;
 	font-size: 								12px !important;
-	vertical-align: 						middle;
-	border-radius: 							25px;
-	padding: 								0 7px;
 	text-align: 							center !important;
+	border-radius: 							5px;
+	padding: 								0 7px;
 	background: 							#1bb54e;
+	vertical-align: 						middle;
 }
 
 .forum_post tr.colhead_dark td + td > span[id*="likes"] > * {
@@ -1209,19 +1209,20 @@ table.forum_post.forum_unread {
 				0 5px 20px 2px rgba(0,0,0,.22);
 }
 
-table.forum_post.forum_unread::after {
-	content: 'Ny';
-	width: 36px;
-	height: 30px;
-	line-height: 30px;
-	text-align: center;
-	border-radius: 4px;
-	color: #FFF;
-	text-transform: uppercase;
-	background: #ff7b00;
-	position: absolute;
-	top: 10px;
-	right: 140px;
+table.forum_post.forum_unread .colhead_dark td + td::before {
+	display: 								inline-block;
+	content: 								'Ny';
+	min-width: 								25px;
+	height: 								25px;
+	line-height: 							25px;
+	font-size: 								12px !important;
+	text-align: 							center !important;
+	color: 									#FFF;
+	text-transform: 						uppercase;
+	border-radius: 							5px;
+	padding: 								0 7px;
+	background: 							#ff7b00;
+	vertical-align: 						middle;
 }
 
 /*--------------------{  7.2. Torrent Table  }-------------------*/
