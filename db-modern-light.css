@@ -1100,6 +1100,14 @@ body#index #content .thin center a[href*="user.php"]:hover {
 	line-height: 							45px;
 }
 
+.box .head span.time,
+.forum_post .colhead_dark span.time {
+	font-size: 								13px;
+	color: 									rgba(0,0,0,0.3);
+	margin-left: 							5px;
+	font-weight: 							400;
+}
+
 .box .pad,
 .forum_post .body {
 	font-size: 								13px;
@@ -1193,6 +1201,26 @@ table.forum_post td.avatar::after {
     border: 								1px dashed rgba(187, 187, 187, 0.77);
     padding: 								6px !important;
     margin:									0;
+}
+
+table.forum_post.forum_unread {
+	box-shadow: 0 0 0 2px #6ba8e8,
+				0 5px 20px 2px rgba(0,0,0,.22);
+}
+
+table.forum_post.forum_unread::after {
+	content: 'Ny';
+	width: 36px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 4px;
+	color: #FFF;
+	text-transform: uppercase;
+	background: #ff7b00;
+	position: absolute;
+	top: 10px;
+	right: 140px;
 }
 
 /*--------------------{  7.2. Torrent Table  }-------------------*/
