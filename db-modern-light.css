@@ -1403,6 +1403,46 @@ table.forum_post.forum_unread .colhead_dark td + td::before {
 /*-----------------------------------------------------------------
 --------------------{  ?. Single Torrent Page  }-------------------
 -----------------------------------------------------------------*/
+/* Download Icons */
+img[src*="download-ikoner"] {
+	display: inline-block;
+	width: 72px;
+	height: 72px;
+	background-repeat: no-repeat;
+	background-size: 72px;
+	overflow: hidden;
+	padding-left: 72px;
+	margin-right: 10px;
+}
+
+img[src*="download-ikoner-imdb-v2"] {
+	background-image: url(images/imdb-icon.png);
+}
+
+img[src*="download-ikoner-download-v2"] {
+	background-image: url(images/download-ikoner-download-v2.png);
+}
+
+img[src*="download-ikoner-720p-v2.png"] {
+	background-image: url(images/download-ikoner-720p-v2.png);
+
+}
+
+img[src*="download-ikoner-1080p-v2.png"] {
+	background-image: url(images/download-ikoner-1080p-v2.png);
+
+}
+
+img[src*="download-ikoner-4k-v2.png"] {
+
+}
+
+form#quickpostform textarea.quickpost {
+	width: 100%;
+	padding: 12px;
+	font-family: Verdana, Helvetica, Arial;
+	font-size: 13px;
+}
 
 
 /* Editor */
@@ -1448,7 +1488,7 @@ form#quickpostform #quickreplytext .container .sceditor-container .sceditor-tool
 
 form#quickpostform #quickreplytext .container .sceditor-container iframe {
 	width: 100% !important;
-	height: auto !important;
+	min-height: 220px !important;
 	margin: 0 !important;
 	padding: 12px;
 	background: #FFF;
@@ -1483,6 +1523,7 @@ input#subscribebox + label {
 	font-size: 								0;
 }
 
+/*
 .linkbox > a {
 	display: 								inline-block;
     height: 								28px;
@@ -1519,6 +1560,7 @@ input#subscribebox + label {
 .linkbox > a:last-of-type {
 	margin-right: 							0;
 }
+*/
 
 #content .thin h2 + .linkbox:after {
 	content: 								'';
