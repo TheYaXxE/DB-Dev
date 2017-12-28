@@ -1188,7 +1188,7 @@ body#index #content .thin center a[href*="user.php"]:hover {
     width: 100%;
     text-align: center;
     margin: 0 !important;
-    margin-top: 20px;
+    margin: 25px 0;
 }
 
 .pagination a,
@@ -1426,7 +1426,7 @@ img[src*="download-ikoner"] {
 	margin-right: 10px;
 }
 
-img[src*="download-ikoner"]:last-of-type {
+.box.box_albumart + .box a:last-of-type img[src*="download-ikoner"] {
 	margin-right: 0;
 }
 
