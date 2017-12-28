@@ -1219,6 +1219,8 @@ body#index #content .thin center a[href*="user.php"]:hover {
 
 .pagination a.prev.current,
 .pagination a.next.current {
+	color: inherit !important;
+    background: inherit !important;
 	opacity: 0.5;
 	pointer-events: none;
 }
