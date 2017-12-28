@@ -1203,7 +1203,9 @@ body#index #content .thin center a[href*="user.php"]:hover {
 	font-weight: 600;
 	background: rgba(243,243,243,.54);
 	box-shadow: 0 5px 35px rgba(0,0,0,0.06), 0 3px 6px rgba(0,0,0,0.06), 0 0 0 1px rgba(1,1,1,0.04);
-	margin-right: 10px;
+	margin-right: 10px !important;
+    border: 0 !important;
+    border-radius: 4px;
 }
 
 .pagination a:last-of-type {
