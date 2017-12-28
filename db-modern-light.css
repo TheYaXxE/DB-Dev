@@ -1403,6 +1403,17 @@ table.forum_post.forum_unread .colhead_dark td + td::before {
 /*-----------------------------------------------------------------
 --------------------{  ?. Single Torrent Page  }-------------------
 -----------------------------------------------------------------*/
+/* Links Box */
+.box.box_albumart + .box p {
+	font-size: 0;
+	line-height: 0;
+	padding: 12px;
+}
+
+.box.box_albumart + .box p br {
+	display: none;
+}
+
 /* Download Icons */
 img[src*="download-ikoner"] {
 	display: inline-block;
@@ -1413,6 +1424,10 @@ img[src*="download-ikoner"] {
 	overflow: hidden;
 	padding-left: 72px;
 	margin-right: 10px;
+}
+
+img[src*="download-ikoner"]:last-of-type {
+	margin-right: 0;
 }
 
 img[src*="download-ikoner-imdb-v2"] {
