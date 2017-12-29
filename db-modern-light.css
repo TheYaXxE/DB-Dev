@@ -279,6 +279,7 @@ input[type=submit] {
 input[type=checkbox] + label {
     display: inline-block;
     height: 36px;
+    line-height: 36px;
     font-size: 13px;
     color: rgba(0,0,0,0.55);
     position: relative;
@@ -287,6 +288,8 @@ input[type=checkbox] + label {
     cursor: pointer;
 }
 
+input[type="checkbox"] + label,
+input[type="radio"] + label,
 input[type="checkbox"] + label::before,
 input[type="radio"] + label::before {
 	-webkit-transition:						all .12s ease-in-out;
