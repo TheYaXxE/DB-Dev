@@ -297,6 +297,11 @@ input[type="radio"] + label::before {
 	-o-transition:							all .12s ease-in-out;
 	-ms-transition:							all .12s ease-in-out;
 	transition:								all .12s ease-in-out;
+	-webkit-user-select:					none;
+	-moz-user-select:						none;
+	-o-select:								none;
+	-ms-select:								none;
+	user-select:							none;
 }
 
 input[type="checkbox"] + label::before {
