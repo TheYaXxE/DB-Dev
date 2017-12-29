@@ -309,6 +309,8 @@ input[type="checkbox"] + label::before {
     content: '';
     width: 20px;
     height: 20px;
+    background: url(images/check-icon.png) center;
+    background-size: 0px;
     box-shadow: inset 0 0 0 1px rgba(0,0,0,0.2);
     border-radius: 4px;
     position: relative;
@@ -324,6 +326,7 @@ input[type="checkbox"]:checked + label {
 }
 
 input[type="checkbox"]:checked + label::before {
+	background-size: 18px;
 	box-shadow: inset 0 0 0 20px #3d8ac1;
 }
 
@@ -1530,6 +1533,11 @@ form#quickpostform #quickreplytext + div {
 	background: #FFF;
 	border-top: 1px solid #e6e6e6;
     padding: 8px 0;
+}
+
+table.forum_post#quickreplypreview {
+    border-radius: 0;
+    box-shadow: none;
 }
 
 input#subscribebox + label {
