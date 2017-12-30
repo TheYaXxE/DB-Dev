@@ -1554,24 +1554,26 @@ form#quickpostform #quickreplytext .container .sceditor-container .sceditor-tool
 	margin: 0;
 }
 
-.sceditor-button div a::after {
+.sceditor-button div::after {
 	display: block;
 	content: '';
 	width: 35px;
 	height: 30px;
 	line-height: 30px;
 	background-size: 18px;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
-.sceditor-button.sceditor-button-bold div a::after {
+.sceditor-button.sceditor-button-bold div::after {
 	background-image: url(images/editor_bold-icon.png);
 }
 
-.sceditor-button.sceditor-button-italic div a::after {
+.sceditor-button.sceditor-button-italic div::after {
 	background-image: url(images/editor_italic-icon.png);
 }
 
-.sceditor-button.sceditor-button-underline div a::after {
+.sceditor-button.sceditor-button-underline div::after {
 	background-image: url(images/editor_underline-icon.png);
 }
 
