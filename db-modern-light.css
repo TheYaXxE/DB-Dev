@@ -1509,14 +1509,16 @@ form#quickpostform #quickreplytext .container .sceditor-container .sceditor-tool
 }
 
 form#quickpostform #quickreplytext .container .sceditor-container .sceditor-toolbar div.sceditor-group {
-	height: 30px;
-    background: none;
+	height: 34px;
+    background: rgba(255,255,255,.25);
     border: none;
-    vertical-align: top;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.12);
+    border-radius: 4px;
     padding: 0;
-    margin: 0; 
-    margin-top: 7px;
-    margin-right: 10px; 
+    margin: 0;
+    margin-top: 6px;
+    margin-right: 10px;
+    vertical-align: top;
 }
 
 form#quickpostform #quickreplytext .container .sceditor-container .sceditor-toolbar div.sceditor-group:last-of-type {
