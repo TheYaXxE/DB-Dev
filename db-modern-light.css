@@ -1547,12 +1547,34 @@ form#quickpostform #quickreplytext .container .sceditor-container .sceditor-tool
 	box-shadow: inset 0 0 0 1px rgba(0,0,0,.3);
 }
 
-form#quickpostform #quickreplytext .container .sceditor-container .sceditor-toolbar div.sceditor-group div {
+form#quickpostform #quickreplytext .container .sceditor-container .sceditor-toolbar div.sceditor-group .sceditor-button div {
 	width: 100%;
 	height: 100%;
 	background: transparent;
 	margin: 0;
 }
+
+.sceditor-button div a::after {
+	display: block;
+	content: '';
+	width: 35px;
+	height: 30px;
+	line-height: 30px;
+	background-size: 18px;
+}
+
+.sceditor-button.sceditor-button-bold div a::after {
+	background-image: url(images/editor_bold-icon.png);
+}
+
+.sceditor-button.sceditor-button-italic div a::after {
+	background-image: url(images/editor_italic-icon.png);
+}
+
+.sceditor-button.sceditor-button-underline div a::after {
+	background-image: url(images/editor_underline-icon.png);
+}
+
 
 form#quickpostform #quickreplytext .container .sceditor-container iframe {
 	width: 100% !important;
