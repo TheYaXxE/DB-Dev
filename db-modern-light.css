@@ -1577,6 +1577,10 @@ form#quickpostform #quickreplytext .container .sceditor-container .sceditor-tool
 	background-image: url(images/editor_underline-icon.png);
 }
 
+.sceditor-button.sceditor-button-youtube div::after {
+	background-image: url(images/editor_youtube-icon.png);
+}
+
 
 form#quickpostform #quickreplytext .container .sceditor-container iframe {
 	width: 100% !important;
