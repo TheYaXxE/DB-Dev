@@ -1560,9 +1560,10 @@ form#quickpostform #quickreplytext .container .sceditor-container .sceditor-tool
 	display: block;
 	content: '';
 	width: 100%;
-	height: 3100%;
+	height: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
+	background-size: 15px;
 }
 
 .sceditor-button.sceditor-button-bold div::after {
@@ -1577,7 +1578,7 @@ form#quickpostform #quickreplytext .container .sceditor-container .sceditor-tool
 	background-image: url(images/editor-icon_underline.png);
 }
 
-.sceditor-button..sceditor-button-strike div::after {
+.sceditor-button.sceditor-button-strike div::after {
 	background-image: url(images/editor-icon_strikethrough.png);
 }
 
