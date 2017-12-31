@@ -1517,7 +1517,7 @@ form#quickpostform #quickreplytext .container .sceditor-container .sceditor-tool
     padding: 0;
     margin: 0;
     margin-top: 6px;
-    margin-right: 10px;
+    margin-right: 8px;
     vertical-align: top;
 }
 
@@ -1528,14 +1528,15 @@ form#quickpostform #quickreplytext .container .sceditor-container .sceditor-tool
 form#quickpostform #quickreplytext .container .sceditor-container .sceditor-toolbar div.sceditor-group .sceditor-button {
     display: block;
     padding: 0;
-    width: 34px;
-    height: 30px;
+    min-width: 34px;
+    height: 34px;
     border-radius: 0;
     margin-right: 4px;
+    border-right: 1px solid rgba(0,0,0,.12);
 }
 
 form#quickpostform #quickreplytext .container .sceditor-container .sceditor-toolbar div.sceditor-group .sceditor-button:last-of-type {
-	margin-right: 0;
+	border-right: 0;
 }
 
 form#quickpostform #quickreplytext .container .sceditor-container .sceditor-toolbar div.sceditor-group .sceditor-button:hover {
