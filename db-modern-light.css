@@ -1579,7 +1579,7 @@ form#quickpostform #quickreplytext .container .sceditor-container .sceditor-tool
 }
 
 .sceditor-button.sceditor-button-strike div::after {
-	background-image: url(images/editor-icon_strikethrough.png);
+	background-image: url(images/editor-icon_strike.png);
 }
 
 .sceditor-button.sceditor-button-youtube div::after {
