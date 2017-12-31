@@ -1528,7 +1528,7 @@ form#quickpostform #quickreplytext .container .sceditor-container .sceditor-tool
 form#quickpostform #quickreplytext .container .sceditor-container .sceditor-toolbar div.sceditor-group .sceditor-button {
     display: block;
     padding: 0;
-    min-width: 34px;
+    min-width: 38px;
     height: 34px;
     border-radius: 0;
     margin-right: 4px;
