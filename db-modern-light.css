@@ -1532,6 +1532,7 @@ form#quickpostform #quickreplytext .container .sceditor-container .sceditor-tool
     height: 34px;
     border-radius: 0;
     border-right: 1px solid rgba(0,0,0,.12);
+    	text-indent: 0;
 }
 
 form#quickpostform #quickreplytext .container .sceditor-container .sceditor-toolbar div.sceditor-group .sceditor-button:last-of-type {
@@ -1556,8 +1557,8 @@ form#quickpostform #quickreplytext .container .sceditor-container .sceditor-tool
 	margin: 0;
 }
 
-.sceditor-button div::after {
-	display: block;
+.sceditor-button div::before {
+	display: inline-block;
 	content: '';
 	width: 100%;
 	height: 100%;
@@ -1566,38 +1567,49 @@ form#quickpostform #quickreplytext .container .sceditor-container .sceditor-tool
 	background-size: 15px;
 }
 
-.sceditor-button.sceditor-button-bold div::after {
+.sceditor-button.sceditor-button-bold div::before {
 	background-image: url(images/editor-icon_bold.png);
 }
 
-.sceditor-button.sceditor-button-italic div::after {
+.sceditor-button.sceditor-button-italic div::before {
 	background-image: url(images/editor-icon_italic.png);
 }
 
-.sceditor-button.sceditor-button-underline div::after {
+.sceditor-button.sceditor-button-underline div::before {
 	background-image: url(images/editor-icon_underline.png);
 }
 
-.sceditor-button.sceditor-button-strike div::after {
+.sceditor-button.sceditor-button-strike div::before {
 	background-image: url(images/editor-icon_strike.png);
 }
 
-.sceditor-button.sceditor-button-font div::after {
+.sceditor-button.sceditor-button-font div::before {
 	background-image: url(images/editor-icon_font-type.png);
 }
 
-.sceditor-button.sceditor-button-size div::after {
+.sceditor-button.sceditor-button-size div::before {
 	background-image: url(images/editor-icon_font-size.png);
 }
 
-.sceditor-button.sceditor-button-removeformat div::after {
+.sceditor-button.sceditor-button-removeformat div::before {
 	background-image: url(images/editor-icon_removeformat.png);
 }
 
-.sceditor-button.sceditor-button-youtube div::after {
+.sceditor-button.sceditor-button-youtube div::before {
 	background-image: url(images/editor_youtube-icon.png);
 }
 
+/*
+.sceditor-button div::before {
+    display: inline-block;
+    content: '';
+    width: 0;
+    height: 0;
+    border: 5px solid transparent;
+    border-top-color: rgba(0, 0, 0, 0.65);
+    border-bottom: 0;
+}
+*/
 
 form#quickpostform #quickreplytext .container .sceditor-container iframe {
 	width: 100% !important;
