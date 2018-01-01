@@ -1557,6 +1557,11 @@ form#quickpostform #quickreplytext .container .sceditor-container .sceditor-tool
 	margin: 0;
 }
 
+.sceditor-button.disabled div {
+    filter: alpha(opacity=30);
+    opacity: .3;
+}
+
 .sceditor-button div::before {
 	display: inline-block;
 	content: '';
@@ -1564,7 +1569,7 @@ form#quickpostform #quickreplytext .container .sceditor-container .sceditor-tool
 	height: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 15px;
+	background-size: auto 15px;
 }
 
 .sceditor-button.sceditor-button-bold div::before {
@@ -1593,6 +1598,10 @@ form#quickpostform #quickreplytext .container .sceditor-container .sceditor-tool
 
 .sceditor-button.sceditor-button-removeformat div::before {
 	background-image: url(images/editor-icon_removeformat.png);
+}
+
+.sceditor-button.sceditor-button-image div::before {
+	background-image: url(images/editor-icon_image.png);
 }
 
 .sceditor-button.sceditor-button-youtube div::before {
