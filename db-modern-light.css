@@ -1596,7 +1596,7 @@ form#quickpostform #quickreplytext .container .sceditor-container .sceditor-tool
 }
 
 .sceditor-button.sceditor-button-youtube div::before {
-	background-image: url(images/editor_youtube-icon.png);
+	background-image: url(images/editor-icon_youtube.png);
 }
 
 /*
