@@ -1592,8 +1592,16 @@ form#quickpostform #quickreplytext .container .sceditor-container .sceditor-tool
 	background-image: url(images/editor-icon_font-type.png);
 }
 
+.sceditor-button.sceditor-button-font div::before {
+	background-image: url(images/editor-icon_font-type.png);
+}
+
 .sceditor-button.sceditor-button-size div::before {
 	background-image: url(images/editor-icon_font-size.png);
+}
+
+.sceditor-button.sceditor-button-color div::before {
+	background-image: url(images/editor-icon_font-color.png);
 }
 
 .sceditor-button.sceditor-button-removeformat div::before {
