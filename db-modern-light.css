@@ -2186,6 +2186,10 @@ img[src*="smile.gif"] {
     font-weight: 600;
 }
 
+#newthreadtext input[type="text"]:focus {
+    border: 1px solid #3965a7;
+}
+
 #newthreadtext td {
     padding: 6px 12px;
 }
