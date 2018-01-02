@@ -249,6 +249,15 @@ input[type=button],
 	-ms-transition:							all .0s ease-in-out;
 	transition:								all .0s ease-in-out;
 }
+/* Default Text Input */
+input[type="text"],
+select {
+	height: 40px;
+	font-size: 14px;
+    border: 1px solid #e3e3e3;
+    padding: 0 12px;
+    
+}
 
 input[type=button],
 input[type=submit] {
@@ -1636,7 +1645,7 @@ form#quickpostform textarea.quickpost {
 	background: #FFF;
 }
 
-.richeditor + div {
+form#quickpostform #quickreplytext + div {
 	width: 100%;
 	min-height: 40px;
 	background: #FFF;
