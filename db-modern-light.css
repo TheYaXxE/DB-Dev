@@ -1590,7 +1590,8 @@ form#quickpostform textarea.quickpost {
 }
 
 .richeditor .container .sceditor-container .sceditor-toolbar div.sceditor-group .sceditor-button.disabled {
-    cursor: default;
+    /*cursor: default;*/
+    cursor: not-allowed;
 }
 
 /* Disable default hover style */
