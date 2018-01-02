@@ -254,9 +254,14 @@ input[type="text"],
 select {
 	height: 40px;
 	font-size: 14px;
+	background: #FFF;
+	border-radius: 0;
     border: 1px solid #e3e3e3;
     padding: 0 12px;
-    
+}
+
+select {
+	background: url(images/dropdown_arrow-down.png) right center no-repeat;
 }
 
 input[type=button],
