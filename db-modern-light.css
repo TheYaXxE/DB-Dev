@@ -1706,6 +1706,10 @@ form#quickpostform textarea.quickpost {
 	background-image: url(images/editor-icon_quote.png);
 }
 
+.sceditor-button.sceditor-button-emoticon div::before {
+	background-image: url(images/editor-icon_emoticon.png);
+}
+
 .sceditor-button.sceditor-button-image div::before {
 	background-image: url(images/editor-icon_image.png);
 }
