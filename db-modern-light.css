@@ -1559,6 +1559,7 @@ form#quickpostform textarea.quickpost {
 .richeditor .container .sceditor-container .sceditor-toolbar div.sceditor-group {
 	height: 34px;
     background: rgba(255,255,255,.25);
+		background: linear-gradient(rgba(255,255,255,.35),rgba(255,255,255,.25));
     border: none;
     box-shadow: 0 0 0 1px rgba(0,0,0,.12);
     border-radius: 4px;
