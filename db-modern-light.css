@@ -1589,12 +1589,17 @@ form#quickpostform textarea.quickpost {
 	border-right: 0;
 }
 
+/* Disable default hover style */
 .richeditor .container .sceditor-container .sceditor-toolbar div.sceditor-group .sceditor-button:hover {
-	background: rgba(0,0,0,0.06);
+	background: none;
 	box-shadow: none;
 }
 
-.richeditor .container .sceditor-container .sceditor-toolbar div.sceditor-group .sceditor-button:hover::after {
+.richeditor .container .sceditor-container .sceditor-toolbar div.sceditor-group .sceditor-button:not(.disabled):hover {
+	background: rgba(0,0,0,0.06);;
+}
+
+.richeditor .container .sceditor-container .sceditor-toolbar div.sceditor-group .sceditor-button:not(.disabled):hover::after {
     content: '';
     display: block;
     width: 100%;
@@ -1606,11 +1611,11 @@ form#quickpostform textarea.quickpost {
     box-shadow: 0 0 0 1px rgba(0,0,0,.1);
 }
 
-.richeditor .container .sceditor-container .sceditor-toolbar div.sceditor-group .sceditor-button:first-of-type:hover::after {
+.richeditor .container .sceditor-container .sceditor-toolbar div.sceditor-group .sceditor-button:not(.disabled):first-of-type:hover::after {
     border-radius: 4px 0 0 4px;
 }
 
-.richeditor .container .sceditor-container .sceditor-toolbar div.sceditor-group .sceditor-button:last-of-type:hover::after {
+.richeditor .container .sceditor-container .sceditor-toolbar div.sceditor-group .sceditor-button:not(.disabled):last-of-type:hover::after {
     border-radius: 0 4px 4px 0;
 }
 
