@@ -1589,6 +1589,10 @@ form#quickpostform textarea.quickpost {
 	border-right: 0;
 }
 
+.richeditor .container .sceditor-container .sceditor-toolbar div.sceditor-group .sceditor-button.disabled {
+    cursor: default;
+}
+
 /* Disable default hover style */
 .richeditor .container .sceditor-container .sceditor-toolbar div.sceditor-group .sceditor-button:hover {
 	background: none;
@@ -1619,8 +1623,8 @@ form#quickpostform textarea.quickpost {
     border-radius: 0 4px 4px 0;
 }
 
-.richeditor .container .sceditor-container .sceditor-toolbar div.sceditor-group .sceditor-button:active,
-.richeditor .container .sceditor-container .sceditor-toolbar div.sceditor-group .sceditor-button.active {
+.richeditor .container .sceditor-container .sceditor-toolbar div.sceditor-group .sceditor-button:not(.disabled):active,
+.richeditor .container .sceditor-container .sceditor-toolbar div.sceditor-group .sceditor-button:not(.disabled).active {
 	background: #fff;
 	box-shadow: inset 0 0 0 1px rgba(0,0,0,.3);
 }
@@ -2163,3 +2167,72 @@ img[src*="smileys"] {
 img[src*="smile.gif"] {
 	background-image: 							url("images/smiley_1.png");
 }
+
+
+/* Only for test - rewrite */
+#newthreadtext {
+	width: 100%;
+    margin-bottom: 12px;
+}
+#newthreadtext tbody {
+    border-bottom: 1px solid #e3e3e3;
+}
+
+#newthreadtext td.label {
+    width: 110px;
+    vertical-align: top;
+    padding-top: 12px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#newthreadtext td {
+    padding: 6px 12px;
+}
+
+.richeditor {
+	border: 1px solid #e3e3e3;
+}
+
+#newthreadtext tr ~ script + tr {
+    border-top: 1px solid #e3e3e3;
+}
+
+#newthreadtext tr ~ script + tr td {
+	padding-top: 12px;
+}
+
+tr#poll_answers td#answer_block {
+    font-size: 0;
+}
+
+tr#poll_answers td input[type="text"] {
+    margin-bottom: 10px;
+}
+
+td#answer_block a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background: #ecedee;
+    /* box-shadow: 0 0 0 1px #cecece; */
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(0,0,0,0.6);
+    border-radius: 2px;
+    text-align: center;
+    vertical-align: top;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+td#answer_block a + a {
+	color: #FFF;
+    background: #da4444;
+}
+
+input#newthreadpreviewbutton {
+	margin-left: 12px;
+}
+
