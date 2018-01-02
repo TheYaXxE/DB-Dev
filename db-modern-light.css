@@ -1667,7 +1667,22 @@ form#quickpostform textarea.quickpost {
 	background-image: url(images/editor-icon_strike.png);
 }
 
+.sceditor-button.sceditor-button-font {
+	min-width: 58px;
+}
+.sceditor-button.sceditor-button-font div::after {
+	display: inline-block;
+    content: '';
+    width: 0;
+    height: 0;
+    border: 5px solid transparent;
+    border-top-color: rgba(0, 0, 0, .65);
+    border-bottom: 0;
+    vertical-align: top;
+    margin-top: 16px;
+}
 .sceditor-button.sceditor-button-font div::before {
+	width: calc( 100% - 20px ) !important;
 	background-image: url(images/editor-icon_font-type.png);
 }
 
@@ -2239,4 +2254,3 @@ td#answer_block a + a {
 input#newthreadpreviewbutton {
 	margin-left: 12px;
 }
-
