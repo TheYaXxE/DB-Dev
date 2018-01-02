@@ -1592,6 +1592,26 @@ form#quickpostform textarea.quickpost {
 	box-shadow: inset 0 0 0 1px rgba(0,0,0,.2);
 }
 
+.richeditor .container .sceditor-container .sceditor-toolbar div.sceditor-group .sceditor-button:hover::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.1);
+}
+
+.richeditor .container .sceditor-container .sceditor-toolbar div.sceditor-group .sceditor-button:first-of-type:hover::after {
+    border-radius: 4px 0 0 4px;
+}
+
+.richeditor .container .sceditor-container .sceditor-toolbar div.sceditor-group .sceditor-button:last-of-type:hover::after {
+    border-radius: 0 4px 4px 0;
+}
+
 .richeditor .container .sceditor-container .sceditor-toolbar div.sceditor-group .sceditor-button:active,
 .richeditor .container .sceditor-container .sceditor-toolbar div.sceditor-group .sceditor-button.active {
 	background: #fff;
