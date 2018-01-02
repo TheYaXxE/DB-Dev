@@ -1581,6 +1581,7 @@ form#quickpostform textarea.quickpost {
     border-radius: 0;
     border-right: 1px solid rgba(0,0,0,.12);
     	text-indent: 0;
+    	position: relative;
 }
 
 .richeditor .container .sceditor-container .sceditor-toolbar div.sceditor-group .sceditor-button:last-of-type {
@@ -1589,7 +1590,7 @@ form#quickpostform textarea.quickpost {
 
 .richeditor .container .sceditor-container .sceditor-toolbar div.sceditor-group .sceditor-button:hover {
 	background: rgba(0,0,0,0.06);
-	box-shadow: inset 0 0 0 1px rgba(0,0,0,.2);
+	box-shadow: none;
 }
 
 .richeditor .container .sceditor-container .sceditor-toolbar div.sceditor-group .sceditor-button:hover::after {
