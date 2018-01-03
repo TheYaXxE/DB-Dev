@@ -1739,6 +1739,17 @@ form#quickpostform textarea.quickpost {
 	background: #FFF;
 }
 
+div.sceditor-dropdown {
+    border: 1px solid #e3e3e3;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+}
+
+div.sceditor-dropdown .sceditor-more {
+    border-top: 1px solid #e3e3e3;
+    font-size: 14px;
+    padding: 10px 0;
+}
+
 form#quickpostform #quickreplytext + div {
 	width: 100%;
 	min-height: 40px;
