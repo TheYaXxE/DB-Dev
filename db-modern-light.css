@@ -1711,13 +1711,17 @@ form#quickpostform textarea.quickpost {
 	background-image: url(images/editor-icon_quote.png);
 }
 
-.sceditor-button.sceditor-button-emoticon div::before {
-	background-image: url(images/editor-icon_emoticon.png);
-}
-
 .sceditor-button.sceditor-button-image div::before {
 	width: 20px;
 	background-image: url(images/editor-icon_image.png);
+}
+
+.sceditor-button.sceditor-button-link div::before {
+	background-image: url(images/editor-icon_icon.png);
+}
+
+.sceditor-button.sceditor-button-emoticon div::before {
+	background-image: url(images/editor-icon_emoticon.png);
 }
 
 .sceditor-button.sceditor-button-youtube div::before {
