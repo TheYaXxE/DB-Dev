@@ -1577,6 +1577,7 @@ form#quickpostform textarea.quickpost {
 .richeditor .container .sceditor-container .sceditor-toolbar div.sceditor-group .sceditor-button {
     display: block;
     padding: 0;
+    width: auto;
     height: 35px;
     border-radius: 0;
     border-right: 1px solid rgba(0,0,0,.12);
@@ -1633,6 +1634,7 @@ form#quickpostform textarea.quickpost {
 	width: 100%;
 	height: 100%;
 	background: transparent;
+	padding: 10px;
 	margin: 0;
 }
 
@@ -1649,6 +1651,7 @@ form#quickpostform textarea.quickpost {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: auto 15px;
+	vertical-align: middle;
 }
 
 .sceditor-button.sceditor-button-bold div::before {
@@ -1679,7 +1682,7 @@ form#quickpostform textarea.quickpost {
     border-top-color: rgba(0, 0, 0, .65);
     border-bottom: 0;
     vertical-align: top;
-    margin-top: 16px;
+    vertical-align: middle;
 }
 .sceditor-button.sceditor-button-font div::before {
 	width: calc( 100% - 20px ) !important;
