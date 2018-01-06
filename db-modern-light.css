@@ -1721,7 +1721,10 @@ form#quickpostform textarea.quickpost {
 	background-image: url(images/editor-icon_link.png);
 }
 
-
+.sceditor-button.sceditor-button-unlink div::before {
+	width: 22px;
+	background-image: url(images/editor-icon_unlink.png);
+}
 
 .sceditor-button.sceditor-button-emoticon div::before {
 	background-image: url(images/editor-icon_emoticon.png);
