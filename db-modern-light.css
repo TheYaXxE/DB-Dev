@@ -109,6 +109,22 @@ input, select, textarea, button, table, th, tr, td, hr, figure, figcaption {
 	margin:									0;
 }
 
+input[type="radio"] {
+	appearance:								radio;
+	-webkit-appearance:						radio;
+	-moz-appearance:						radio;
+	-o-appearance:							radio;
+	-ms-appearance:							radio;
+}
+
+input[type="checkbox"] {
+	appearance:								checkbox;
+	-webkit-appearance:						checkbox;
+	-moz-appearance:						checkbox;
+	-o-appearance:							checkbox;
+	-ms-appearance:							checkbox;
+}
+
 table {
 	border-collapse:						collapse;
 	border-spacing:							0;
