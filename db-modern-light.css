@@ -1635,7 +1635,7 @@ form#quickpostform textarea.quickpost {
 	height: 100%;
 	background: transparent;
 	white-space: nowrap;
-	padding: 10px;
+	padding: 10px 12px;
 	margin: 0;
 }
 
@@ -1695,7 +1695,7 @@ form#quickpostform textarea.quickpost {
 }
 
 .sceditor-button.sceditor-button-size div::before {
-	width: 22.5px;
+	width: 23px;
 	background-image: url(images/editor-icon_font-size.png);
 }
 
@@ -1716,10 +1716,12 @@ form#quickpostform textarea.quickpost {
 }
 
 .sceditor-button.sceditor-button-image div::before {
+	width: 20px;
 	background-image: url(images/editor-icon_image.png);
 }
 
 .sceditor-button.sceditor-button-youtube div::before {
+	width: 20px;
 	background-image: url(images/editor-icon_youtube.png);
 }
 
