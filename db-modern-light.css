@@ -1695,7 +1695,7 @@ form#quickpostform textarea.quickpost {
 }
 
 .sceditor-button.sceditor-button-size div::before {
-	width: 23px;
+	width: 22px;
 	background-image: url(images/editor-icon_font-size.png);
 }
 
@@ -1712,12 +1712,12 @@ form#quickpostform textarea.quickpost {
 }
 
 .sceditor-button.sceditor-button-image div::before {
-	width: 20px;
+	width: 22px;
 	background-image: url(images/editor-icon_image.png);
 }
 
 .sceditor-button.sceditor-button-link div::before {
-	width: 23px;
+	width: 22px;
 	background-image: url(images/editor-icon_link.png);
 }
 
@@ -1728,7 +1728,7 @@ form#quickpostform textarea.quickpost {
 }
 
 .sceditor-button.sceditor-button-youtube div::before {
-	width: 20px;
+	width: 22px;
 	background-image: url(images/editor-icon_youtube.png);
 }
 
