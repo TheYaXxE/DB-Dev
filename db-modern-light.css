@@ -2378,12 +2378,16 @@ img[src*="/classes/uploader.png"] {
 	background-image: url(images/user-icon_uploader-class.png);
 }
 
+img[src*="/classes/subber.png"] {
+	background-image: url(images/user-icon_subber-class.png);
+}
+
 img[src*="/classes/torrenteditor.png"] {
-	background-image: url(images/user-icon_torrenteditor-class.png);
+	background-image: url(images/user-icon_torrent-class.png);
 }
 
 img[src*="/classes/torrentmoderator.png"] {
-	background-image: url(images/user-icon_torrentmoderator-class.png);
+	background-image: url(images/user-icon_torrent-class.png);
 }
 
 img[src*="/classes/fls.png"] {
@@ -2391,7 +2395,7 @@ img[src*="/classes/fls.png"] {
 }
 
 img[src*="/classes/staff.png"] {
-	background-image: url(images/user-icon_staff-class.png);
+	background-image: url(images/user-icon_staff.png);
 }
 
 
