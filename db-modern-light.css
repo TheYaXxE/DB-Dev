@@ -325,7 +325,7 @@ input[type="radio"] + label {
     color: rgba(0,0,0,0.55);
     padding-left: 7px;
     position: relative;
-    vertical-align: top;
+    vertical-align: middle;
     cursor: pointer;
 }
 
