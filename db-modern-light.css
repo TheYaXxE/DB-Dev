@@ -239,11 +239,6 @@ a:hover {
 	/*text-decoration: 						underline;*/
 }
 
-form {
-	display: table;
-	width: 100%;
-}
-
 input[type=button],
 .box.newspage table tr:last-child td > span a,
 .box.newspage table tr:last-child td > span a:before,
@@ -333,6 +328,7 @@ input[type="radio"] + label {
     position: relative;
     vertical-align: middle;
     cursor: pointer;
+    margin-left: -2px;
 }
 
 input[type="checkbox"] + label,
