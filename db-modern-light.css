@@ -2335,7 +2335,8 @@ input#newthreadpreviewbutton {
 
 /* User Icons */
 img[src*="/classes"],
-img[src*="/symbols/donor.png"] {
+img[src*="/symbols/donor.png"],
+img[src*="/symbols/disabled.png"] {
 	display: inline-block;
 	width: 20px;
 	height: 20px;
@@ -2401,6 +2402,10 @@ img[src*="/classes/staff.png"] {
 
 img[src*="/symbols/donor.png"] {
 	background-image: url(images/donor.png);
+}
+
+img[src*="/symbols/disabled"] {
+	background-image: url(images/disabled.png);
 }
 
 
