@@ -2346,6 +2346,53 @@ img[src*="/classes"] {
 
 }
 
-img[src*="/classes/vip.png"] {
-	background-image: url(images/user-icon_vip.png);
+img[src*="/classes/superuser.png"] {
+	background-image: url(images/user-icon_superuser-class.png);
 }
+
+img[src*="/classes/poweruser.png"] {
+	background-image: url(images/user-icon_poweruser-class.png);
+}
+
+img[src*="/classes/hardcoreuser.png"] {
+	background-image: url(images/user-icon_hardcoreuser-class.png);
+}
+
+img[src*="/classes/diamonduser.png"] {
+	background-image: url(images/user-icon_diamonduser-class.png);
+}
+
+img[src*="/classes/legenduser.png"] {
+	background-image: url(images/user-icon_legenduser-class.png);
+}
+
+img[src*="/classes/epicuser.png"] {
+	background-image: url(images/user-icon_epicuser-class.png);
+}
+
+img[src*="/classes/vip.png"] {
+	background-image: url(images/user-icon_vip-class.png);
+}
+
+img[src*="/classes/uploader.png"] {
+	background-image: url(images/user-icon_uploader-class.png);
+}
+
+img[src*="/classes/torrenteditor.png"] {
+	background-image: url(images/user-icon_torrenteditor-class.png);
+}
+
+img[src*="/classes/torrentmoderator.png"] {
+	background-image: url(images/user-icon_torrentmoderator-class.png);
+}
+
+img[src*="/classes/fls.png"] {
+	background-image: url(images/user-icon_fls-class.png);
+}
+
+img[src*="/classes/staff.png"] {
+	background-image: url(images/user-icon_staff-class.png);
+}
+
+
+hardcoreuser.png"
