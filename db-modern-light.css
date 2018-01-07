@@ -109,22 +109,6 @@ input, select, textarea, button, table, th, tr, td, hr, figure, figcaption {
 	margin:									0;
 }
 
-input[type="radio"] {
-	appearance:								radio;
-	-webkit-appearance:						radio;
-	-moz-appearance:						radio;
-	-o-appearance:							radio;
-	-ms-appearance:							radio;
-}
-
-input[type="checkbox"] {
-	appearance:								checkbox;
-	-webkit-appearance:						checkbox;
-	-moz-appearance:						checkbox;
-	-o-appearance:							checkbox;
-	-ms-appearance:							checkbox;
-}
-
 table {
 	border-collapse:						collapse;
 	border-spacing:							0;
@@ -284,8 +268,8 @@ select {
 	padding-right: 38px;
 }
 
-input[type=button],
-input[type=submit] {
+input[type="button"],
+input[type="submit"] {
 	display:								inline-block;
 	height: 								36px;
 	font-size: 								13px;
@@ -296,23 +280,44 @@ input[type=submit] {
 	cursor: 								pointer;
 }
 
-input[type=button] {
+input[type="button"] {
 	color: 									rgba(0,0,0,0.6);
 	background: 							#ecedee;
 }
 
-input[type=button]:hover {
+input[type="button"]:hover {
 	color: 									#FFF !important;
 	background:								#3d8ac1 !important;
 }
 
-input[type=submit] {
+input[type="submit"] {
     color: 									#FFF;
     background: 							#3d8ac1;
 }
 
-input[type=checkbox] + label,
-input[type=radio] + label {
+input[type="radio"] {
+	appearance:								radio;
+	-webkit-appearance:						radio;
+	-moz-appearance:						radio;
+	-o-appearance:							radio;
+	-ms-appearance:							radio;
+}
+
+input[type="checkbox"] {
+	appearance:								checkbox;
+	-webkit-appearance:						checkbox;
+	-moz-appearance:						checkbox;
+	-o-appearance:							checkbox;
+	-ms-appearance:							checkbox;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+	vertical-align: middle;
+}
+
+input[type="checkbox"] + label,
+input[type="radio"] + label {
     display: inline-block;
     height: 36px;
     line-height: 36px;
