@@ -2284,9 +2284,11 @@ img[src*="smile.gif"] {
     padding: 6px 12px;
 }
 
+/*
 .richeditor {
 	border: 1px solid #e3e3e3;
 }
+*/
 
 #newthreadtext tr ~ script + tr {
     border-top: 1px solid #e3e3e3;
@@ -2328,4 +2330,22 @@ td#answer_block a + a {
 
 input#newthreadpreviewbutton {
 	margin-left: 12px;
+}
+
+
+/* User Icons */
+img[src*="/classes"] {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-size: 20px;
+	background-repeat: no-repeat;
+	padding-left: 20px;
+	overflow: hidden;
+	vertical-align: top;
+
+}
+
+img[src*="/classes/vip.png"] {
+	background-image: url(images/user-icon_vip.png);
 }
