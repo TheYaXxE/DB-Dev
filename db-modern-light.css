@@ -1385,7 +1385,7 @@ body#index #content .thin center a[href*="user.php"]:hover {
 }
 
 .forum_post tr.colhead_dark td:first-of-type a.post_id + .labelop {
-	margin-left: 								10px;
+	margin-left: 								5px;
 }
 
 .forum_post tr.colhead_dark td:first-of-type strong {
