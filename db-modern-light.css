@@ -2362,7 +2362,8 @@ input#newthreadpreviewbutton {
 /* User Icons */
 img[src*="/classes"],
 img[src*="/symbols/donor.png"],
-img[src*="/symbols/disabled.png"] {
+img[src*="/symbols/disabled.png"],
+img[src*="/symbols/Banv1.png"] {
 	display: inline-block;
 	width: 20px;
 	height: 20px;
@@ -2434,5 +2435,6 @@ img[src*="/symbols/disabled"] {
 	background-image: url(images/disabled.png);
 }
 
-
-hardcoreuser.png"
+img[src*="/symbols/Banv1.png"] {
+	background-image: url(images/ip_ban.png);
+}
