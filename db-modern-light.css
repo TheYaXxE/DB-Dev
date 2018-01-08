@@ -3,9 +3,9 @@
 -------------------------------------------------------------------
 ///////////////////////////////////////////////////////////////////
 // 															     //
-//  Version:											  0.1.3  //
+//  Version:											  0.1.4  //
 //	Created by:								 		   TheYaXxE  //
-// 	Last change:									   02-01-18  //
+// 	Last change:									   08-01-18  //
 //  Licensed to:								 DanishBits.org  //
 // 															     //
 // 	Description:											     //
@@ -1365,21 +1365,20 @@ body#index #content .thin center a[href*="user.php"]:hover {
 	white-space:							nowrap
 }
 
-.forum_post tr.colhead_dark td .labelop {
-	background: 							rgba(0,0,0,0.8);
-	padding: 								5px 8px;
-	margin: 								0 5px;
-	color: 									#FFF;
-}
-
 .forum_post tr.colhead_dark td a.post_id {
     color: #333;
     font-size: 12px;
     padding: 4px 6px;
-    margin-right: 6px;
     border-radius: 4px;
     background: rgba(255,255,255,.7);
     border: 1px solid rgba(0,0,0,.12);
+}
+
+.forum_post tr.colhead_dark td .labelop {
+	background: 							rgba(0,0,0,0.8);
+	padding: 								5px 8px;
+	margin: 								0;
+	color: 									#FFF;
 }
 
 /* Quote & Report icons */
