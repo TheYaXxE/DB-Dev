@@ -1392,6 +1392,10 @@ body#index #content .thin center a[href*="user.php"]:hover {
     margin-left: 5px;
 }
 
+.forum_post tr.colhead_dark td:first-of-type strong a img {
+    margin-left: 4px;
+}
+
 /* Quote & Report icons */
 /*
 .forum_post tr.colhead_dark td a[href*="postformy"] {
