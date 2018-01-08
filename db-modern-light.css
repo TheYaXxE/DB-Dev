@@ -232,6 +232,7 @@ h2 {
 
 a {
 	color: 									rgba(44,129,188,0.9);
+	    word-break: break-word; /* To prevent long links from breaking the design */
 }
 
 a:hover {
