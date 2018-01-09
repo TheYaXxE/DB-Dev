@@ -2398,7 +2398,12 @@ a[id*="forumpic"] img[src*="U.png"] {
 	padding-left: 20px;
 	overflow: hidden;
 	vertical-align: top;
+}
 
+a[id*="forumpic"] img[src*="class.png"],
+a[id*="forumpic"] img[src*="U.png"] {
+	pointer-events: none;
+	vertical-align: middle;
 }
 
 img[src*="/classes/superuser.png"],
