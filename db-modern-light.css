@@ -2400,10 +2400,9 @@ a[id*="forumpic"] img[src*="U.png"] {
 	vertical-align: top;
 }
 
-a[id*="forumpic"] img[src*="class.png"],
-a[id*="forumpic"] img[src*="U.png"] {
+a[id*="forumpic"],
+a[id*="forumpic"] {
 	pointer-events: none;
-	vertical-align: middle;
 }
 
 img[src*="/classes/superuser.png"],
