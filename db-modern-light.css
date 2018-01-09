@@ -2400,8 +2400,8 @@ a[id*="forumpic"] img[src*="U.png"] {
 	vertical-align: top;
 }
 
-a[id*="forumpic"],
-a[id*="forumpic"] {
+a[id*="forumpic"][href*="class.png"],
+a[id*="forumpic"][href*="U.png"] {
 	pointer-events: none;
 }
 
