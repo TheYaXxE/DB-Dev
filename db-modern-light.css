@@ -1053,8 +1053,9 @@ body:before {
 	display:								flex;
 	/*justify-content:						space-between;*/
 	justify-content:						center;
-	/*width: 									1050px;*/
-	max-width:								1240px;
+		width: auto;
+		min-width: 1050px;
+		max-width: 1270px;
 	height: 								90px;
 	margin: 								0 auto;
 }
@@ -1064,7 +1065,7 @@ body:before {
 	height: 								90px;
 	position:								relative;
 		white-space: nowrap;
-		margin-left: 1%;
+		margin-right: 1.2%;
 }
 
 #header > #menu > ul li:last-of-type {
