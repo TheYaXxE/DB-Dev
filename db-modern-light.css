@@ -2388,7 +2388,8 @@ img[src*="/classes"],
 img[src*="/symbols/donor.png"],
 img[src*="/symbols/disabled.png"],
 img[src*="/symbols/Banv1.png"],
-a[id*="forumpic"] img[src*="class.png"] {
+a[id*="forumpic"] img[src*="class.png"],
+a[id*="forumpic"] img[src*="U.png"] {
 	display: inline-block;
 	width: 20px;
 	height: 20px;
