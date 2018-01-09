@@ -2477,3 +2477,39 @@ img[src*="/symbols/disabled"] {
 img[src*="/symbols/Banv1.png"] {
 	background-image: url(images/ip_ban.png);
 }
+
+/* ##########################
+
+body#wiki .box strong:not(:first-of-type) {
+    display: block;
+    padding-top: 20px;
+    border-top: 1px solid #e3e3e3;
+    position: relative;
+}
+
+body#wiki a[id*="forumpic"] {
+    position: absolute;
+    transform: translate3d(0,14px,0);
+}
+
+body#wiki img[src*="class.png"], a[id*="forumpic"] img[src*="U.png"] {
+    width: 30px !important;
+    height: 30px !important;
+    background-size: 30px !important;
+    padding-left: 30px !important;
+}
+
+body#wiki .box a + script + strong {
+    padding-left: 35px;
+}
+
+body#wiki .box strong ul {
+    margin-top: 10px;
+}
+
+body#wiki .box a + script + strong ul {
+    transform: translate3d(-35px,0,0);
+}
+
+
+*/
