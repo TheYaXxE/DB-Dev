@@ -2383,11 +2383,12 @@ input#newthreadpreviewbutton {
 }
 
 
-/* User Icons */
+/* User Class Icons */
 img[src*="/classes"],
 img[src*="/symbols/donor.png"],
 img[src*="/symbols/disabled.png"],
-img[src*="/symbols/Banv1.png"] {
+img[src*="/symbols/Banv1.png"],
+a[id*="forumpic"] img[src=*"class.png"] {
 	display: inline-block;
 	width: 20px;
 	height: 20px;
@@ -2399,55 +2400,63 @@ img[src*="/symbols/Banv1.png"] {
 
 }
 
-img[src*="/classes/superuser.png"] {
+img[src*="/classes/superuser.png"],
+a[id="forumpic1"] img[src=*"Super.class.png"] {
 	background-image: url(images/user-icon_superuser-class.png);
 }
 
-img[src*="/classes/poweruser.png"] {
-	background-image: url(images/user-icon_poweruser-class.png);
-}
-
-img[src*="/classes/hardcoreuser.png"] {
+img[src*="/classes/hardcoreuser.png"],
+a[id="forumpic2"] img[src=*"Hardcore.class.png"] {
 	background-image: url(images/user-icon_hardcoreuser-class.png);
 }
 
-img[src*="/classes/diamonduser.png"] {
+img[src*="/classes/diamonduser.png"],
+a[id="forumpic3"] img[src=*"Diamond.class.png"] {
 	background-image: url(images/user-icon_diamonduser-class.png);
 }
 
-img[src*="/classes/legenduser.png"] {
+img[src*="/classes/legenduser.png"],
+a[id="forumpic4"] img[src=*"Legend.class.png"] {
 	background-image: url(images/user-icon_legenduser-class.png);
 }
 
-img[src*="/classes/epicuser.png"] {
+img[src*="/classes/epicuser.png"],
+a[id="forumpic5"] img[src=*"Elite.class.png"] {
 	background-image: url(images/user-icon_epicuser-class.png);
 }
 
-img[src*="/classes/vip.png"] {
+img[src*="/classes/vip.png"],
+a[id="forumpic6"] img[src=*"VIP.class.png"] {
 	background-image: url(images/user-icon_vip-class.png);
 }
 
-img[src*="/classes/uploader.png"] {
+img[src*="/classes/uploader.png"],
+a[id="forumpic7"] img[src=*"U.class.png"] {
 	background-image: url(images/user-icon_uploader-class.png);
 }
 
-img[src*="/classes/unity.png"] {
+img[src*="/classes/unity.png"],
+a[id="forumpic8"] img[src=*"UNiTY.class.png"] {
 	background-image: url(images/user-icon_subber-class.png);
 }
 
-img[src*="/classes/torrenteditor.png"] {
+img[src*="/classes/torrenteditor.png"],
+a[id="forumpic9"] img[src=*"TE.TM.class.png"] {
 	background-image: url(images/user-icon_torrent-class.png);
 }
 
-img[src*="/classes/torrentmoderator.png"] {
+img[src*="/classes/torrentmoderator.png"],
+a[id="forumpic10"] img[src=*"TE.TM.class.png"] {
 	background-image: url(images/user-icon_torrent-class.png);
 }
 
-img[src*="/classes/fls.png"] {
+img[src*="/classes/fls.png"],
+a[id="forumpic11"] img[src=*"FLS.class.png"] {
 	background-image: url(images/user-icon_fls-class.png);
 }
 
-img[src*="/classes/staff.png"] {
+img[src*="/classes/staff.png"],
+a[id="forumpic12"] img[src=*"staff.class.png"] {
 	background-image: url(images/user-icon_staff.png);
 }
 
