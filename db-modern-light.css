@@ -2431,7 +2431,7 @@ a[id="forumpic6"] img[src*="VIP.class.png"] {
 }
 
 img[src*="/classes/uploader.png"],
-a[id="forumpic7"] img[src*="U.class.png"] {
+a[id="forumpic7"] img[src*="U.png"] {
 	background-image: url(images/user-icon_uploader-class.png);
 }
 
