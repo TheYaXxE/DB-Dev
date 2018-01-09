@@ -676,6 +676,8 @@ body:before {
 	background: 							url("images/download.png");
 }
 
+#header > #userinfo > ul#userinfo_stats li.brackets a.new-subscriptions
+
 
 /* Ratio button */
 #header > #userinfo > ul#userinfo_stats li#stats_ratio {
@@ -723,6 +725,18 @@ body:before {
 
 #header > #userinfo > ul#userinfo_username li a {
 	color: 									#FFF;
+}
+
+/* Icon to show next to username on new subscriptions */
+#header > #userinfo > ul#userinfo_username li a.new-subscriptions {
+	position: absolute;
+    font-size: 0;
+    width: 20px;
+    height: 20px;
+    top: 0;
+	border-radius: 50%;
+    background: red;
+    left: -25px;
 }
 
 
