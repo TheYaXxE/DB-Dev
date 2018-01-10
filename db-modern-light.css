@@ -2068,6 +2068,10 @@ input#subscribebox + label {
 
 */
 
+.sidebar .box {
+    height: initial !important;
+}
+
 .sidebar .box.newspage table tr {
     height: 25px;
 }
