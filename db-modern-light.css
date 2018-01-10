@@ -434,7 +434,11 @@ table tr:nth-child(even) {
 	background: rgba(247,247,247,0.8);
 }
 
-
+.box table tr {
+    width: 100%;
+    height: 35px;
+    font-size: 13px;
+}
 
 
 /*-----------------------------------------------------------------
@@ -1405,6 +1409,7 @@ body#index #content .thin center a[href*="user.php"]:hover {
 }
 */
 .forum_post tr.colhead_dark td:first-of-type a.post_id {
+	display: inline-block;
     color: #333;
     font-size: 12px;
     padding: 3px 6px;
@@ -2055,6 +2060,41 @@ input#subscribebox + label {
     top: -26px;
     left: 50%;
     transform: translate3d(-50%,0,0);
+}
+
+*/
+
+.sidebar .box.newspage table tr {
+    height: 25px;
+}
+
+.sidebar .box.newspage table tr td > span {
+    display: block;
+    text-align: right;
+    margin: 0 !important;
+}
+
+.sidebar .box.newspage table tr td > span#forumrecent {
+    width: 185px;
+    text-align: left;
+}
+
+.sidebar .box.newspage table tr td > span a {
+    display: block;
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    color: rgba(0,0,0,0.55);
+    padding-left: 6px;
+    padding-right: 12px;
+}
+
+.sidebar .box.newspage table tr td > span#forumrecent a {
+    padding-left: 12px;
+    padding-right: 6px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 
