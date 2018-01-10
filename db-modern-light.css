@@ -426,6 +426,16 @@ input[type=radio]:checked + label:before {
 	color: rgba(12, 107, 62, 0.62) !important;
 }
 
+table tr:nth-child(odd) {
+	background: rgba(255,255,255,.9);
+}
+
+table tr:nth-child(even) {
+	background: rgba(247,247,247,0.8);
+}
+
+
+
 
 /*-----------------------------------------------------------------
 -----------------------{  5. Body & Wrapper  }---------------------
