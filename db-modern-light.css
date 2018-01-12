@@ -1622,6 +1622,16 @@ table.searchtable > tbody > tr:first-of-type .headcat {
 	text-align: center;
 }
 
+table.searchtable > tbody > tr:first-of-type .headcat a {
+    display: block;
+    width: 100%;
+}
+
+table.searchtable > tbody > tr:first-of-type .headcat a div {
+	width: inherit !important;
+   	height: inherit !important;
+}
+
 table.searchtable table.cat_list tr td {
 	font-size: 0;
 }
