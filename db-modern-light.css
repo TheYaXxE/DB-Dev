@@ -1274,7 +1274,8 @@ body#index #content .thin center a[href*="user.php"]:hover {
 /*------------------------{  7.1. Boxes  }-----------------------*/
 .box,
 .forum_post,
-.torrent_table {
+.torrent_table,
+.searchtable {
 	width: 									100%;
 	margin-bottom: 							20px;
 	border-radius: 							4px;
@@ -1610,6 +1611,16 @@ table.forum_post.forum_unread .colhead_dark td + td::before {
 }
 
 /*--------------------{  7.2. Torrent Table  }-------------------*/
+
+/*--------------------{  7.2. Search Table  }-------------------*/
+table.searchtable > tbody > tr:first-of-type {
+	width: 100%;
+	height: 45px;
+}
+
+table.searchtable > tbody > tr:first-of-type .headcat {
+	text-align: center;
+}
 
 /*--------------------{  7.3. Forum Table  }---------------------*/
 
