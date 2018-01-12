@@ -1622,6 +1622,10 @@ table.searchtable > tbody > tr:first-of-type .headcat {
 	text-align: center;
 }
 
+table.searchtable table.cat_list tr td {
+	font-size: 0;
+}
+
 /*--------------------{  7.3. Forum Table  }---------------------*/
 
 
