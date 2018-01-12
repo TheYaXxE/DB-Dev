@@ -1273,7 +1273,8 @@ body#index #content .thin center a[href*="user.php"]:hover {
 
 /*------------------------{  7.1. Boxes  }-----------------------*/
 .box,
-.forum_post {
+.forum_post,
+.torrent_table {
 	width: 									100%;
 	margin-bottom: 							20px;
 	border-radius: 							4px;
