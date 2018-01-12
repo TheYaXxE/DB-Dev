@@ -6,5 +6,5 @@ DB Theme Development
 Themes:
 ---
 
-Modern Light
+**Modern Light**
 - A light and modern theme for DB
