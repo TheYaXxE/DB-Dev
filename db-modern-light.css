@@ -1292,7 +1292,7 @@ body#index #content .thin center a[href*="user.php"]:hover {
 
 .box .head,
 .forum_post .colhead_dark,
-table .colhead {
+table tr.colhead {
 	width: 									100%;
 	height: 								45px;
 	font-family: 							"Open Sans", Helvetica;
