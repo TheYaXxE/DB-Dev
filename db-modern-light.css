@@ -2109,10 +2109,24 @@ input#subscribebox + label {
     box-shadow: inset 0 1px 0 rgba(1,1,1,0.06);
 }
 
+.sidebar .box.newspage table tr:last-child td {
+	padding: 0 12px;
+}
+
 .sidebar .box.newspage table tr td > span {
     display: block;
     text-align: right;
     margin: 0 !important;
+}
+
+.sidebar .box.newspage table tr:last-child td > span a {
+    height: 24px;
+    position: relative;
+    overflow: hidden;
+    color: rgba(0,0,0,0.6);
+    border-radius: 3px;
+    padding: 0 5px;
+    background: #ecedee;
 }
 
 .sidebar .box.newspage table tr td > span#forumrecent {
