@@ -2119,16 +2119,6 @@ input#subscribebox + label {
     margin: 0 !important;
 }
 
-.sidebar .box.newspage table tr:last-child td > span a {
-    height: 24px;
-    position: relative;
-    overflow: hidden;
-    color: rgba(0,0,0,0.6);
-    border-radius: 3px;
-    padding: 0 5px;
-    background: #ecedee;
-}
-
 .sidebar .box.newspage table tr td > span#forumrecent {
     width: 185px;
     text-align: left;
@@ -2150,6 +2140,36 @@ input#subscribebox + label {
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
+}
+
+.sidebar .box.newspage table tr:last-child td > span a {
+    height: 24px;
+    position: relative;
+    overflow: hidden;
+    color: rgba(0,0,0,0.6);
+    border-radius: 3px;
+    padding: 0 5px;
+    background: #ecedee;
+}
+
+.sidebar .box.newspage table tr:last-child td > span a:before,
+.sidebar .box.newspage table tr:last-child td > span a:after {
+    display: block;
+    content: '';
+    width: 12px;
+    height: 24px;
+    background: #ecedee;
+    position: absolute;
+    top: 0;
+    pointer-events: none;
+}
+
+.sidebar .box.newspage table tr:last-child td > span a:before {
+    left: 0;
+}
+
+.sidebar .box.newspage table tr:last-child td > span a:after {
+    right: 0;
 }
 
 /*--------------{  8.2. Popular Movies and Shows  }--------------*/
