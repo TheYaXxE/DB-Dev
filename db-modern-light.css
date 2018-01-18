@@ -1201,6 +1201,13 @@ body:before {
 
 /* Current State */
 body#index #header > #menu > ul li#nav_index:before,
+
+body#requests #header > #menu > ul li#nav_requests:before,
+body#forums #header > #menu > ul li#nav_forums:before,
+body#helpdesk #header > #menu > ul li#nav_helpdesk:before,
+body#chat #header > #menu > ul li#nav_irc:before,
+body#top10 #header > #menu > ul li#nav_top10:before,
+
 body#bonus #header > #menu > ul li#nav_bonus:before {
 	background: 							-webkit-linear-gradient(rgba(255,255,255,0.65),rgba(255,255,255,0.55));
 	background: 							-moz-linear-gradient(rgba(255,255,255,0.65),rgba(255,255,255,0.55));
