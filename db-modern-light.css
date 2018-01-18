@@ -5,7 +5,7 @@
 // 															     //
 //  Version:											  0.1.4  //
 //	Created by:								 		   TheYaXxE  //
-// 	Last change:									   15-01-18  //
+// 	Last change:									   18-01-18  //
 //  Licensed to:								 DanishBits.org  //
 // 															     //
 // 	Description:											     //
@@ -449,7 +449,7 @@ table tr:nth-child(even) {
 -----------------------{  5. Body & Wrapper  }---------------------
 -----------------------------------------------------------------*/
 body {
-	background:								url("images/bg.jpg") center fixed, #f1f1f1;
+	background:								url("images/bg-2.jpg") center fixed, #f1f1f1;
 	background-size: 						cover;
 	font-family: 							"Open Sans", Helvetica;
 }
@@ -469,6 +469,18 @@ body:before {
 
 #wrapper {
 	width: 									100%;
+}
+
+#wrapper::before {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(rgba(255,255,255,.5),rgba(0,0,0,0));
+    z-index: -9999999;
 }
 
 
