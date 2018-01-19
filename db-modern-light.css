@@ -1433,6 +1433,12 @@ table tr.colhead {
 	display: table;
 }
 */
+.forum_post tr.colhead_dark td:first-of-type > span,
+.forum_post tr.colhead_dark td:first-of-type > span > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
 .forum_post tr.colhead_dark td:first-of-type a.post_id {
 	display: inline-block;
     color: #333;
