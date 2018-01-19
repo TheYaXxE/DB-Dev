@@ -1470,6 +1470,10 @@ table tr.colhead {
     margin-left: 4px;
 }
 
+.forum_post tr.colhead_dark td:first-of-type > b {
+	padding: 0 12px;
+}
+
 /* Sticky */
 .forum_post tr.colhead_dark td:first-of-type > b,
 .forum_post tr.colhead_dark span.sticky_post {
@@ -1488,12 +1492,8 @@ table tr.colhead {
 	overflow: hidden;
 }
 
-.forum_post tr.colhead_dark td:first-of-type > b {
-	padding: 0 12px;
-}
-
-span.sticky_post::before,
-span.sticky_post::after {
+.forum_post tr.colhead_dark span.sticky_post::before,
+.forum_post tr.colhead_dark span.sticky_post::after {
     content: '';
     display: inline-block;
     position: absolute;
@@ -1503,12 +1503,26 @@ span.sticky_post::after {
     background: inherit;
 }
 
-span.sticky_post::before {
+.forum_post tr.colhead_dark span.sticky_post::before {
     left: 0;
 }
 
-span.sticky_post::after {
+.forum_post tr.colhead_dark span.sticky_post::after {
     right: 0;
+}
+
+.forum_post .colhead_dark span.time {
+	font-size: 13px;
+}
+
+.forum_post .colhead_dark span.time::before,
+.forum_post .colhead_dark span.time::after {
+    display: inline-block;
+    content: '-';
+    margin: 0 8px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #333;
 }
 
 /* Quote & Report icons */
