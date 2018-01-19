@@ -444,6 +444,10 @@ table tr:nth-child(even) {
     font-size: 13px;
 }
 
+table tr td {
+	text-align: left;
+}
+
 table tr td a[href*="action=newbrowse&sort"]::after {
     content: '';
     display: inline-block;
