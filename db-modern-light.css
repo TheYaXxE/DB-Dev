@@ -1450,8 +1450,10 @@ table tr.colhead {
 .forum_post tr.colhead_dark td:first-of-type .labelop {
 	display:							inline-block;
 	background: 							rgba(0,0,0,0.8);
-	padding: 								7px 8px;
-	color: 									#FFF;
+	font-size:							11px;
+	padding: 							7px 8px;
+	color: 								#FFF;
+	border-radius: 4px;
 }
 
 .forum_post tr.colhead_dark td:first-of-type a.post_id + .labelop {
@@ -1468,6 +1470,7 @@ table tr.colhead {
 }
 
 /* Sticky */
+.forum_post tr.colhead_dark td:first-of-type > b,
 .forum_post tr.colhead_dark span.sticky_post {
 	display: inline-block;
 	height: 25px;
@@ -1482,6 +1485,10 @@ table tr.colhead {
 	margin-right: 5px;
 	vertical-align: top;
 	overflow: hidden;
+}
+
+.forum_post tr.colhead_dark td:first-of-type > b {
+	padding: 0 12px;
 }
 
 span.sticky_post::before,
