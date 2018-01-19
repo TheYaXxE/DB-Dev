@@ -444,6 +444,21 @@ table tr:nth-child(even) {
     font-size: 13px;
 }
 
+table tr td a[href*="action=newbrowse&sort"]::after {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(https://rawgit.com/TheYaXxE/DB-Dev/master/images/dropdown_arrow-down.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: 30px;
+}
+
+table tr td a[href*="DESC"]::after {
+    transform: rotate(180deg);
+}
+
 
 /*-----------------------------------------------------------------
 -----------------------{  5. Body & Wrapper  }---------------------
