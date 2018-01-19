@@ -1448,6 +1448,7 @@ table tr.colhead {
     border: 1px solid rgba(0,0,0,.12);
 }
 
+.forum_post tr.colhead_dark td:first-of-type span .labelop,
 .forum_post tr.colhead_dark td:first-of-type .labelop {
 	display:							inline-block;
 	background: 							rgba(0,0,0,0.8);
