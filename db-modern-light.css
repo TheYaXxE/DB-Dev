@@ -1425,17 +1425,15 @@ table tr.colhead {
 /*------------------------{  7.1. Forum  }-----------------------*/
 .forum_post tr.colhead_dark td {
 	padding-left: 							15px;
+	font-size:							0;
 	text-align: 							left;
 	white-space:							nowrap
 }
-/*
-.forum_post tr.colhead_dark td:first-of-type > span {
-	display: table;
-}
-*/
-.forum_post tr.colhead_dark td:first-of-type > span,
+
+.forum_post tr.colhead_dark td:first-of-type > *,
 .forum_post tr.colhead_dark td:first-of-type > span > * {
     display: inline-block;
+	font-size: 15px;
     vertical-align: middle;
 }
 
