@@ -1511,7 +1511,7 @@ table tr.colhead {
     right: 0;
 }
 
-.forum_post .colhead_dark span.time {
+.forum_post tr.colhead_dark td:first-of-type span.time {
 	font-size: 13px;
 }
 
