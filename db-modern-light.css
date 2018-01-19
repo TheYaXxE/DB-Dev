@@ -1430,8 +1430,9 @@ table tr.colhead {
 	white-space:							nowrap
 }
 
-.forum_post tr.colhead_dark td:first-of-type > *,
-.forum_post tr.colhead_dark td:first-of-type > span > * {
+.forum_post tr.colhead_dark td:first-of-type > .labelop,
+.forum_post tr.colhead_dark td:first-of-type > .labelop ~ *,
+.forum_post tr.colhead_dark td:first-of-type > span:not(.labelop) > * {
     display: inline-block;
 	font-size: 15px;
     vertical-align: middle;
