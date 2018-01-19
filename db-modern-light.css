@@ -1450,8 +1450,9 @@ table tr.colhead {
 }
 
 .forum_post tr.colhead_dark td:first-of-type .labelop {
+	display:							inline-block;
 	background: 							rgba(0,0,0,0.8);
-	padding: 								5px 8px;
+	padding: 								7px 8px;
 	color: 									#FFF;
 }
 
@@ -1466,6 +1467,42 @@ table tr.colhead {
 .forum_post tr.colhead_dark td:first-of-type strong a + a img,
 .forum_post tr.colhead_dark td:first-of-type strong img + img {
     margin-left: 4px;
+}
+
+/* Sticky */
+.forum_post tr.colhead_dark span.sticky_post {
+	display: inline-block;
+	height: 25px;
+	line-height: 25px;
+	background: #e64627;
+	position: relative;
+	font-size: 13px;
+	color: #FFF;
+	text-transform: uppercase;
+	border-radius: 4px;
+	padding: 0 8px;
+	margin-right: 5px;
+	vertical-align: top;
+	overflow: hidden;
+}
+
+span.sticky_post::before,
+span.sticky_post::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    width: 13px;
+    height: 100%;
+    background: inherit;
+}
+
+span.sticky_post::before {
+    left: 0;
+}
+
+span.sticky_post::after {
+    right: 0;
 }
 
 /* Quote & Report icons */
