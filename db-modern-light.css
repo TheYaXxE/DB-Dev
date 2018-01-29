@@ -1350,7 +1350,7 @@ table tr.colhead {
 
 .box .head span.time,
 .forum_post .colhead_dark span.time,
-.torrent span.time{
+.torrent span.time {
 	font-size: 								13px;
 	color: 									rgba(0,0,0,0.3);
 	margin-left: 							5px;
@@ -1719,16 +1719,16 @@ table.torrent_table {
 	transform: translate3d(-100px,0,0);
 }
 
-table.torrent_table.torrent tr.torrent {
+table.torrent_table .torrent tr.torrent {
     font-size: 13px;
 }
 
-table.torrent_table.torrent tr td {
+table.torrent_table .torrent tr td {
     padding: 8px 12px;
     white-space: nowrap;
 }
 
-tr.torrent td:nth-child(3) tr td div {
+table.torrent_table tr.torrent td:nth-child(3) tr td div {
     font-size: 12px;
     color: rgba(0,0,0,0.3);
 	margin-top: -2px;
