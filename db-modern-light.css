@@ -1349,7 +1349,8 @@ table tr.colhead {
 }
 
 .box .head span.time,
-.forum_post .colhead_dark span.time {
+.forum_post .colhead_dark span.time,
+.torrent span.time{
 	font-size: 								13px;
 	color: 									rgba(0,0,0,0.3);
 	margin-left: 							5px;
@@ -1713,6 +1714,17 @@ table.forum_post.forum_unread .colhead_dark td + td::before {
 }
 
 /*--------------------{  7.2. Torrent Table  }-------------------*/
+table.torrent_table {
+	width: calc(100% + 200px);
+	transform: translate3d(-100px,0,0);
+}
+
+table.torrent_table tr.torrent td:nth-child(5),
+table.torrent_table tr.torrent td:nth-child(6),
+table.torrent_table tr.torrent td:nth-child(7) {
+    border-right: 1px dashed rgba(0,0,0,.08);
+}
+
 
 /*--------------------{  7.2. Search Table  }-------------------*/
 table.searchtable > tbody > tr:first-of-type {
