@@ -1719,6 +1719,21 @@ table.torrent_table {
 	transform: translate3d(-100px,0,0);
 }
 
+table.torrent_table.torrent tr td {
+    padding: 8px 12px;
+    white-space: nowrap;
+}
+
+table.torrent_table.torrent tr.torrent {
+    font-size: 13px;
+}
+
+tr.torrent td:nth-child(3) tr td div {
+    font-size: 12px;
+    color: rgba(0,0,0,0.3);
+	margin-top: -2px;
+}
+
 table.torrent_table tr.torrent td:nth-child(5),
 table.torrent_table tr.torrent td:nth-child(6),
 table.torrent_table tr.torrent td:nth-child(7) {
