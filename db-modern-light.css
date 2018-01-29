@@ -1719,13 +1719,13 @@ table.torrent_table {
 	transform: translate3d(-100px,0,0);
 }
 
+table.torrent_table.torrent tr.torrent {
+    font-size: 13px;
+}
+
 table.torrent_table.torrent tr td {
     padding: 8px 12px;
     white-space: nowrap;
-}
-
-table.torrent_table.torrent tr.torrent {
-    font-size: 13px;
 }
 
 tr.torrent td:nth-child(3) tr td div {
