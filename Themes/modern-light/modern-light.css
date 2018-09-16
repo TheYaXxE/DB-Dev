@@ -230,7 +230,64 @@ table {
 -----------------------{  5. Body & Wrapper  }---------------------
 -----------------------------------------------------------------*/
 body {
-	background:								red;
+	background:								url("assets/bg.jpg") center fixed;
 	background-size: 						cover;
 	font-family: 							"Open Sans", Helvetica, Arial, serif;
+}
+
+#wrapper {
+	width: 									100%;
+}
+
+
+/*-----------------------------------------------------------------
+-----------------------{  6. Header Section  }---------------------
+-----------------------------------------------------------------*/
+#header {
+	width:									100%;
+	min-width:								auto !important;
+	min-height:								145px;
+	position:								relative;
+	font-family: 							"Open Sans", Helvetica;
+}
+
+/* Header Top */
+#header:before {
+	display: 								block;
+	height: 								55px;
+	content: 								'';
+	position: 								absolute;
+	top: 									0;
+	right: 									0;
+	left:									0;
+	background:								red;
+	z-index: 								0;
+}
+
+/* Logo */
+#header #logocenter {
+	display:								inline-block;
+    height:									34px;
+    position:								absolute;
+    top:									10px;
+    left:									calc( (100vw - 1050px) / 2 );
+}
+
+#header #logocenter #lolgo {
+	width: 									164px;
+	height:									inherit;
+	position: 								relative;
+	z-index: 								100;
+}
+
+#header #logocenter #lolgo a#linkroot {
+	display: 								block;
+	background: 							blue;
+	background-size: 						164px 34px;
+	width: 									inherit;
+	height:									inherit;
+}
+
+#header #logocenter #lolgo a#linktorrent {
+	display: 								none;
 }
