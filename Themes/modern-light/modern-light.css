@@ -120,3 +120,117 @@ table {
 	content:								'';
 	clear:									both;
 }
+
+
+/*-----------------------------------------------------------------
+----------------------{  3. CSS Animations  }----------------------
+-----------------------------------------------------------------*/
+/* Animation Poll Bars */
+@-webkit-keyframes poll_move {
+	0% {
+		width: 								0;
+	}
+	100% {
+		width: 								100%;
+	}
+}
+@-moz-keyframes poll_move {
+	0% {
+		width: 								0;
+	}
+	100% {
+		width: 								100%;
+	}
+}
+@keyframes poll_move {
+	0% {
+		width: 								0;
+	}
+	100% {
+		width: 								100%;
+	}
+}
+
+/* Show Modal Close Button */
+@-webkit-keyframes modal_close_btn {
+	0% {
+		opacity:							0;
+		transform: 							translate3d(0,-100%,0);
+	}
+	0%, 30% {
+		opacity:							0;
+	}
+	100% {
+		opacity: 							1;
+		transform: 							translate3d(0,0,0);
+	}
+}
+@-moz-keyframes modal_close_btn {
+	0% {
+		opacity:							0;
+		transform: 							translate3d(0,-100%,0);
+	}
+	0%, 30% {
+		opacity:							0;
+	}
+	100% {
+		opacity: 							1;
+		transform: 							translate3d(0,0,0);
+	}
+}
+@keyframes modal_close_btn {
+	0% {
+		transform: 							translate3d(0,-100%,0);
+	}
+	0%, 30% {
+		opacity:							0;
+	}
+	100% {
+		opacity: 							1;
+		transform: 							translate3d(0,0,0);
+	}
+}
+
+/* Fade element out */
+@-webkit-keyframes fadeOut {
+	0% {
+		opacity: 							1;
+	}
+	100% {
+		opacity: 							0;
+	}
+}
+@-moz-keyframes fadeOut {
+	0% {
+		opacity: 							1;
+	}
+	100% {
+		opacity: 							0;
+	}
+}
+@keyframes fadeOut {
+	0% {
+		opacity: 							1;
+	}
+	100% {
+		opacity: 							0;
+	}
+}
+
+
+/*-----------------------------------------------------------------
+-----------------------{  4. Global Styles  }----------------------
+-----------------------------------------------------------------*/
+.hidden {
+	display:								none;
+}
+
+
+/*-----------------------------------------------------------------
+-----------------------{  5. Body & Wrapper  }---------------------
+-----------------------------------------------------------------*/
+body {
+	background:								red;
+	background-size: 						cover;
+	font-family: 							"Open Sans", Helvetica, Arial, serif;
+}
