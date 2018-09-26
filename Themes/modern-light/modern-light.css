@@ -1269,4 +1269,9 @@ table tr.colhead {
 
 
 /*--------------{  ?? Rich Editor  }--------------*/
-.richeditor
+.richeditor {}
+
+
+#myCanvas {
+	cursor: url('assets/coin32.png') !important;
+}
