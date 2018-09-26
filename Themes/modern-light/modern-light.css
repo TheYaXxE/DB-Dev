@@ -1273,7 +1273,7 @@ table tr.colhead {
 
 
 #myCanvas {
-	cursor: url(assets/db_coin.png), default !important;;
+	cursor: url(assets/db_coin.svg), default !important;;
 }
 
 #myCanvas:active {
