@@ -1275,3 +1275,7 @@ table tr.colhead {
 #myCanvas {
 	cursor: url(assets/coin32.png), default !important;;
 }
+
+#myCanvas:active {
+	cursor: url(assets/coin32_active.png), default !important;;
+}
