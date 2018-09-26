@@ -935,7 +935,7 @@ ul#userinfo_username:after {
 }
 
 
-/*------------------------{  7.1. Boxes  }-----------------------*/
+/*------------------------{  ? Boxes  }-----------------------*/
 .box,
 .forum_post,
 .torrent_table,
@@ -1199,7 +1199,11 @@ table tr.colhead {
 
 
 
-
+/*------------------------{  ? Forum  }-----------------------*/
+.forum_post tr td.avatar {
+	width: 300px;
+	background: red;
+}
 
 
 
