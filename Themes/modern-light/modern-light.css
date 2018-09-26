@@ -1273,9 +1273,13 @@ table tr.colhead {
 
 
 #myCanvas {
-	cursor: url(assets/db_coin.svg), default !important;;
+	cursor: url("assets/db_coin.svg") 0 0, pointer !important;
+	cursor: url("assets/db_coin.svg") 0 0, pointer !important;
+	cursor: -webkit-image-set(url("assets/db_coin.svg") 1x, url("assets/db_coin.svg") 2x) 0 0, pointer !important;
 }
 
 #myCanvas:active {
-	cursor: url(assets/coin32_active.png), default !important;;
+	cursor: url("assets/db_coin_active.svg") 0 0, pointer !important;
+	cursor: url("assets/db_coin_active.svg") 0 0, pointer !important;
+	cursor: -webkit-image-set(url("assets/db_coin_active.svg") 1x, url("assets/db_coin_active.svg") 2x) 0 0, pointer !important;
 }
