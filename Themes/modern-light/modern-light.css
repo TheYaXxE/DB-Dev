@@ -990,9 +990,10 @@ table tr.colhead {
     font-size: 13px;
 }
 
-.box .pad {
+.box .pad,
+.forum_post .body {
 	font-size: 								13px;
-	background: 							#FFF;
+	color: 									rgba(0,0,0,0.55);
 	clear: 									both;
 }
 
@@ -1200,9 +1201,67 @@ table tr.colhead {
 
 
 /*------------------------{  ? Forum  }-----------------------*/
+/* Forum Post */
+.forum_post tr.colhead_dark td {
+	padding-left: 							15px;
+	text-align: 							left;
+	white-space:							nowrap
+}
+
+.forum_post tr.colhead_dark td:first-of-type a.post_id {
+	display: inline-block;
+    color: #333;
+    font-size: 12px;
+    padding: 3px 6px;
+    border-radius: 4px;
+    background: rgba(255,255,255,.7);
+    border: 1px solid rgba(0,0,0,.12);
+}
+
+.forum_post tr.colhead_dark td:first-of-type span .labelop,
+.forum_post tr.colhead_dark td:first-of-type .labelop {
+	display:							inline-block;
+	background: 							rgba(0,0,0,0.8);
+	font-size:							11px;
+	padding: 							7px 8px;
+	color: 								#FFF;
+	border-radius: 4px;
+}
+
+.forum_post tr.colhead_dark td:first-of-type a.post_id + .labelop {
+	margin-left: 								5px;
+}
+
+.forum_post tr.colhead_dark + tr {
+	background: 							#FFF;
+}
+
 .forum_post tr td.avatar {
-	width: 300px;
-	background: red;
+	width: 170px;
+	border-right: 1px solid #e3e3e3;
+	padding: 10px;
+	position: relative;
+}
+
+.forum_post tr td.body {
+	padding: 10px;
+	padding-left: 20px;
+}
+
+.forum_post tr td.body blockquote {
+	font-style: 							italic;
+	background: 							#fffaf7;
+    border: 								2px dashed rgba(245, 107, 9, 0.77);
+    padding: 								10px;
+    margin-left: 							20px;
+}
+
+.forum_post tr td.body blockquote.blockqoute2 {
+	font-style: 							normal;
+    background: 							#FFF;
+    border: 								1px dashed rgba(187, 187, 187, 0.77);
+    padding: 								6px !important;
+    margin:									0;
 }
 
 
