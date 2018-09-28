@@ -244,6 +244,11 @@ table {
     color: #FFF;
     padding: 12px 50px;
     border-radius: 4px;
+    transition: all .12s ease-in-out;
+}
+
+#alerts .alertbar a:hover {
+    background: #04ce83;
 }
 
 .alertbar a font {
@@ -1210,28 +1215,34 @@ table tr.colhead {
 	white-space:							nowrap
 }
 
+.forum_post tr.colhead_dark td + td {
+	padding-left:							0;
+	padding-right:							15px;
+	text-align:								right;
+}
+
 .forum_post tr.colhead_dark td:first-of-type a.post_id {
-	display: inline-block;
-    color: #333;
-    font-size: 12px;
-    padding: 3px 6px;
-    border-radius: 4px;
-    background: rgba(255,255,255,.7);
-    border: 1px solid rgba(0,0,0,.12);
+	display: 								inline-block;
+	color: 									#333;
+	font-size: 								12px;
+	padding: 								3px 6px;
+	border-radius: 							4px;
+	background: 							rgba(255,255,255,.7);
+	border: 								1px solid rgba(0,0,0,.12);
 }
 
 .forum_post tr.colhead_dark td:first-of-type span .labelop,
 .forum_post tr.colhead_dark td:first-of-type .labelop {
-	display:							inline-block;
+	display:								inline-block;
 	background: 							rgba(0,0,0,0.8);
-	font-size:							11px;
-	padding: 							7px 8px;
-	color: 								#FFF;
-	border-radius: 4px;
+	font-size:								11px;
+	padding: 								7px 8px;
+	color: 									#FFF;
+	border-radius:							4px;
 }
 
 .forum_post tr.colhead_dark td:first-of-type a.post_id + .labelop {
-	margin-left: 								5px;
+	margin-left: 							5px;
 }
 
 .forum_post tr.colhead_dark + tr {
@@ -1239,31 +1250,31 @@ table tr.colhead {
 }
 
 .forum_post tr td.avatar {
-	width: 170px;
-	border-right: 1px solid #e3e3e3;
-	padding: 10px;
-	position: relative;
+	width: 									170px;
+	border-right: 							1px solid #e3e3e3;
+	padding: 								10px;
+	position: 								relative;
 }
 
 .forum_post tr td.body {
-	padding: 10px;
-	padding-left: 20px;
+	padding:								10px;
+	padding-left: 							20px;
 }
 
 .forum_post tr td.body blockquote {
 	font-style: 							italic;
 	background: 							#fffaf7;
-    border: 								2px dashed rgba(245, 107, 9, 0.77);
-    padding: 								10px;
-    margin-left: 							20px;
+	border: 								2px dashed rgba(245, 107, 9, 0.77);
+	padding: 								10px;
+	margin-left: 							20px;
 }
 
 .forum_post tr td.body blockquote.blockqoute2 {
 	font-style: 							normal;
-    background: 							#FFF;
-    border: 								1px dashed rgba(187, 187, 187, 0.77);
-    padding: 								6px !important;
-    margin:									0;
+	background: 							#FFF;
+	border: 								1px dashed rgba(187, 187, 187, 0.77);
+	padding: 								6px !important;
+	margin:									0;
 }
 
 
@@ -1282,4 +1293,83 @@ table tr.colhead {
 	cursor: url("assets/db_coin_active.svg") 0 0, pointer !important;
 	cursor: url("assets/db_coin_active.svg") 0 0, pointer !important;
 	cursor: -webkit-image-set(url("assets/db_coin_active.svg") 1x, url("assets/db_coin_active.svg") 2x) 0 0, pointer !important;
+}
+
+
+/*--------------{  User Icons, Smileys ect  }--------------*/
+/* User Class Icons */
+img[src*="/classes"],
+img[src*="/symbols/donor.png"],
+img[src*="/symbols/disabled.png"],
+img[src*="/symbols/Banv1.png"],
+a[id*="forumpic"] img[src*="class.png"],
+a[id*="forumpic"] img[src*="U.png"] {
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background-size: 18px;
+	background-repeat: no-repeat;
+	padding-left: 18px;
+	overflow: hidden;
+	vertical-align: top;
+}
+
+img[src*="/classes/superuser.png"],
+a[id="forumpic1"] img[src*="Super.class.png"] {
+	background-image: url(assets/user-icon_super-class.svg);
+}
+
+img[src*="/classes/hardcoreuser.png"],
+a[id="forumpic2"] img[src*="Hardcore.class.png"] {
+	background-image: url(assets/user-icon_hardcore-class.svg);
+}
+
+img[src*="/classes/diamonduser.png"],
+a[id="forumpic3"] img[src*="Diamond.class.png"] {
+	background-image: url(assets/user-icon_diamond-class.svg);
+}
+
+img[src*="/classes/legenduser.png"],
+a[id="forumpic4"] img[src*="Legend.class.png"] {
+	background-image: url(assets/user-icon_legend-class.svg);
+}
+
+img[src*="/classes/epicuser.png"],
+a[id="forumpic5"] img[src*="Elite.class.png"] {
+	background-image: url(assets/user-icon_epic-class.svg);
+}
+
+img[src*="/classes/vip.png"],
+a[id="forumpic6"] img[src*="VIP.class.png"] {
+	background-image: url(assets/user-icon_vip-class.svg);
+}
+
+img[src*="/classes/uploader.png"],
+a[id="forumpic7"] img[src*="U.png"] {
+	background-image: url(assets/user-icon_uploader-class.svg);
+}
+
+img[src*="/classes/unity.png"],
+a[id="forumpic8"] img[src*="UNiTY.class.png"] {
+	background-image: url(assets/user-icon_subber-class.svg);
+}
+
+img[src*="/classes/torrenteditor.png"],
+a[id="forumpic9"] img[src*="TE.TM.class.png"] {
+	background-image: url(assets/user-icon_torrent-class.svg);
+}
+
+img[src*="/classes/torrentmoderator.png"],
+a[id="forumpic10"] img[src*="TE.TM.class.png"] {
+	background-image: url(assets/user-icon_torrent-class.svg);
+}
+
+img[src*="/classes/fls.png"],
+a[id="forumpic11"] img[src*="FLS.class.png"] {
+	background-image: url(assets/user-icon_fls-class.svg);
+}
+
+img[src*="/classes/staff.png"],
+a[id="forumpic12"] img[src*="staff.class.png"] {
+	background-image: url(assets/user-icon_staff-class.svg);
 }
