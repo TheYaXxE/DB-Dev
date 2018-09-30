@@ -1330,6 +1330,14 @@ table tr.colhead {
     border-bottom: 0;
 }
 
+.richeditor .container .sceditor-container iframe {
+	width: 100% !important;
+	min-height: 220px !important;
+	margin: 0 !important;
+	padding: 12px;
+	background: #FFF;
+}
+
 /* Scratch */
 #myCanvas {
 	cursor: url("assets/db_coin.svg") 0 0, pointer !important;
