@@ -1210,15 +1210,16 @@ table tr.colhead {
 /*------------------------{  ? Forum  }-----------------------*/
 /* Forum Post */
 .forum_post tr.colhead_dark td {
-	padding-left: 							15px;
+	padding:								0 15px;
 	text-align: 							left;
-	white-space:							nowrap
+	white-space:							nowrap;
+	box-shadow:								inset -1px 0 0 rgba(1,1,1,0.06);
 }
 
 .forum_post tr.colhead_dark td + td {
-	padding-left:							0;
-	padding-right:							15px;
+	padding:								0 15px;
 	text-align:								right;
+	background: #FFF;
 }
 
 .forum_post tr.colhead_dark td:first-of-type a.post_id {
@@ -1245,6 +1246,30 @@ table tr.colhead {
 	margin-left: 							5px;
 }
 
+/* Forum post Like-counter */
+.forum_post tr.colhead_dark td + td > span[id*="likes"] b {
+	display: 								inline-block;
+	min-width: 								inherit;
+	height: 								inherit;
+	line-height: 							25px;
+	font-size: 								12px !important;
+	text-align: 							center !important;
+	color: 									#FFF;
+	border-radius: 							5px;
+	padding: 								0 7px;
+	background: 							rgba(0,0,0,.2);
+}
+
+.forum_post tr.colhead_dark td + td > span[id*="likes"] font[color="green"] b {
+	background: 							#1bb54e;
+}
+
+.forum_post tr.colhead_dark td + td > span[id*="likes"] font[color="green"] b::before {
+	display: 								inline-block;
+	content: 								'+';
+	margin-right: 							1px;
+}
+
 .forum_post tr.colhead_dark + tr {
 	background: 							#FFF;
 }
@@ -1259,12 +1284,12 @@ table tr.colhead {
 .forum_post tr td.avatar:before {
     display: block;
     content: '';
-    width: 14px;
-    height: 14px;
+    width: 12px;
+    height: 12px;
     background: #FFF;
     position: absolute;
-    top: 24px;
-    right: -8px;
+    top: 18px;
+    right: -6px;
     transform: rotate(45deg);
     border: 1px solid #e3e3e3;
 }
