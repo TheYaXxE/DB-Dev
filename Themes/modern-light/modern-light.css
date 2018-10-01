@@ -1429,3 +1429,9 @@ img[src*="/classes/staff.png"],
 a[id="forumpic12"] img[src*="staff.class.png"] {
 	background-image: url(assets/user-icon_staff-class.svg);
 }
+
+img[src*="/symbols/donor.png"] {
+	background-image: url(assets/user-icon_donate.svg);
+}
+
+
