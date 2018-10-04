@@ -1381,7 +1381,7 @@ table tr.colhead {
 /* User Class Icons */
 img[src*="/classes"],
 img[src*="/symbols/donor.png"],
-img[src*="/classes/warned.png"],
+img[src*="/symbols/warned.png"],
 img[src*="/symbols/disabled.png"],
 img[src*="/symbols/Banv1.png"],
 a[id*="forumpic"] img[src*="class.png"],
@@ -1460,7 +1460,7 @@ img[src*="/symbols/donor.png"] {
 	background-image: url(assets/user-icon_donate.svg);
 }
 
-img[src*="/classes/warned.png"] {
+img[src*="/symbols/warned.png"] {
 	background-image: url(assets/user-icon_warn.svg);
 }
 
