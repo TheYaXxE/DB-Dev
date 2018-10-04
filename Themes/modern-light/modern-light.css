@@ -991,13 +991,6 @@ table tr.colhead {
 	font-weight: 							400;
 }
 
-.box .pad,
-.forum_post .body {
-	font-size: 								13px;
-	color: 									#FFF;
-	clear: 									both;
-}
-
 .box table tr {
     width: 100%;
     height: 35px;
@@ -1388,6 +1381,7 @@ table tr.colhead {
 /* User Class Icons */
 img[src*="/classes"],
 img[src*="/symbols/donor.png"],
+img[src*="/classes/warned.png"],
 img[src*="/symbols/disabled.png"],
 img[src*="/symbols/Banv1.png"],
 a[id*="forumpic"] img[src*="class.png"],
@@ -1466,4 +1460,15 @@ img[src*="/symbols/donor.png"] {
 	background-image: url(assets/user-icon_donate.svg);
 }
 
+img[src*="/classes/warned.png"] {
+	background-image: url(assets/user-icon_warn.svg);
+}
+
+img[src*="/symbols/disabled.png"] {
+	background-image: url(assets/user-icon_disabled.svg);
+}
+
+img[src*="/symbols/Banv1.png"] {
+	background-image: url(assets/user-icon_ban.svg);
+}
 
