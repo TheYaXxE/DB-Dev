@@ -991,6 +991,13 @@ table tr.colhead {
 	font-weight: 							400;
 }
 
+.box .pad,
+.forum_post .body {
+	font-size: 								13px;
+	color: 									#FFF;
+	clear: 									both;
+}
+
 .box table tr {
     width: 100%;
     height: 35px;
