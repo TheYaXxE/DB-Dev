@@ -1002,6 +1002,7 @@ table tr.colhead {
 	font-size: 								13px;
 	color: 									rgba(0,0,0,0.55);
 	clear: 									both;
+	word-break:								break-word;
 }
 
 /* Sidebar on frontpage */
