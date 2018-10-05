@@ -1210,9 +1210,10 @@ table tr.colhead {
 /*------------------------{  ? Forum  }-----------------------*/
 /* Forum Post */
 .forum_post tr.colhead_dark td {
-	padding:								0 15px;
+	font-size: 								0;
 	text-align: 							left;
 	white-space:							nowrap;
+	padding:								0 15px;
 	box-shadow:								inset -1px 0 0 rgba(1,1,1,0.06);
 }
 
@@ -1306,8 +1307,8 @@ table tr.colhead {
 }
 
 .forum_post tr td.body {
-	padding:								10px;
-	padding-left: 							20px;
+	padding:								20px;
+	padding-top: 							10px;
 }
 
 .forum_post tr td.body blockquote {
