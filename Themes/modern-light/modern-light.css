@@ -1328,6 +1328,10 @@ table tr.colhead {
 	margin:									0;
 }
 
+.forum_post.forum_unread {
+    box-shadow: 0 0 0 2px rgb(36, 124, 210), 0 2px 8px rgba(0,0,0,.03);
+}
+
 
 
 /*--------------{  ?? Rich Editor  }--------------*/
