@@ -1459,7 +1459,6 @@ a[id="forumpic12"] img[src*="staff.class.png"] {
 
 img[src*="/symbols/donor.png"] {
 	background-image: url(assets/user-icon_donate.svg);
-	animation: donorRotate 2s infinite;
 }
 
 img[src*="/symbols/warned.png"] {
@@ -1472,15 +1471,5 @@ img[src*="/symbols/disabled.png"] {
 
 img[src*="/symbols/Banv1.png"] {
 	background-image: url(assets/user-icon_ban.svg);
-}
-
-
-@keyframes donorRotate {
-    from {
-    	transform: rotate(0deg);
-    }
-    to {
-    	transform: rotate(360deg);
-    }
 }
 
