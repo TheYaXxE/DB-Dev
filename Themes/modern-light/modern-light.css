@@ -985,7 +985,7 @@ table tr.colhead {
 .box .head span.time,
 .forum_post .colhead_dark span.time,
 .torrent span.time {
-	font-size: 								13px;
+	font-size: 								13px !important;
 	color: 									rgba(0,0,0,0.3);
 	margin-left: 							5px;
 	font-weight: 							400;
@@ -1232,6 +1232,11 @@ table tr.colhead {
 	border-radius: 							4px;
 	background: 							rgba(255,255,255,.7);
 	border: 								1px solid rgba(0,0,0,.12);
+}
+
+.forum_post tr.colhead_dark td:first-child > span > span,
+.forum_post tr.colhead_dark td:first-child > span > a {
+    font-size: 15px;
 }
 
 .forum_post tr.colhead_dark td:first-of-type span .labelop,
