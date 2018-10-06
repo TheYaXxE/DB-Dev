@@ -1234,6 +1234,7 @@ table tr.colhead {
 	border: 								1px solid rgba(0,0,0,.12);
 }
 
+.forum_post tr.colhead_dark td:first-child > span > strong,
 .forum_post tr.colhead_dark td:first-child > span > span,
 .forum_post tr.colhead_dark td:first-child > span > a {
     font-size: 15px;
