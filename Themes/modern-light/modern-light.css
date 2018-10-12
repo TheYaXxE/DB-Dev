@@ -1234,9 +1234,13 @@ table tr.colhead {
 	border: 								1px solid rgba(0,0,0,.12);
 }
 
-.forum_post tr.colhead_dark td:first-child > span > strong,
-.forum_post tr.colhead_dark td:first-child > span > span,
-.forum_post tr.colhead_dark td:first-child > span > a {
+.forum_post tr.colhead_dark td:first-child span[style*="left"] > a,
+.forum_post tr.colhead_dark td:first-child span[style*="left"] > strong,
+.forum_post tr.colhead_dark td:first-child span[style*="left"] > span,
+.forum_post tr.colhead_dark td:first-child > b,
+.forum_post tr.colhead_dark td:first-child > a,
+.forum_post tr.colhead_dark td:first-child > strong,
+.forum_post tr.colhead_dark td:first-child > span:not([style*="left"]) {
     font-size: 15px;
 }
 
