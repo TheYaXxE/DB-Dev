@@ -1005,6 +1005,10 @@ table tr.colhead {
 	word-break:								break-word;
 }
 
+.box .pad {
+	background: 							#FFF;
+}
+
 /* Sidebar on frontpage */
 .sidebar .box {
     height: initial !important;
@@ -1256,6 +1260,12 @@ table tr.colhead {
 
 .forum_post tr.colhead_dark td:first-of-type a.post_id + .labelop {
 	margin-left: 							5px;
+}
+
+.forum_post tr.colhead_dark td:first-of-type a[href*="postformy"],
+.forum_post tr.colhead_dark td:first-of-type a[href*="action=report"],
+.forum_post tr.colhead_dark td:first-of-type a[onclick*="Edit_Form"] {
+	background: red;
 }
 
 /* Forum post Like-counter */
