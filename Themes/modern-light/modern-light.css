@@ -277,6 +277,8 @@ table tr td {
 -----------------------------------------------------------------*/
 body {
 	background:								url("assets/bg-2.jpg") center fixed;
+	background: linear-gradient(#c2d6e8,#f4faff) center fixed;
+    	background: linear-gradient(#d1e2f1,#aec7dc) center fixed;
 	background-size: 						cover;
 	font-family: 							"Open Sans", Helvetica, Arial, serif;
 	-webkit-font-smoothing:					antialiased;
@@ -1077,7 +1079,7 @@ table tr.colhead {
     overflow: hidden;
 }
 
-.box table tr:hover,
+.sidebar .box:not(.newspage) table tr:hover,
 .sidebar .box.newspage table tr:hover:not(:last-child) {
 	color: #FFF;
     background: rgba(44,129,188,0.9);
