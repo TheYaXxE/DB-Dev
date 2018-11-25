@@ -924,6 +924,7 @@ ul#userinfo_username:after {
 #content .thin {
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
     width: 1100px;
     min-width: auto !important;
     position: relative;
