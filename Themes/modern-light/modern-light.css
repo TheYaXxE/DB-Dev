@@ -1242,6 +1242,20 @@ table tr.colhead {
 	text-align:								right;
 		background: #FFF;
 }
+
+.forum_post tr.colhead_dark td:first-of-type > span {
+	display: inline-block;
+}
+
+.forum_post tr.colhead_dark td:first-of-type > span:first-child {
+	width: calc( 100% -30px );
+	background: yellow;
+}
+
+.forum_post tr.colhead_dark td:first-of-type > span:last-child {
+	width: 30px;
+	background: blue;
+}
 /*
 .forum_post tr.colhead_dark td:first-of-type a.post_id {
 	display: 								inline-block;
