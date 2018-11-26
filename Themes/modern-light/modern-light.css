@@ -1248,14 +1248,33 @@ table tr.colhead {
 }
 
 .forum_post tr.colhead_dark td:first-of-type > span:first-child {
-	width: calc( 100% -30px );
+	width: calc( 100% - 30px );
 	background: yellow;
+}
+
+/* Single post options */
+.forum_post tr.colhead_dark td:first-of-type > span:first-child a[href*="postformy"],
+.forum_post tr.colhead_dark td:first-of-type > span:first-child a[href*="action=report"] {
+    font-size: 0;
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    vertical-align: top;
+}
+
+.forum_post tr.colhead_dark td:first-of-type > span:first-child a[href*="postformy"] {
+	background: blue;
+}
+
+.forum_post tr.colhead_dark td:first-of-type > span:first-child a[href*="action=report"] {
+	background: green;
 }
 
 .forum_post tr.colhead_dark td:first-of-type > span:last-child {
 	width: 30px;
 	background: blue;
 }
+
 /*
 .forum_post tr.colhead_dark td:first-of-type a.post_id {
 	display: 								inline-block;
