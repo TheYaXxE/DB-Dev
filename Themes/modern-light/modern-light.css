@@ -1252,6 +1252,18 @@ table tr.colhead {
 	border: 								1px solid rgba(0,0,0,.12);
 }
 
+.forum_post tr.colhead_dark td > span {
+	display: inline-block;
+}
+
+.forum_post tr.colhead_dark td span:first-child {
+	width: calc( 100% - 30px );
+}
+
+.forum_post tr.colhead_dark td span:last-child {
+	width: 30px;
+}
+
 .forum_post tr.colhead_dark td:first-child span[style*="left"] > a,
 .forum_post tr.colhead_dark td:first-child span[style*="left"] > strong,
 .forum_post tr.colhead_dark td:first-child span[style*="left"] > span,
