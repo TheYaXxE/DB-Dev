@@ -1366,6 +1366,37 @@ table tr.colhead {
     box-shadow: 0 0 0 2px rgb(36, 124, 210), 0 2px 8px rgba(0,0,0,.03);
 }
 
+.thinforum h3 {
+	display: inline-block;
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 20px;
+	position: relative;
+	left: 50%;
+	transform: translate3d(-50%,0,0);
+}
+
+.thinforum h3:before, h3:after {
+	content: '';
+	display: block;
+	width: calc( ((1100px - 100%) /2) - 20px );
+	height: 1px;
+	border-bottom: 1px solid #000;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto 0;
+}
+
+.thinforum h3:before {
+	left: 0;
+	transform: translate3d( calc( -100% - 20px), 0,0 );
+}
+
+.thinforum h3:after {
+	right: 0;
+	transform: translate3d( calc( 100% + 20px), 0,0 );
+}
 
 
 /*--------------{  ?? Rich Editor  }--------------*/
