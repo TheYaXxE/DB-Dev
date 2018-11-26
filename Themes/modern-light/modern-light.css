@@ -1229,7 +1229,7 @@ table tr.colhead {
 /*------------------------{  ? Forum  }-----------------------*/
 /* Forum Post */
 .forum_post tr.colhead_dark td {
-	font-size: 								0;
+	/*font-size: 								0;*/
 	text-align: 							left;
 	white-space:							nowrap;
 	padding:								0 15px;
@@ -1558,3 +1558,4 @@ img[src*="/symbols/disabled.png"] {
 img[src*="/symbols/Banv1.png"] {
 	background-image: url(assets/user-icon_ban.svg);
 }
+
