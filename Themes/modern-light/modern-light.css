@@ -1250,6 +1250,13 @@ table tr.colhead {
 .forum_post tr.colhead_dark td:first-of-type > span:first-child {
 	width: calc( 100% - 30px );
 	background: yellow;
+	float: left;
+	text-align: right;
+}
+
+.forum_post tr.colhead_dark td:first-of-type > span:first-child > a:first-child,
+.forum_post tr.colhead_dark td:first-of-type > span:first-child > *:not(a) {
+    float: left;
 }
 
 /* Single post options */
