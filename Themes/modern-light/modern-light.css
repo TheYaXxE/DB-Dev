@@ -1251,6 +1251,9 @@ table tr.colhead {
 	width: calc( 100% - 30px );
 	background: yellow;
 	float: left;
+}
+
+.forum_post.vispost tr.colhead_dark td:first-of-type > span:first-child {
 	text-align: right;
 }
 
