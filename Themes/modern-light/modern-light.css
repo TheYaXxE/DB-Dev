@@ -1285,8 +1285,18 @@ table tr.colhead {
 	background: purple;
 }
 
+/* Forum right side */
 .forum_post tr.colhead_dark td:first-of-type > span:last-child {
+	display: inline-block;
+	min-width: 30px;
+	height: 20px;
+	background: yellow;
+}
+
+.forum_post tr.colhead_dark td:first-of-type > span:last-child a {
+	display: inline-block;
 	width: 30px;
+	height: 20px;
 	background: blue;
 }
 
