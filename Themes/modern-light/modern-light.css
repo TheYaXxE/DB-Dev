@@ -1621,6 +1621,7 @@ img[src*="/symbols/Banv1.png"] {
 
 
 /* Xmas edition  */
+/*
 body {
 	background: linear-gradient(#7290ab,#395165) center fixed
 }
@@ -1684,3 +1685,4 @@ body {
 	0% { background-position: 0 0, 0 0; }
 	100% { background-position: 0 400px, 0 300px; }
 }
+*/
