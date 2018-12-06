@@ -1622,6 +1622,7 @@ img[src*="/symbols/Banv1.png"] {
 
 /* Xmas edition  */
 #extra1 {
+	display: block;
 	height: 100%;
 	width: 100%;
 	position: fixed;
@@ -1635,7 +1636,8 @@ img[src*="/symbols/Banv1.png"] {
 	animation: snowFront 20s linear infinite;
 }
 
-#extra2 {
+#extra1 span {
+	display: block;
 	height: 100%;
 	width: 100%;
 	position: fixed;
