@@ -1617,3 +1617,36 @@ img[src*="/symbols/Banv1.png"] {
 	background-image: url(assets/user-icon_ban.svg);
 }
 
+
+
+
+/* Xmas edition  */
+#extra1 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-image: url(http://gdurl.com/dIoP),
+  url(http://gdurl.com/G5Vp),
+  url();
+  z-index: 1;
+  pointer-events: none;
+  -moz-animation: snow 10s linear infinite;
+  -webkit-animation: snow 10s linear infinite;
+  animation: snow 10s linear infinite;
+
+}
+
+@-moz-keyframes snow {
+  0% { background-position: 0 0, 0 0, 0 0; }
+  100% { background-position: 500px 1000px, 0 400px, 0 300px; }
+}
+
+@-webkit-keyframes snow {
+  0% { background-position: 0 0, 0 0, 0 0; }
+  100% { background-position: 500px 1000px, 0 400px, 0 300px; }
+}
+
+@keyframes snow {
+  0% { background-position: 0 0, 0 0, 0 0; }
+  100% { background-position: 500px 1000px, 0 400px, 0 300px; }
+}
