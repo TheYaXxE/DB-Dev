@@ -78,7 +78,8 @@ rgba(43, 88, 199, 0.77)
 /*
 
 	Reguar button and menu-highlight:
-		#ecedee
+		#e7ebef
+		e7ebef
 
 	
 
@@ -916,7 +917,7 @@ ul#userinfo_username:after {
 }
 
 #header > #menu > ul li a:hover {
-	background: #ecedee;
+	background: #e7ebef;
 }
 
 /*----------------------{  6.3. Search Bar  }---------------------*/
@@ -1116,7 +1117,7 @@ table tr.colhead {
     color: rgba(0,0,0,0.6);
     border-radius: 3px;
     padding: 0 5px;
-    background: #ecedee;
+    background: #e7ebef;
 }
 
 .sidebar .box.newspage table tr:last-child td > span a:not([href*="action=subscriptions"]):before,
@@ -1208,7 +1209,7 @@ table tr.colhead {
 .box .pad ul.poll.nobullet > li.graph {
 	height: 								8px;
 	min-height: 							initial;
-	background:								#ecedee;
+	background:								#e7ebef;
 	margin-bottom:							10px;
 	border-radius: 3px;
 	overflow: hidden;
