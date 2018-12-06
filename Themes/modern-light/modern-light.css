@@ -5,7 +5,7 @@
 // 															     //
 //  Version:											  0.3.0  //
 //	Created by:								 		   TheYaXxE  //
-// 	Last change:									   06-129-18  //
+// 	Last change:									   06-12-18  //
 //  Licensed to:								 DanishBits.org  //
 // 															     //
 // 	Description:											     //
@@ -73,6 +73,16 @@ rgba(43, 88, 199, 0.77)
 -----------------------------------------------------------------*/
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Open+Sans+Condensed:300,700');
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+/* Theme Colors */
+/*
+
+	Reguar button and menu-highlight:
+		#ecedee
+
+	
+
+*/
 
 :root {
 	--green: #00ba75;
@@ -906,7 +916,7 @@ ul#userinfo_username:after {
 }
 
 #header > #menu > ul li a:hover {
-	background: rgba(0,0,0,.05);
+	background: #ecedee;
 }
 
 /*----------------------{  6.3. Search Bar  }---------------------*/
@@ -1115,7 +1125,7 @@ table tr.colhead {
     content: '';
     width: 12px;
     height: 24px;
-    background: #ecedee;
+    background: inherit;
     position: absolute;
     top: 0;
     pointer-events: none;
