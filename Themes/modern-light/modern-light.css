@@ -1624,16 +1624,27 @@ img[src*="/symbols/Banv1.png"] {
 #extra1 {
   height: 100%;
   width: 100%;
-  position: absolute;
+  position: fixed;
   background-image: url(http://gdurl.com/dIoP),
-  url(http://gdurl.com/G5Vp),
   url();
   z-index: 1;
   pointer-events: none;
   -moz-animation: snow 10s linear infinite;
   -webkit-animation: snow 10s linear infinite;
   animation: snow 10s linear infinite;
+}
 
+#extra2 {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  url(http://gdurl.com/G5Vp),
+  url();
+  z-index: -1;
+  pointer-events: none;
+  -moz-animation: snow 10s linear infinite;
+  -webkit-animation: snow 10s linear infinite;
+  animation: snow 10s linear infinite;
 }
 
 @-moz-keyframes snow {
