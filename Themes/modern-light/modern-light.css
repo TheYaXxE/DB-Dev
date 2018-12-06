@@ -1621,8 +1621,9 @@ img[src*="/symbols/Banv1.png"] {
 
 
 /* Xmas edition  */
-#extra1 {
+#extra1:before {
 	display: block;
+	content: '';
 	height: 100%;
 	width: 100%;
 	position: fixed;
