@@ -1141,6 +1141,10 @@ table tr.colhead {
     right: 0;
 }
 
+.sidebar .box .pad {
+	padding: 15px 25px;
+}
+
 
 /*--------------{  8.2. Popular Movies and Shows  }--------------*/
 .box.newspage #show-case {
