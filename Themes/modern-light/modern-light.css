@@ -338,6 +338,7 @@ body {
 
 #header #logocenter #lolgo {
 	width: 									217px;
+	width: 									150px;
 	height:									inherit;
 	position: 								relative;
 	z-index: 								100;
@@ -345,8 +346,9 @@ body {
 
 #header #logocenter #lolgo a#linkroot {
 	display: 								block;
-	background: 							url("assets/db-logo.png");
+	background: 							url("assets/db-logo-2.png");
 	background-size: 						217px 34px;
+	background-size: 						150px 34px;
 	width: 									inherit;
 	height:									inherit;
 }
