@@ -944,6 +944,13 @@ ul#userinfo_username:after {
     position: relative;
 }
 
+/* Whole site-message box */
+#content .thin .thin600 {
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
 #content .thin > br {
 	display: none;
 }
