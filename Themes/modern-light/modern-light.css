@@ -5,7 +5,7 @@
 // 															     //
 //  Version:											  0.3.0  //
 //	Created by:								 		   TheYaXxE  //
-// 	Last change:									   06-12-18  //
+// 	Last change:									   08-12-18  //
 //  Licensed to:								 DanishBits.org  //
 // 															     //
 // 	Description:											     //
@@ -338,7 +338,6 @@ body {
 
 #header #logocenter #lolgo {
 	width: 									217px;
-	width: 									150px;
 	height:									inherit;
 	position: 								relative;
 	z-index: 								100;
@@ -346,9 +345,8 @@ body {
 
 #header #logocenter #lolgo a#linkroot {
 	display: 								block;
-	background: 							url("assets/db-logo-2.png");
+	background: 							url("assets/db-logo.png");
 	background-size: 						217px 34px;
-	background-size: 						150px 34px;
 	width: 									inherit;
 	height:									inherit;
 }
@@ -1024,7 +1022,6 @@ table tr.colhead {
 
 .box .pad {
 	background: 							#FFF;
-	padding: 15px 25px;
 }
 
 /* Sidebar on frontpage */
@@ -1143,10 +1140,6 @@ table tr.colhead {
     right: 0;
 }
 
-.sidebar .box .pad {
-	padding: 15px;
-}
-
 
 /*--------------{  8.2. Popular Movies and Shows  }--------------*/
 .box.newspage #show-case {
@@ -1248,7 +1241,7 @@ table tr.colhead {
 /* Forum Post */
 .forum_post tr.colhead_dark td {
 	/*font-size: 								0;*/
-	text-align: 							left;
+	text-align: 							right;
 	white-space:							nowrap;
 	padding:								0 15px;
 	box-shadow:								inset -1px 0 0 rgba(1,1,1,0.06);
@@ -1262,17 +1255,15 @@ table tr.colhead {
 }
 
 .forum_post tr.colhead_dark td:first-of-type > span {
-	display: inline-block;
+	vertical-align: top;
 }
 
+/* Forum-post header left side */
 .forum_post tr.colhead_dark td:first-of-type > span:first-child {
-	width: calc( 100% - 30px );
+	display: table-cell;
+	width: 100vw;
 	background: yellow;
 	float: left;
-}
-
-.forum_post.vispost tr.colhead_dark td:first-of-type > span:first-child {
-	text-align: right;
 }
 
 .forum_post tr.colhead_dark td:first-of-type > span:first-child > a:first-child,
@@ -1300,15 +1291,15 @@ table tr.colhead {
 }
 
 .forum_post tr.colhead_dark td:first-of-type > span:first-child a[onclick*="Edit_Form"] {
-	background: purple;
+	background: black;
 }
 
-/* Forum right side */
+/* Forum-post header right side */
 .forum_post tr.colhead_dark td:first-of-type > span:last-child {
-	display: inline-block;
-	min-width: 30px;
+	display: table-cell;
+	width: 1%;
 	height: 20px;
-	background: yellow;
+	background: purple;
 }
 
 .forum_post tr.colhead_dark td:first-of-type > span:last-child a {
