@@ -5,7 +5,7 @@
 // 															     //
 //  Version:											  0.3.0  //
 //	Created by:								 		   TheYaXxE  //
-// 	Last change:									   08-12-18  //
+// 	Last change:									   06-12-18  //
 //  Licensed to:								 DanishBits.org  //
 // 															     //
 // 	Description:											     //
@@ -1256,6 +1256,7 @@ table tr.colhead {
 
 .forum_post tr.colhead_dark td:first-of-type > span {
 	vertical-align: top;
+	float: initial !important;
 }
 
 /* Forum-post header left side */
