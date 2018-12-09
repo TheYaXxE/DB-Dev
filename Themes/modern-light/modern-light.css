@@ -1336,6 +1336,9 @@ table tr.colhead {
 	height: 24px;
 	font-size: 0;
 	background-size: 30px 24px;
+	background-position: center;
+	background-repeat: no-repeat;
+	cursor: pointer;
 }
 
 .forum_post tr.colhead_dark td:first-of-type > span:last-child > input[value="Preview"] {
