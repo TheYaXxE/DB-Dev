@@ -471,9 +471,67 @@ li#stats_ratio,
     display: none !important;
 }
 
-#stats_ratio .r50 {
-	color: 									var(--green);
+li#stats_ratio .stat {
+	font-weight: 700;
 }
+
+/* Ratio colors */
+li#stats_ratio .stat .r00 {
+  color: #cc1219;
+}
+
+li#stats_ratio .stat .r01 {
+  color: #de1c1f;
+}
+
+li#stats_ratio .stat .r02 {
+  color: #e63420;
+}
+
+li#stats_ratio .stat .r03 {
+  color: #e6491a;
+}
+
+li#stats_ratio .stat .r04 {
+  color: #e65d15;
+}
+
+li#stats_ratio .stat .r05 {
+  color: #ec710f;
+}
+
+li#stats_ratio .stat .r06 {
+  color: #fb8706;
+}
+
+li#stats_ratio .stat .r07 {
+  color: #fe9b01;
+}
+
+li#stats_ratio .stat .r08 {
+  color: #feac01;
+}
+
+li#stats_ratio .stat .r09 {
+  color: #f1b707;
+}
+
+li#stats_ratio .stat .r10 {
+  color: #b8ba20;
+}
+
+li#stats_ratio .stat .r20 {
+  color: #75ba3f;
+}
+
+li#stats_ratio .stat .r50 {
+  color: #2fba5f;
+}
+
+li#stats_ratio .stat .r99 {
+  color: #00af6e;
+}
+
 
 /* Spins & Skrabelodder */
 #stats_spin,
