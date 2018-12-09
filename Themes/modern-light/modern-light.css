@@ -1039,6 +1039,7 @@ table tr.colhead {
 
 .box .pad {
 	background: 							#FFF;
+	padding: 15px 25px;
 }
 
 /* Sidebar on frontpage */
