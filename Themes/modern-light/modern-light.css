@@ -1341,6 +1341,10 @@ table tr.colhead {
 	cursor: pointer;
 }
 
+.forum_post tr.colhead_dark td:first-of-type > span:last-child > input[value="Editor"] {
+	background-image: url("assets/forum_icon-editor.svg");
+}
+
 .forum_post tr.colhead_dark td:first-of-type > span:last-child > input[value="Preview"] {
 	background-image: url("assets/forum_icon-preview.svg");
 }
