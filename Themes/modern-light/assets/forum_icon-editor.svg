@@ -1,16 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Rounded_Rectangle_1_copy_5_1_"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="48px" height="48px"
-	 viewBox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve">
-<g id="Rounded_Rectangle_1_copy_5">
-	<g>
-		<path fill="#353535" d="M20.952,26.311L21,32h6l13.942-14.143l-5.767-5.768L20.952,26.311z M32,32.308
-			C32,34.347,30.342,36,28.297,36H10.704C8.658,36,7,34.347,7,32.308V15.692C7,13.653,8.658,12,10.704,12h17.593
-			c0.573,0,1.109,0.141,1.594,0.373l3.393-3.391C32.339,8.363,31.213,8,30,8H9c-3.313,0-6,2.687-6,6v20c0,3.313,2.687,6,6,6h21
-			c3.313,0,6-2.687,6-6v-6.058L32,32V32.308z M44.275,10.649l-1.916-1.914c-1.057-1.058-2.885-0.944-4.084,0.254l-1.686,1.686
-			l5.756,5.758l1.676-1.699C45.219,13.535,45.332,11.707,44.275,10.649z"/>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="48px"
+	 height="48px" viewBox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve">
+<g id="Rounded_Rectangle_1_xA0_Image_1_">
+	
+		<image overflow="visible" width="46" height="48" id="Rounded_Rectangle_1_xA0_Image" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAwCAYAAABuZUjcAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAR1JREFUeNrsmUEKwjAQRaugVdCL
+1B7GlSt7JXWh4F3EZT2BWFeCd3BhRdEpjFCGiomSsZH/4VMSmPmPQlM6DQIIgiANReQJOSOfyXcH
+LvruOCf6FrhNnpNvjmBfuchbkrufQq+UgaXXzGGlxY+hn57bQA/IV9EgJSfkjqPnqMP9U5F7ZR4j
+TUXxhhwqHQQtzivnT02LM1GYKJ9iicjPTAtzURgqg4ciP39X0ODr/cW+pqwYmr6+IQEOcIADHOAA
+BzjAAQ5wgAMc4N6AXyq+ujXVF+uTKfhB7I+UwYdifTQtrNska2ZaHAfVs8MxN3ahHvevmh3GNo3q
+Mq1d2N4Bb+fjT3jv/kiUNeAHZM9HpQvY4sjbck4cQBD0H3oIMAC9+zKd7JBvWgAAAABJRU5ErkJg
+gg==">
+	</image>
+</g>
+<g id="Rounded_Rectangle_1_copy_7_xA0_Image_1_">
+	
+		<image overflow="visible" width="34" height="39" id="Rounded_Rectangle_1_copy_7_xA0_Image" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAnCAYAAABqippxAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAixJREFUeNrs2N1qGkEUB/CIn4hX
+PkDoOwheiE9iIC/R0jaQtiYiRk20WAwubtRWkfgNfqDXSi4F8VGSBziZU2o4HkIzM7ubm+TAuVB3
+//vDHWdnPDh4r7dcAHAoOiN6JfpB9J3orOgPr4k4En0Pzxe+f/QaiI8gV8dOIj7RK202G4jH4xAK
+hSAWi/19TcspxBd6kcViAcFgEC/21OFwGNbrtXMQkXlCEfP5HAKBwB6CYrbbrf0QkfeNIqbTKfj9
+/mcRu45EIvZCRNYPihiPx+Dz+f6LwMZjbIOInDOKGA6HUgjsaDRqD0RkpCmi3+9LI/C2LZdL65B/
+s+VTdbtd8Hg8UgjEzmYz678acW6eItrtNrjdbmnEZDKxPo+I865oSKvVUkKMRiM+s37WQfykCY1G
+Qxrh9XphMBhwxFcdxC+aUKvVpBE4dnq9Hkec6iCuaUK1WgWXyyWFQGyn0+GI7zoIgyZUKhUlBA5k
+VkkdhEkTyuWyEqLZbHLEuQ6iQRNKpZISol6vc0RaB/GHJhSLRWkEHocDmdWFDmLvpubzeSnADmGa
+Jkdc6iBuaUI2m1VCGIbBEVc6iMTeDU2nlRA4kFkVdafu1S4hlUopIXAgsypZeZDRh5B040BmdW31
+sa4MKRQKHGHYschRguRyOY4w7VrySUMymQxH3Ni5AJaC4EBm9dvu7cCLkGQyyREtJzZHK1CrW6e2
+igkFRM/pHXzihW8GP0u8/+vzZupRgAEAu5JVGF4TYo0AAAAASUVORK5CYII=" transform="matrix(1 0 0 1 14 0)">
+	</image>
+</g>
+<g id="Rectangle_4_1_" enable-background="new    ">
+	<g id="Rectangle_4">
+		<g>
+			<rect x="39.5" y="7.5" transform="matrix(0.7069 -0.7074 0.7074 0.7069 2.6765 32.4585)" fill="#FFFFFF" width="2" height="11"/>
+		</g>
 	</g>
 </g>
 </svg>
