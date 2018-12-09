@@ -1333,8 +1333,21 @@ table tr.colhead {
 .forum_post tr.colhead_dark td:first-of-type > span:last-child > input {
 	display: inline-block;
 	width: 30px;
-	height: 20px;
+	height: 24px;
 	font-size: 0;
+	background-size: 30px 24px;
+}
+
+.forum_post tr.colhead_dark td:first-of-type > span:last-child > input[value="Preview"] {
+	background-image: url("assets/forum_icon-preview.svg");
+}
+
+.forum_post tr.colhead_dark td:first-of-type > span:last-child > input[value="Post"] {
+	background-image: url("assets/forum_icon-post.svg");
+}
+
+.forum_post tr.colhead_dark td:first-of-type > span:last-child > input[value="Cancel"] {
+	background-image: url("assets/forum_icon-cancel.svg");
 }
 
 /*
