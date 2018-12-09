@@ -1748,3 +1748,38 @@ body {
 	100% { background-position: 0 400px, 0 300px; }
 }
 */
+
+
+
+/* Torrent Side - Søgeboks */
+table.searchtable td.searchbox > div {
+	width: 100%;
+	font-size: 0;
+	padding: 0 100px;
+	position: relative;
+}
+
+table.searchtable td.searchbox > div input#search1 {
+    display: inline-block;
+    width: calc(100% - 100px) !important;
+    padding: 0 20px;
+    font-size: 18px;
+    height: 40px;
+    margin-top: 40px;
+    border-radius: 6px;
+    margin-bottom: 40px;
+}
+
+table.searchtable td.searchbox > div select[name="pre_type"],
+table.searchtable td.searchbox > div select[name="type"],
+table.searchtable td.searchbox > div input[name="setdefault"] {
+    position: absolute;
+    bottom: 0;
+}
+
+table.searchtable td.searchbox > div input[type="submit"]:not([name="setdefault"]) {
+	width: 100px;
+	color: #FFF;
+	background: #00ba75;
+}
+
