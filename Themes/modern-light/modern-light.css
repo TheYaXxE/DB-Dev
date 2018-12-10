@@ -1366,6 +1366,16 @@ table tr.colhead {
 }
 
 .forum_post.vispost tr.colhead_dark td:first-of-type > span:first-child .post_id {
+	color: #333;
+    font-size: 12px;
+    padding: 3px 6px;
+    border-radius: 4px;
+    background: rgba(255,255,255,.7);
+    /*border: 1px solid rgba(0,0,0,.12);*/
+}
+
+.forum_post.vispost tr.colhead_dark td:first-of-type > span:first-child img {
+	margin: 3px 0;
 }
 
 /* Single post options */
