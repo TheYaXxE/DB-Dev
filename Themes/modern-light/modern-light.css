@@ -1377,6 +1377,7 @@ table tr.colhead {
 	background-size: 30px 24px;
 	background-position: center;
 	background-repeat: no-repeat;
+	background-color: #FFF;
 	cursor: pointer;
 }
 
