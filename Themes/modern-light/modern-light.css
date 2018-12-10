@@ -1365,21 +1365,20 @@ table tr.colhead {
     float: left;  
     height: 24px;
     line-height: 24px;
-    
 }
 
 .forum_post.vispost tr.colhead_dark td:first-of-type > span:first-child .post_id {
 	color: #333;
     font-size: 12px;
-    padding: 3px 6px;
+    padding: 1px 6px;
     border-radius: 4px;
     background: rgba(255,255,255,.7);
     /*border: 1px solid rgba(0,0,0,.12);*/
 }
 
-.forum_post.vispost tr.colhead_dark td:first-of-type > span:first-child > *:not(a) {
+.forum_post.vispost tr.colhead_dark td:first-of-type > span:first-child > *:not(a):not(.time) {
 	font-size: 14px; /* Activate font-size to show individual text-elements */
-	background: red;
+	margin-left: 6px;
 }
 
 .forum_post.vispost tr.colhead_dark td:first-of-type > span:first-child img {
