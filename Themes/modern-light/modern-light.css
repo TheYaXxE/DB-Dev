@@ -1336,17 +1336,15 @@ table tr.colhead {
 	white-space:							nowrap;
 	padding:								0 15px;
 	box-shadow:								inset -1px 0 0 rgba(1,1,1,0.06);
-		background: red;
 }
 
 .forum_post.vispost tr.colhead_dark td + td {
 	padding:								0 15px;
 	text-align:								right;
-		background: #FFF;
+	background:								#FFF;
 }
 
 .forum_post.vispost tr.colhead_dark td:first-of-type > span {
-	vertical-align: middle;
 	float: initial !important;
 }
 
@@ -1354,7 +1352,6 @@ table tr.colhead {
 .forum_post.vispost tr.colhead_dark td:first-of-type > span:first-child {
 	display: table-cell;
 	width: 100vw;
-	background: yellow;
 	float: left;
 	font-size: 0; /* Disable font-size to clean whitespaces and hypens */
 }
@@ -1363,6 +1360,12 @@ table tr.colhead {
 .forum_post.vispost tr.colhead_dark td:first-of-type > span:first-child > *:not(a) {
     float: left;
     font-size: 14px; /* Activate font-size to show individual text-elements */
+    height: 24px;
+    line-height: 24px;
+    background: red;
+}
+
+.forum_post.vispost tr.colhead_dark td:first-of-type > span:first-child .post_id {
 }
 
 /* Single post options */
