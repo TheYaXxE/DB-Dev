@@ -1401,9 +1401,10 @@ table tr.colhead {
 /* Single post options */
 .forum_post.vispost tr.colhead_dark td:first-of-type > span:first-child a[href*="postformy"],
 .forum_post.vispost tr.colhead_dark td:first-of-type > span:first-child a[href*="action=report"],
-.forum_post.vispost tr.colhead_dark td:first-of-type > span:first-child a[onclick*="Edit_Form"]{
-	font-size: 0;
+.forum_post.vispost tr.colhead_dark td:first-of-type > span:first-child a[onclick*="Edit_Form"],
+.forum_post.vispost tr.colhead_dark td:first-of-type > span:last-child a {
 	display: inline-block;
+	font-size: 0;
 	width: 30px;
 	height: 24px;
 	vertical-align: top;
@@ -1433,15 +1434,11 @@ table tr.colhead {
 .forum_post.vispost tr.colhead_dark td:first-of-type > span:last-child {
 	display: table-cell;
 	width: 1%;
-	height: 20px;
-	background: purple;
+	height: 24px;
 }
 
 .forum_post.vispost tr.colhead_dark td:first-of-type > span:last-child a {
-	display: inline-block;
-	width: 30px;
-	height: 20px;
-	background: blue;
+
 }
 
 /* Forum-post edit-buttons */
