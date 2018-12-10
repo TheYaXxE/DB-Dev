@@ -1369,23 +1369,27 @@ table tr.colhead {
 .forum_post.vispost tr.colhead_dark td:first-of-type > span:first-child a[href*="postformy"],
 .forum_post.vispost tr.colhead_dark td:first-of-type > span:first-child a[href*="action=report"],
 .forum_post.vispost tr.colhead_dark td:first-of-type > span:first-child a[onclick*="Edit_Form"]{
-    font-size: 0;
-    display: inline-block;
-    width: 30px;
-    height: 24px;
-    vertical-align: top;
+	font-size: 0;
+	display: inline-block;
+	width: 30px;
+	height: 24px;
+	vertical-align: top;
+	background-size: 30px 24px;
+	background-position: center;
+	background-repeat: no-repeat;
+	cursor: pointer;
 }
 
 .forum_post.vispost tr.colhead_dark td:first-of-type > span:first-child a[href*="postformy"] {
-	background: blue;
+	background-image: url(assets/forum_icon-quote.svg);
 }
 
 .forum_post.vispost tr.colhead_dark td:first-of-type > span:first-child a[href*="action=report"] {
-	background: green;
+	background-image: url(assets/forum_icon-report.svg);
 }
 
 .forum_post.vispost tr.colhead_dark td:first-of-type > span:first-child a[onclick*="Edit_Form"] {
-	background: black;
+	background-image: url(assets/forum_icon-editor.svg);
 }
 
 /* Forum-post header right side */
