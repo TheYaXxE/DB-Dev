@@ -1369,7 +1369,7 @@ table tr.colhead {
 
 .forum_post.vispost tr.colhead_dark td:first-of-type > span:first-child .post_id,
 .forum_post.vispost tr.colhead_dark td:first-of-type > span:first-child .labelop {
-	font-size: 12px;
+	font-size: 12px !important;
     padding: 1px 6px;
     border-radius: 4px;
 }
