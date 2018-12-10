@@ -1346,7 +1346,7 @@ table tr.colhead {
 }
 
 .forum_post.vispost tr.colhead_dark td:first-of-type > span {
-	vertical-align: top;
+	vertical-align: middle;
 	float: initial !important;
 }
 
