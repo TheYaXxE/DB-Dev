@@ -5,7 +5,7 @@
 // 															     //
 //  Version:											  0.3.0  //
 //	Created by:								 		   TheYaXxE  //
-// 	Last change:									   06-12-18  //
+// 	Last change:									   10-12-18  //
 //  Licensed to:								 DanishBits.org  //
 // 															     //
 // 	Description:											     //
@@ -1031,7 +1031,7 @@ ul#userinfo_username:after {
     background: #e32622;
     color: #FFF !important;
     padding: 10px 40px;
-    border-radius: 5px;
+    border-radius: 4px;
 }
 
 #content .thin > br {
@@ -1069,7 +1069,7 @@ ul#userinfo_username:after {
 .forum_post .colhead_dark,
 table tr.colhead {
 	width: 									100%;
-	height: 								45px;
+	height: 								46px;
 	font-family: 							"Open Sans", Helvetica;
 	font-size: 								15px;
 	font-weight: 							600;
@@ -1084,7 +1084,7 @@ table tr.colhead {
 
 .box .head:not(tr),
 .forum_post .colhead_dark:not(tr) {
-	line-height: 							45px;
+	line-height: 							46px;
 }
 
 .box .head span.time,
@@ -1206,7 +1206,7 @@ table tr.colhead {
     position: relative;
     overflow: hidden;
     color: rgba(0,0,0,0.6);
-    border-radius: 3px;
+    border-radius: 4px;
     padding: 0 5px;
     background: #e7ebef;
 }
@@ -1302,7 +1302,7 @@ table tr.colhead {
 	min-height: 							initial;
 	background:								#e7ebef;
 	margin-bottom:							10px;
-	border-radius: 3px;
+	border-radius: 4px;
 	overflow: hidden;
 }
 
@@ -1314,7 +1314,7 @@ table tr.colhead {
 .box .pad ul.poll.nobullet > li.graph .center_poll:before {
 	display: 								block;
 	content: 								'';
-	border-radius: 3px;
+	border-radius: 4px;
 	height: 								inherit;
 	background:								rgba(44,129,188,0.9);
 	-webkit-animation:						poll_move 1.2s ease-in-out forwards;
@@ -1626,7 +1626,7 @@ table tr.colhead {
 
 .richeditor .container .sceditor-container .sceditor-toolbar {
 	width: 100% !important;
-    height: 45px;
+    height: 46px;
     line-height: 49px;
     font-family: "Open Sans", Helvetica;
     font-size: 15px;
@@ -1855,7 +1855,7 @@ table.searchtable td.searchbox > div input#search1 {
 	padding-right: 100px;
 	font-size: 18px;
 	height: 40px;
-	border-radius: 6px;
+	border-radius: 4px;
 	margin-bottom: 20px;
 }
 
