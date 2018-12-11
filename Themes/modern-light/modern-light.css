@@ -3,7 +3,7 @@
 -------------------------------------------------------------------
 ///////////////////////////////////////////////////////////////////
 // 															     //
-//  Version:											  0.3.1.2  //
+//  Version:											0.3.0.4  //
 //	Created by:								 		   TheYaXxE  //
 // 	Last change:									   10-12-18  //
 //  Licensed to:								 DanishBits.org  //
@@ -1347,6 +1347,21 @@ table tr.colhead {
 .forum_post.vispost tr.colhead_dark td + td {
 	padding:								0 12px;
 	background:								#FFF;
+}
+
+.forum_post.vispost tr.colhead_dark td:first-of-type > span:first-child,
+.forum_post.vispost tr.colhead_dark td:first-of-type > span:first-child + span {
+    display: table-cell;
+    background: grey;
+    float: initial !important;
+}
+
+.forum_post.vispost tr.colhead_dark td:first-of-type > span:first-child {
+    width: 100vw;
+}
+
+.forum_post.vispost tr.colhead_dark td:first-of-type > span:first-child + span {
+    width: 1%;
 }
 
 .forum_post.vispost tr.colhead_dark td:first-of-type > b,
