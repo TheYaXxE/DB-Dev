@@ -1372,7 +1372,8 @@ table tr.colhead {
 .forum_post.vispost tr.colhead_dark td:first-of-type a[href*="postformy"],
 .forum_post.vispost tr.colhead_dark td:first-of-type a[href*="action=report"],
 .forum_post.vispost tr.colhead_dark td:first-of-type a[onclick*="Edit_Form"],
-.forum_post.vispost tr.colhead_dark td:first-of-type span[id*="bar"] {
+.forum_post.vispost tr.colhead_dark td:first-of-type span[id*="bar"],
+.forum_post.vispost tr.colhead_dark td:first-of-type span[id*="bar"] a {
 	display: inline-block;
 	font-size: 14px;
 	height: 24px;
@@ -1395,7 +1396,7 @@ table tr.colhead {
 	color: #333;
 	background: rgba(255,255,255,.8);
 	border-radius: 4px;
-	padding: 0 6px;
+	padding: 1px 6px;
 }
 
 /* Sticky Post */
