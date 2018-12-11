@@ -5,7 +5,7 @@
 // 															     //
 //  Version:											0.3.0.5  //
 //	Created by:								 		   TheYaXxE  //
-// 	Last change:									   10-12-18  //
+// 	Last change:									   11-12-18  //
 //  Licensed to:								 DanishBits.org  //
 // 															     //
 // 	Description:											     //
@@ -1374,7 +1374,11 @@ table tr.colhead {
 .forum_post.vispost tr.colhead_dark td:first-of-type a[href*="action=report"],
 .forum_post.vispost tr.colhead_dark td:first-of-type a[onclick*="Edit_Form"],
 .forum_post.vispost tr.colhead_dark td:first-of-type span[id*="bar"] {
+	display: inline-block;
 	font-size: 14px;
+	height: 24px;
+	line-height: 24px;
+	vertical-align: middle;
 }
 
 .forum_post.vispost tr.colhead_dark td:first-of-type .post_id,
@@ -1425,6 +1429,30 @@ table tr.colhead {
 	background: purple;
 }
 
+
+/* Forum post Like-counter */
+.forum_post.vispost tr.colhead_dark td + td > span[id*="likes"] b {
+	display: 								inline-block;
+	min-width: 								inherit;
+	height: 								inherit;
+	line-height: 							24px;
+	font-size: 								12px !important;
+	text-align: 							center !important;
+	color: 									#FFF;
+	border-radius: 							5px;
+	padding: 								0 7px;
+	background: 							rgba(0,0,0,.2);
+}
+
+.forum_post.vispost tr.colhead_dark td + td > span[id*="likes"] font[color="green"] b {
+	background: 							#1bb54e;
+}
+
+.forum_post.vispost tr.colhead_dark td + td > span[id*="likes"] font[color="green"] b::before {
+	display: 								inline-block;
+	content: 								'+';
+	margin-right: 							1px;
+}
 /*---- End Single Post -----*/
 
 .forum_post tr.colhead_dark + tr {
