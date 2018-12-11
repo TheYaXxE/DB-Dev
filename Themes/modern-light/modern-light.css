@@ -1337,7 +1337,6 @@ table tr.colhead {
 
 /*---- Single Post -----*/
 .forum_post.vispost tr.colhead_dark td {
-	text-align: 							right;
 	white-space:							nowrap;
 	padding:								0 12px;
 	box-shadow:								inset -1px 0 0 rgba(1,1,1,0.06);
@@ -1350,7 +1349,33 @@ table tr.colhead {
 }
 
 /* Sticky Post */
-.forum_post.vispost tr.colhead_dark > b {}
+.forum_post.vispost tr.colhead_dark td:first-of-type > b {
+	background: red;
+}
+
+/* OP */
+.forum_post.vispost tr.colhead_dark td:first-of-type .labelop {
+	background: black;
+}
+
+/* Username + status */
+.forum_post.vispost tr.colhead_dark td:first-of-type strong,
+.forum_post.vispost tr.colhead_dark td:first-of-type .user_title {
+	background: blue;
+}
+
+/* Time */
+.forum_post.vispost tr.colhead_dark td:first-of-type .time {
+	background: green;
+}
+
+/* Post actions */
+.forum_post.vispost tr.colhead_dark td:first-of-type a[href*="postformy"],
+.forum_post.vispost tr.colhead_dark td:first-of-type a[href*="action=report"],
+.forum_post.vispost tr.colhead_dark td:first-of-type a[onclick*="Edit_Form"] {
+	background: orange;
+}
+
 /*---- End Single Post -----*/
 
 .forum_post tr.colhead_dark + tr {
