@@ -1798,6 +1798,7 @@ body {
 	-moz-animation: snowFront 20s linear infinite;
 	-webkit-animation: snowFront 20s linear infinite;
 	animation: snowFront 20s linear infinite;
+	backface-visibility: hidden;
 }
 
 #extra1 span {
@@ -1814,6 +1815,7 @@ body {
 	-moz-animation: snowBehind 20s linear infinite;
 	-webkit-animation: snowBehind 20s linear infinite;
 	animation: snowBehind 20s linear infinite;
+	backface-visibility: hidden;
 }
 
 @-moz-keyframes snowFront {
