@@ -5,7 +5,7 @@
 // 															     //
 //  Version:											  0.3.0  //
 //	Created by:								 		   TheYaXxE  //
-// 	Last change:									   11-12-18  //
+// 	Last change:									   10-12-18  //
 //  Licensed to:								 DanishBits.org  //
 // 															     //
 // 	Description:											     //
@@ -1362,7 +1362,8 @@ table tr.colhead {
 }
 
 /* Sticky Post */
-.forum_post.vispost tr.colhead_dark td:first-of-type > b {
+.forum_post.vispost tr.colhead_dark td:first-of-type > b,
+.forum_post.vispost tr.colhead_dark td:first-of-type > strong:last-of-type {
 	background: red;
 }
 
