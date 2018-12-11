@@ -1373,7 +1373,8 @@ table tr.colhead {
 .forum_post.vispost tr.colhead_dark td:first-of-type a[href*="action=report"],
 .forum_post.vispost tr.colhead_dark td:first-of-type a[onclick*="Edit_Form"],
 .forum_post.vispost tr.colhead_dark td:first-of-type span[id*="bar"],
-.forum_post.vispost tr.colhead_dark td:first-of-type span[id*="bar"] a {
+.forum_post.vispost tr.colhead_dark td:first-of-type span[id*="bar"] a,
+.forum_post.vispost tr.colhead_dark td:first-of-type span[id*="bar"] input {
 	display: inline-block;
 	font-size: 14px;
 	height: 24px;
@@ -1388,6 +1389,10 @@ table tr.colhead {
 .forum_post.vispost tr.colhead_dark td:first-of-type .user_title,
 .forum_post.vispost tr.colhead_dark td:first-of-type .time {
 	float: left;
+}
+
+.forum_post.vispost tr.colhead_dark td:first-of-type span[id*="bar"] input {
+	margin-right: 0 !important;
 }
 
 /* Post ID */
