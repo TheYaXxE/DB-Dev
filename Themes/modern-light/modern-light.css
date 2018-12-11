@@ -1391,10 +1391,6 @@ table tr.colhead {
 	float: left;
 }
 
-.forum_post.vispost tr.colhead_dark td:first-of-type span[id*="bar"] input {
-	margin-right: 0 !important;
-}
-
 /* Post ID */
 .forum_post.vispost tr.colhead_dark td:first-of-type .post_id {
 	font-size: 12px !important;
@@ -1431,6 +1427,9 @@ table tr.colhead {
 	background: green;
 }
 
+/* Post right side */
+.forum_post.vispost tr.colhead_dark td:first-of-type span[id*="bar"] {}
+
 /* Post actions */
 .forum_post.vispost tr.colhead_dark td:first-of-type a[href*="postformy"],
 .forum_post.vispost tr.colhead_dark td:first-of-type a[href*="action=report"],
@@ -1442,10 +1441,9 @@ table tr.colhead {
 	background: orange;
 	margin-right: 6px;
 }
-
-/* Post right side */
-.forum_post.vispost tr.colhead_dark td:first-of-type span[id*="bar"] {
-	background: purple;
+.forum_post.vispost tr.colhead_dark td:first-of-type span[id*="bar"] a:last-child,
+.forum_post.vispost tr.colhead_dark td:first-of-type span[id*="bar"] input:last-child {
+	margin-right: 0 !important;
 }
 
 
