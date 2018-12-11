@@ -3,7 +3,7 @@
 -------------------------------------------------------------------
 ///////////////////////////////////////////////////////////////////
 // 															     //
-//  Version:											0.3.0.4  //
+//  Version:											0.3.0.5  //
 //	Created by:								 		   TheYaXxE  //
 // 	Last change:									   10-12-18  //
 //  Licensed to:								 DanishBits.org  //
@@ -1364,6 +1364,7 @@ table tr.colhead {
     width: 1%;
 }
 
+.forum_post.vispost tr.colhead_dark td:first-of-type .post_id,
 .forum_post.vispost tr.colhead_dark td:first-of-type > b,
 .forum_post.vispost tr.colhead_dark td:first-of-type .labelop,
 .forum_post.vispost tr.colhead_dark td:first-of-type strong,
@@ -1376,12 +1377,18 @@ table tr.colhead {
 	font-size: 14px;
 }
 
+.forum_post.vispost tr.colhead_dark td:first-of-type .post_id,
 .forum_post.vispost tr.colhead_dark td:first-of-type > b,
 .forum_post.vispost tr.colhead_dark td:first-of-type .labelop,
 .forum_post.vispost tr.colhead_dark td:first-of-type strong,
 .forum_post.vispost tr.colhead_dark td:first-of-type .user_title,
 .forum_post.vispost tr.colhead_dark td:first-of-type .time {
 	float: left;
+}
+
+/* Post ID */
+.forum_post.vispost tr.colhead_dark td:first-of-type .post_id {
+	background: lime;
 }
 
 /* Sticky Post */
