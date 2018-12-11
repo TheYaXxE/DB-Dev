@@ -1432,7 +1432,10 @@ table tr.colhead {
 .forum_post.vispost tr.colhead_dark td:first-of-type a[onclick*="Edit_Form"],
 .forum_post.vispost tr.colhead_dark td:first-of-type span[id*="bar"] a,
 .forum_post.vispost tr.colhead_dark td:first-of-type span[id*="bar"] input {
+	width: 30px;
+	font-size: 0;
 	background: orange;
+	margin-right: 6px;
 }
 
 /* Post right side */
