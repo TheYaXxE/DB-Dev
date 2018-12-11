@@ -3,9 +3,9 @@
 -------------------------------------------------------------------
 ///////////////////////////////////////////////////////////////////
 // 															     //
-//  Version:											0.3.0.5  //
+//  Version:											  0.3.0  //
 //	Created by:								 		   TheYaXxE  //
-// 	Last change:									   11-12-18  //
+// 	Last change:									   10-12-18  //
 //  Licensed to:								 DanishBits.org  //
 // 															     //
 // 	Description:											     //
@@ -1333,12 +1333,9 @@ table tr.colhead {
 
 
 /*------------------------{  ? Forum  }-----------------------*/
-
-
-/*---- Single Post -----*/
+/* Forum Post */
 .forum_post.vispost tr.colhead_dark td {
-	font-size: 								0;
-	text-align:								right;
+	text-align: 							right;
 	white-space:							nowrap;
 	padding:								0 12px;
 	box-shadow:								inset -1px 0 0 rgba(1,1,1,0.06);
@@ -1346,96 +1343,205 @@ table tr.colhead {
 
 .forum_post.vispost tr.colhead_dark td + td {
 	padding:								0 12px;
+	text-align:								right;
 	background:								#FFF;
 }
 
-.forum_post.vispost tr.colhead_dark td:first-of-type > span:first-child,
-.forum_post.vispost tr.colhead_dark td:first-of-type > span:first-child + span {
-    display: table-cell;
-    background: grey;
-    float: initial !important;
+.forum_post.vispost tr.colhead_dark td:first-of-type > span {
+	float: initial !important;
 }
 
+.forum_post.vispost tr.colhead_dark td:first-of-type {
+	font-size: 0;
+}
 .forum_post.vispost tr.colhead_dark td:first-of-type > span:first-child {
-    width: 100vw;
-}
-
-.forum_post.vispost tr.colhead_dark td:first-of-type > span:first-child + span {
-    width: 1%;
-}
-
-.forum_post.vispost tr.colhead_dark td:first-of-type .post_id,
-.forum_post.vispost tr.colhead_dark td:first-of-type > b,
-.forum_post.vispost tr.colhead_dark td:first-of-type .labelop,
-.forum_post.vispost tr.colhead_dark td:first-of-type strong,
-.forum_post.vispost tr.colhead_dark td:first-of-type .user_title,
-.forum_post.vispost tr.colhead_dark td:first-of-type .time,
-.forum_post.vispost tr.colhead_dark td:first-of-type a[href*="postformy"],
-.forum_post.vispost tr.colhead_dark td:first-of-type a[href*="action=report"],
-.forum_post.vispost tr.colhead_dark td:first-of-type a[onclick*="Edit_Form"],
-.forum_post.vispost tr.colhead_dark td:first-of-type span[id*="bar"] {
-	display: inline-block;
-	font-size: 14px;
-	height: 24px;
-	line-height: 24px;
-	vertical-align: middle;
-}
-
-.forum_post.vispost tr.colhead_dark td:first-of-type .post_id,
-.forum_post.vispost tr.colhead_dark td:first-of-type > b,
-.forum_post.vispost tr.colhead_dark td:first-of-type .labelop,
-.forum_post.vispost tr.colhead_dark td:first-of-type strong,
-.forum_post.vispost tr.colhead_dark td:first-of-type .user_title,
-.forum_post.vispost tr.colhead_dark td:first-of-type .time {
+	display: table-cell;
+	width: 100vw;
 	float: left;
+	font-size: 0; /* Disable font-size to clean whitespaces and hypens */
+}
+
+.forum_post.vispost tr.colhead_dark td:first-of-type > span:first-child > a:first-child,
+.forum_post.vispost tr.colhead_dark td:first-of-type > span:first-child > *:not(a) {
+    float: left;  
+    height: 24px;
+    line-height: 24px;
+}
+
+.forum_post.vispost tr.colhead_dark td:first-of-type > span:first-child .post_id,
+.forum_post.vispost tr.colhead_dark td:first-of-type > span:first-child .labelop {
+	font-size: 12px !important;
+    padding: 1px 6px;
+    border-radius: 4px;
 }
 
 /* Post ID */
-.forum_post.vispost tr.colhead_dark td:first-of-type .post_id {
-	background: lime;
+.forum_post.vispost tr.colhead_dark td:first-of-type .post_id,
+.forum_post.vispost tr.colhead_dark td:first-of-type > span:first-child .post_id {
+	color: #333;
+    background: rgba(255,255,255,.8);
+    /*border: 1px solid rgba(0,0,0,.12);*/
 }
 
-/* Sticky Post */
-.forum_post.vispost tr.colhead_dark td:first-of-type > b,
-.forum_post.vispost tr.colhead_dark td:first-of-type > strong:last-of-type {
-	background: red;
+/* Post OP */
+.forum_post.vispost tr.colhead_dark td:first-of-type .labelop,
+.forum_post.vispost tr.colhead_dark td:first-of-type > span:first-child .labelop {
+    color: #FFF;
+    background: #000000b5;
 }
 
-/* OP */
+/* All elements execpt time */
+.forum_post.vispost tr.colhead_dark td:first-of-type > *:not(.time),
+.forum_post.vispost tr.colhead_dark td:first-of-type > span:first-child > *:not(.time) {
+	font-size: 14px; /* Activate font-size to show individual text-elements */
+	/*margin-left: 6px;*/
+}
+
+/* if elemet is empty */
+.forum_post.vispost tr.colhead_dark td:first-of-type > span:first-child > *:not(a):not(.time):empty {
+	margin-left: 0 !important;
+}
+
+.forum_post.vispost tr.colhead_dark td:first-of-type > span:first-child img {
+	margin: 3px 0;
+}
+
+/* Single post options */
+.forum_post.vispost tr.colhead_dark td:first-of-type > span:first-child a[href*="postformy"],
+.forum_post.vispost tr.colhead_dark td:first-of-type > span:first-child a[href*="action=report"],
+.forum_post.vispost tr.colhead_dark td:first-of-type > span:first-child a[onclick*="Edit_Form"],
+.forum_post.vispost tr.colhead_dark td:first-of-type > span:last-child a {
+	display: inline-block;
+	font-size: 0;
+	width: 30px;
+	height: 24px;
+	vertical-align: top;
+	background-size: 20px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: rgba(255,255,255,.8);
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+/*
+.forum_post.vispost tr.colhead_dark td:first-of-type > span:first-child a[href*="postformy"] {
+	background-image: url(assets/forum_icon-quote.svg);
+}
+
+.forum_post.vispost tr.colhead_dark td:first-of-type > span:first-child a[href*="action=report"] {
+	background-image: url(assets/forum_icon-report.svg);
+}
+
+.forum_post.vispost tr.colhead_dark td:first-of-type > span:first-child a[onclick*="Edit_Form"] {
+	background-image: url(assets/forum_icon-editor.svg);
+}
+*/
+
+/* Forum-post header right side */
+.forum_post.vispost tr.colhead_dark td:first-of-type > span:last-child {
+	display: table-cell;
+	width: 1%;
+	height: 24px;
+}
+
+.forum_post.vispost tr.colhead_dark td:first-of-type > span:last-child a {
+
+}
+
+/* Forum-post edit-buttons */
+.forum_post.vispost tr.colhead_dark td:first-of-type > span:last-child > input {
+	display: inline-block;
+	width: 30px;
+	height: 24px;
+	font-size: 0;
+	background-size: 30px 24px;
+	background-position: center;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+.forum_post.vispost tr.colhead_dark td:first-of-type > span:last-child > input:first-of-type {
+	margin-left: -30px; /* Hide edit-button in edit-mode */
+}
+
+.forum_post.vispost tr.colhead_dark td:first-of-type > span:last-child > input[value="Editor"] {
+	background-image: url("assets/forum_icon-editor.svg");
+}
+
+.forum_post.vispost tr.colhead_dark td:first-of-type > span:last-child > input[value="Preview"] {
+	background-image: url("assets/forum_icon-preview.svg");
+}
+
+.forum_post.vispost tr.colhead_dark td:first-of-type > span:last-child > input[value="Post"] {
+	background-image: url("assets/forum_icon-post.svg");
+}
+
+.forum_post.vispost tr.colhead_dark td:first-of-type > span:last-child > input[value="Cancel"] {
+	background-image: url("assets/forum_icon-cancel.svg");
+}
+
+/*
+.forum_post.vispost tr.colhead_dark td:first-of-type a.post_id {
+	display: 								inline-block;
+	color: 									#333;
+	font-size: 								12px;
+	padding: 								3px 6px;
+	border-radius: 							4px;
+	background: 							rgba(255,255,255,.7);
+	border: 								1px solid rgba(0,0,0,.12);
+}
+
+.forum_post.vispost tr.colhead_dark td > span {
+	display: inline-block;
+}
+
+.forum_post.vispost tr.colhead_dark td span:first-child {
+	width: calc( 100% - 30px );
+}
+
+.forum_post.vispost tr.colhead_dark td span:last-child {
+	width: 30px;
+}
+
+.forum_post.vispost tr.colhead_dark td:first-child span[style*="left"] > a,
+.forum_post.vispost tr.colhead_dark td:first-child span[style*="left"] > strong,
+.forum_post.vispost tr.colhead_dark td:first-child span[style*="left"] > span,
+.forum_post.vispost tr.colhead_dark td:first-child > b,
+.forum_post.vispost tr.colhead_dark td:first-child > a,
+.forum_post.vispost tr.colhead_dark td:first-child > strong,
+.forum_post.vispost tr.colhead_dark td:first-child > span:not([style*="left"]) {
+    font-size: 15px;
+}
+
+.forum_post.vispost tr.colhead_dark td:first-of-type span .labelop,
 .forum_post.vispost tr.colhead_dark td:first-of-type .labelop {
-	background: black;
+	display:								inline-block;
+	background: 							rgba(0,0,0,0.8);
+	font-size:								11px;
+	padding: 								7px 8px;
+	color: 									#FFF;
+	border-radius:							4px;
 }
 
-/* Username + status */
-.forum_post.vispost tr.colhead_dark td:first-of-type strong,
-.forum_post.vispost tr.colhead_dark td:first-of-type .user_title {
-	background: blue;
+.forum_post.vispost tr.colhead_dark td:first-of-type a.post_id + .labelop {
+	margin-left: 							5px;
 }
 
-/* Time */
-.forum_post.vispost tr.colhead_dark td:first-of-type .time {
-	background: green;
-}
-
-/* Post actions */
 .forum_post.vispost tr.colhead_dark td:first-of-type a[href*="postformy"],
 .forum_post.vispost tr.colhead_dark td:first-of-type a[href*="action=report"],
 .forum_post.vispost tr.colhead_dark td:first-of-type a[onclick*="Edit_Form"] {
-	background: orange;
+	background: red;
 }
-
-/* Post right side */
-.forum_post.vispost tr.colhead_dark td:first-of-type span[id*="bar"] {
-	background: purple;
-}
-
+*/
 
 /* Forum post Like-counter */
+/*
 .forum_post.vispost tr.colhead_dark td + td > span[id*="likes"] b {
 	display: 								inline-block;
 	min-width: 								inherit;
 	height: 								inherit;
-	line-height: 							24px;
+	line-height: 							25px;
 	font-size: 								12px !important;
 	text-align: 							center !important;
 	color: 									#FFF;
@@ -1453,7 +1559,7 @@ table tr.colhead {
 	content: 								'+';
 	margin-right: 							1px;
 }
-/*---- End Single Post -----*/
+*/
 
 .forum_post tr.colhead_dark + tr {
 	background: 							#FFF;
