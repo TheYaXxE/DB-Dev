@@ -1340,7 +1340,7 @@ table tr.colhead {
 	font-size: 								0;
 	text-align:								right;
 	white-space:							nowrap;
-	padding:								0 12px;
+	padding:								0 10px;
 	box-shadow:								inset -1px 0 0 rgba(1,1,1,0.06);
 }
 
@@ -1397,20 +1397,25 @@ table tr.colhead {
 	color: #333;
 	background: rgba(255,255,255,.8);
 	border-radius: 4px;
-	padding: 1px 6px;
+	padding: 1px 8px;
 }
 
 /* Sticky Post */
 .forum_post.vispost tr.colhead_dark td:first-of-type > b,
 .forum_post.vispost tr.colhead_dark td:first-of-type > strong:last-of-type {
-	background: red;
-	border-radius: 4px;
+	color: #FFF;
+	background: #e32622;
+	padding: 0 10px;
 }
 
 /* OP */
 .forum_post.vispost tr.colhead_dark td:first-of-type .labelop {
-	background: rgba(0,0,0,.8);
-	border-radius: 4px;
+	background: rgba(0,0,0,0.8);
+    font-size: 11px;
+    padding: 1px 8px;
+    color: #FFF;
+    border-radius: 4px;
+    margin-left: 6px;
 }
 
 /* Username + status */
@@ -1478,8 +1483,8 @@ table tr.colhead {
 	font-size: 								12px !important;
 	text-align: 							center !important;
 	color: 									#FFF;
-	border-radius: 							5px;
-	padding: 								0 7px;
+	border-radius: 							4px;
+	padding: 								1px 8px;
 	background: 							rgba(0,0,0,.2);
 }
 
