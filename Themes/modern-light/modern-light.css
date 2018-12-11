@@ -1405,7 +1405,8 @@ table tr.colhead {
 .forum_post.vispost tr.colhead_dark td:first-of-type > strong:last-of-type {
 	color: #FFF;
 	background: #e32622;
-	padding: 0 10px;
+	border-radius: 4px;
+	padding: 0 8px;
 }
 
 /* OP */
@@ -1423,7 +1424,10 @@ table tr.colhead {
 .forum_post.vispost tr.colhead_dark td:first-of-type .user_title:not(:empty) {
 	margin-left: 6px;
 }
-
+.forum_post.vispost tr.colhead_dark td:first-of-type strong a,
+.forum_post.vispost tr.colhead_dark td:first-of-type strong img {
+	float: left;
+}
 .forum_post.vispost tr.colhead_dark td:first-of-type img {
 	margin: 3px 0;
 }
