@@ -3,7 +3,7 @@
 -------------------------------------------------------------------
 ///////////////////////////////////////////////////////////////////
 // 															     //
-//  Version:											  0.3.1  //
+//  Version:											  0.3.1.2  //
 //	Created by:								 		   TheYaXxE  //
 // 	Last change:									   10-12-18  //
 //  Licensed to:								 DanishBits.org  //
@@ -1365,7 +1365,7 @@ table tr.colhead {
 .forum_post.vispost tr.colhead_dark td:first-of-type .labelop,
 .forum_post.vispost tr.colhead_dark td:first-of-type strong,
 .forum_post.vispost tr.colhead_dark td:first-of-type .user_title,
-.forum_post.vispost tr.colhead_dark td:first-of-type .time, {
+.forum_post.vispost tr.colhead_dark td:first-of-type .time {
 	float: left;
 }
 
