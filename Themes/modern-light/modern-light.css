@@ -1376,6 +1376,11 @@ table tr.colhead {
 	background: orange;
 }
 
+/* Post right side */
+.forum_post.vispost tr.colhead_dark td:first-of-type span[id*="bar"] {
+	background: purple;
+}
+
 /*---- End Single Post -----*/
 
 .forum_post tr.colhead_dark + tr {
