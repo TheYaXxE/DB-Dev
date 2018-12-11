@@ -1480,6 +1480,13 @@ table tr.colhead {
 
 
 /* Forum post Like-counter */
+.forum_post.vispost tr.colhead_dark td + td > span:first-child {
+    margin-right: 8px;
+}
+.forum_post.vispost tr.colhead_dark td + td > span {
+    display: inline-block;
+}
+
 .forum_post.vispost tr.colhead_dark td + td > span[id*="likes"] b {
 	display: 								inline-block;
 	min-width: 								inherit;
