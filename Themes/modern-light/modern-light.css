@@ -1438,8 +1438,24 @@ table tr.colhead {
 .forum_post.vispost tr.colhead_dark td:first-of-type span[id*="bar"] input {
 	width: 30px;
 	font-size: 0;
-	background: orange;
+	background-color: rgba(255,255,255,8);
+	background-size: 20px;
+	background-position: center;
+	background-repeat: no-repeat;
 	margin-right: 6px;
+	border-radius: 4px;
+}
+
+.forum_post.vispost tr.colhead_dark td:first-of-type a[href*="postformy"] {
+	background-image: url(assets/forum_icon-quote.svg);
+}
+
+.forum_post.vispost tr.colhead_dark td:first-of-type a[href*="action=report"] {
+	background-image: url(assets/forum_icon-report.svg);
+}
+
+.forum_post.vispost tr.colhead_dark td:first-of-type a[onclick*="Edit_Form"] {
+	background-image: url(assets/forum_icon-editor.svg);
 }
 
 /* Hide Edit-button in Edit-mode */
