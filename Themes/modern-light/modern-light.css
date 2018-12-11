@@ -1465,6 +1465,10 @@ table tr.colhead {
 	background-image: url(assets/forum_icon-report.svg);
 }
 
+.forum_post.vispost tr.colhead_dark td:first-of-type span[id*="bar"] a {
+	background-image: url(assets/forum_icon-to_top.svg);
+}
+
 .forum_post.vispost tr.colhead_dark td:first-of-type a[onclick*="Edit_Form"],
 .forum_post.vispost tr.colhead_dark td:first-of-type > span:last-child > input[value="Editor"] {
 	background-image: url(assets/forum_icon-editor.svg);
