@@ -1345,7 +1345,7 @@ table tr.colhead {
 }
 
 .forum_post.vispost tr.colhead_dark td + td {
-	padding:								0 12px;
+	padding:								0 10px;
 	background:								#FFF;
 }
 
@@ -1409,23 +1409,22 @@ table tr.colhead {
 
 /* OP */
 .forum_post.vispost tr.colhead_dark td:first-of-type .labelop {
-	background: black;
+	background: rgba(0,0,0,.8);
 	border-radius: 4px;
 }
 
 /* Username + status */
 .forum_post.vispost tr.colhead_dark td:first-of-type strong,
-.forum_post.vispost tr.colhead_dark td:first-of-type .user_title {
-	background: blue;
+.forum_post.vispost tr.colhead_dark td:first-of-type .user_title:not(:empty) {
+	margin-left: 6px;
 }
+
 .forum_post.vispost tr.colhead_dark td:first-of-type img {
 	margin: 3px 0;
 }
 
 /* Time */
-.forum_post.vispost tr.colhead_dark td:first-of-type .time {
-	background: green;
-}
+.forum_post.vispost tr.colhead_dark td:first-of-type .time {}
 
 /* Post right side */
 .forum_post.vispost tr.colhead_dark td:first-of-type span[id*="bar"] {}
