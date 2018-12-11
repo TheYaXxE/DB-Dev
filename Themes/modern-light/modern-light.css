@@ -1429,7 +1429,8 @@ table tr.colhead {
 	float: left;
 }
 .forum_post.vispost tr.colhead_dark td:first-of-type img {
-	margin: 3px 0;
+	margin: 3px;
+	margin-left: 6px;
 }
 
 /* Time */
