@@ -1501,20 +1501,27 @@ table tr.colhead {
     display: inline-block;
 }
 
-.forum_post.vispost tr.colhead_dark td + td > span[id*="likes"] b {
+.forum_post.vispost tr.colhead_dark td + td > span[id*="likes"] {
 	display: 								inline-block;
+	min-width: 								28px;
+	height:									26px;
+}
+
+.forum_post.vispost tr.colhead_dark td + td > span[id*="likes"] b {
+	display: 								block;
 	min-width: 								inherit;
 	height: 								inherit;
-	line-height: 							24px;
+	line-height: 							26px;
 	font-size: 								12px !important;
 	text-align: 							center !important;
-	color: 									#FFF;
+	color: 									color: rgba(0, 0, 0, 0.8);
 	border-radius: 							4px;
 	padding: 								1px 8px;
 	background: 							rgba(0,0,0,.2);
 }
 
 .forum_post.vispost tr.colhead_dark td + td > span[id*="likes"] font[color="green"] b {
+	color:									#FFF;
 	background: 							#1bb54e;
 }
 
