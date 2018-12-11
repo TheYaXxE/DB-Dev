@@ -1351,17 +1351,16 @@ table tr.colhead {
 
 .forum_post.vispost tr.colhead_dark td:first-of-type > span:first-child,
 .forum_post.vispost tr.colhead_dark td:first-of-type > span:first-child + span {
-    display: table-cell;
-    background: grey;
-    float: initial !important;
+	display: table-cell;
+	float: initial !important;
 }
 
 .forum_post.vispost tr.colhead_dark td:first-of-type > span:first-child {
-    width: 100vw;
+	width: 100vw;
 }
 
 .forum_post.vispost tr.colhead_dark td:first-of-type > span:first-child + span {
-    width: 1%;
+	width: 1%;
 }
 
 .forum_post.vispost tr.colhead_dark td:first-of-type .post_id,
@@ -1392,9 +1391,11 @@ table tr.colhead {
 
 /* Post ID */
 .forum_post.vispost tr.colhead_dark td:first-of-type .post_id {
+	font-size: 12px !important;
 	color: #333;
 	background: rgba(255,255,255,.8);
 	border-radius: 4px;
+	padding: 0 6px;
 }
 
 /* Sticky Post */
