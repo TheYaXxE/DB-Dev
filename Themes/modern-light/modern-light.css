@@ -1441,6 +1441,12 @@ table tr.colhead {
 	background: orange;
 	margin-right: 6px;
 }
+
+/* Hide Edit-button in Edit-mode */
+.forum_post.vispost tr.colhead_dark td:first-of-type span[id*="bar"] input:first-child {
+    margin-left: -36px;
+}
+
 .forum_post.vispost tr.colhead_dark td:first-of-type span[id*="bar"] a:last-child,
 .forum_post.vispost tr.colhead_dark td:first-of-type span[id*="bar"] input:last-child {
 	margin-right: 0 !important;
