@@ -1768,6 +1768,17 @@ table tr.colhead {
 	background: #FFF;
 }
 
+form#quickpostform #quickreplytext + div {
+    width: 100%;
+    min-height: 40px;
+    background: #FFF;
+    border-top: 1px solid #e6e6e6;
+    padding: 8px 0;
+}
+
+
+
+/*--------------{  ?? Bonus - Scratch  }--------------*/
 /* Scratch */
 #myCanvas {
 	cursor: url("assets/db_coin.svg") 0 0, pointer !important;
