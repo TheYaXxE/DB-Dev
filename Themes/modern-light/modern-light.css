@@ -340,13 +340,11 @@ select {
 
 /* Pagination - Global */
 .pagination {
-	display: inline-block !important;
-	width: 30px;
-	height: 30px;
-	font-size: 14px;
+	display: block !important;
+	width: 100% !important;
+	font-size: 0 !important;
+	text-align: center !important;
 	margin: 0 !important;
-	vertical-align: top;
-	border: none !important;
 }
 
 .pagination a {
@@ -378,18 +376,17 @@ select {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.pagination a.prev:nth-child(2):before {
-    content: "\f060";
-}
 .pagination a.prev:nth-child(1):before {
-    content: "\f33e";
+    content: 'Første';
 }
-
-.pagination a.next:nth-child(2):before {
-    content: "\f340";
+.pagination a.prev:nth-child(2):before {
+    content: "Forrige";
 }
-.pagination a.next:nth-child(1):before {
-    content: "\f061";
+.pagination a.next:nth-last-of-type(2):before {
+    content: 'Næste';
+}
+.pagination a.next:nth-last-of-type(1):before {
+    content: 'Sidste';
 }
 
 
