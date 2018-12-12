@@ -330,6 +330,24 @@ select {
 	padding-right: 30px;
 }
 
+.linkbox {
+    clear: both;
+}
+
+.linkbox .center {
+	display: none;
+}
+
+/* Pagination - Global */
+.pagination {
+	font-size: 0;
+	text-align: center;
+}
+
+.pagination a {
+	font-size: 14px;
+}
+
 
 /*-----------------------------------------------------------------
 -----------------------{  5. Body & Wrapper  }---------------------
