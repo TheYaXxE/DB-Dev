@@ -340,12 +340,17 @@ select {
 
 /* Pagination - Global */
 .pagination {
-	font-size: 0;
-	text-align: center;
+	display: block !important;
+	width: 100% !important;
+	font-size: 0 !important;
+	text-align: center !important;
+	margin: 0 !important;
 }
 
 .pagination a {
+	display: inline-block !important;
 	font-size: 14px;
+	margin: 0 !important;
 }
 
 
