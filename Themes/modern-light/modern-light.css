@@ -373,6 +373,14 @@ select {
 	font-size: 0;
 }
 
+.pagination a.current {
+	color: #FFF !important;
+}
+.pagination a.current.prev,
+.pagination a.current.next {
+	display: none !important;
+}
+
 .pagination a.prev:before,
 .pagination a.next:before {
 	font: normal normal normal 14px/1 FontAwesome;
