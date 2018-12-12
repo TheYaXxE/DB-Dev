@@ -350,7 +350,7 @@ select {
 
 .pagination a {
 	display: inline-block !important;
-	width: 34px;
+	min-width: 30px;
 	height: 30px;
 	line-height: 24px;
 	vertical-align: top;
