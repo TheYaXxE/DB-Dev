@@ -1424,13 +1424,16 @@ table tr.colhead {
 .forum_post.vispost tr.colhead_dark td:first-of-type .user_title:not(:empty) {
 	margin-left: 6px;
 }
+
+.forum_post.vispost tr.colhead_dark td:first-of-type img {
+	margin: 3px 0;
+	margin-left: 6px;
+}
+
 .forum_post.vispost tr.colhead_dark td:first-of-type strong a,
 .forum_post.vispost tr.colhead_dark td:first-of-type strong img {
 	float: left;
-}
-.forum_post.vispost tr.colhead_dark td:first-of-type img {
-	margin: 3px;
-	margin-left: 6px;
+	margin-right: 4px;
 }
 
 /* Time */
@@ -1517,11 +1520,11 @@ table tr.colhead {
 	height: 								inherit;
 	line-height: 							26px;
 	font-size: 								12px !important;
-	text-align: 							center !important;
 	color: 									rgba(0, 0, 0, 0.8);
+	text-align: 							center !important;
+	background: 							#e7ebef;
 	border-radius: 							4px;
 	padding: 								1px 8px;
-	background: 							rgba(0,0,0,.2);
 }
 
 .forum_post.vispost tr.colhead_dark td + td > span[id*="likes"] font[color="green"] b {
