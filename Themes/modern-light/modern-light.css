@@ -344,22 +344,28 @@ select {
 	width: 100% !important;
 	font-size: 0 !important;
 	text-align: center !important;
+	padding: 30px 0 !important;
 	margin: 0 !important;
 }
 
 .pagination a {
 	display: inline-block !important;
-	width: 36px;
-	height: 34px;
+	width: 30px;
+	height: 24px;
 	line-height: 24px;
 	vertical-align: top;
 	font-size: 14px;
 	margin: 0 !important;
+	margin-right: 8px !important;
 	border: none !important;
 	color: #000 !important;
 	background-color: rgba(255,255,255,8);
 	border-radius: 4px;
 	box-shadow: 0 1px 0 0 rgba(1,1,1,0.06);
+}
+
+.pagination a:last-of-type {
+	margin-right: 0 !important;
 }
 
 .pagination a.prev,
