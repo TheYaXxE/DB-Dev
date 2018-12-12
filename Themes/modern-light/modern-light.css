@@ -353,6 +353,25 @@ select {
 	margin: 0 !important;
 }
 
+.pagination a.prev,
+.pagination a.next {
+	font-size: 0;
+}
+
+.pagination a.prev:nth-child(2):before {
+    content: "<";
+}
+.pagination a.prev:nth-child(1):before {
+    content: "|<";
+}
+
+.pagination a.next:nth-child(2):before {
+    content: ">|";
+}
+.pagination a.next:nth-child(1):before {
+    content: ">";
+}
+
 
 /*-----------------------------------------------------------------
 -----------------------{  5. Body & Wrapper  }---------------------
