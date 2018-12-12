@@ -1107,6 +1107,7 @@ table tr.colhead {
 }
 
 .box .pad,
+.box .body,
 .forum_post .body {
 	font-size: 								13px;
 	color: 									rgba(0,0,0,0.55);
