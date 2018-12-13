@@ -1911,7 +1911,7 @@ table tr.colhead {
 	background-image: url(assets/editor-icon_emoticon.png);
 }
 
-.sceditor-button.sceditor-button-youtube div::before {
+.richeditor .sceditor-container .sceditor-toolbar .sceditor-group .sceditor-button.sceditor-button-youtube div::before {
 	width: 22px;
 	background-image: url(assets/editor-icon_youtube.png);
 }
