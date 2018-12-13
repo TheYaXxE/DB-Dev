@@ -1619,7 +1619,9 @@ table tr.colhead {
     display: inline-block;
 }
 
-.forum_post.vispost tr.colhead_dark td + td > span[id*="likes"] {
+.forum_post.vispost tr.colhead_dark td + td > span[id*="likes"],
+.forum_post.vispost tr.colhead_dark td + td > span[id*="likes"] font[color="green"],
+.forum_post.vispost tr.colhead_dark td + td > span[id*="likes"] b {
 	display: 								inline-block;
 	min-width: 								30px;
 	height:									28px;
@@ -1627,8 +1629,6 @@ table tr.colhead {
 
 .forum_post.vispost tr.colhead_dark td + td > span[id*="likes"] b {
 	display: 								block;
-	min-width: 								inherit;
-	height: 								inherit;
 	line-height: 							28px;
 	font-size: 								12px !important;
 	color: 									rgba(0, 0, 0, 0.8);
@@ -1636,6 +1636,10 @@ table tr.colhead {
 	background: 							#e7ebef;
 	border-radius: 							4px;
 	padding: 								1px 8px;
+}
+
+.forum_post.vispost tr.colhead_dark td + td > span[id*="likes"] font[color="green"] {
+	height: inherit;
 }
 
 .forum_post.vispost tr.colhead_dark td + td > span[id*="likes"] font[color="green"] b {
