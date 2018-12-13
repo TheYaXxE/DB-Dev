@@ -1534,7 +1534,7 @@ table tr.colhead {
 /* Username + status */
 .forum_post.vispost tr.colhead_dark td:first-of-type strong,
 .forum_post.vispost tr.colhead_dark td:first-of-type .user_title:not(:empty) {
-	margin-left: 6px;
+	margin-left: 8px;
 }
 
 .forum_post.vispost tr.colhead_dark td:first-of-type img {
@@ -1544,7 +1544,7 @@ table tr.colhead {
 .forum_post.vispost tr.colhead_dark td:first-of-type strong a,
 .forum_post.vispost tr.colhead_dark td:first-of-type strong img {
 	float: left;
-	margin-right: 4px;
+	margin-right: 6px;
 }
 
 /* Time */
@@ -1820,7 +1820,7 @@ table tr.colhead {
 	height: 100%;
 	background: transparent;
 	white-space: nowrap;
-	padding: 5px 10px;
+	padding: 6px 10px;
 	margin: 0;
 }
 
