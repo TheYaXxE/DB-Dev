@@ -1489,8 +1489,8 @@ table tr.colhead {
 .forum_post.vispost tr.colhead_dark td:first-of-type span[id*="bar"] input {
 	display: inline-block;
 	font-size: 14px;
-	height: 26px;
-	line-height: 26px;
+	height: 28px;
+	line-height: 28px;
 	vertical-align: middle;
 }
 
