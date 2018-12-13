@@ -1786,8 +1786,10 @@ table tr.colhead {
 
 .richeditor .sceditor-container .sceditor-toolbar .sceditor-group .sceditor-button {
     display: inline-block;
-    width: 32px;
+    width: auto;
+    min-width: 32px;
     height: 26px;
+	text-indent: 0;
     background: red;
     /*box-shadow: 0 1px 0 0 rgba(1,1,1,0.06);*/
     padding: 0 !important;
@@ -1811,10 +1813,15 @@ table tr.colhead {
 .richeditor .sceditor-container .sceditor-toolbar .sceditor-group .sceditor-button div {
 	width: 100%;
 	height: 100%;
-	text-indent: 0 !important;
 	background: none;
 	background-position: initial;
 	margin: 0 !important;
+	width: 100%;
+	height: 100%;
+	background: transparent;
+	white-space: nowrap;
+	padding: 5px 10px;
+	margin: 0;
 }
 
 .richeditor .sceditor-container .sceditor-toolbar .sceditor-group .sceditor-button div::before {
