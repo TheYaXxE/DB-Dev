@@ -2057,6 +2057,19 @@ img[src*="/symbols/Banv1.png"] {
 	font-size: 13px;
 }
 
+#footer:after {
+	display: block;
+	content: 'v.0.1.6 (Beta)';
+	font-size: 14px;
+	text-align: right;
+	color: rgba(0,0,0,.8);
+	padding-right: 20px;
+	padding-bottom: 8px;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	z-index: 9999999999;
+}
 
 
 /* Xmas edition  */
