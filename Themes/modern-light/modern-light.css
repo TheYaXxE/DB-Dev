@@ -1778,11 +1778,7 @@ table tr.colhead {
 	box-shadow: 0 1px 0 0 rgba(1,1,1,0.06);
 	padding: 0;
 	margin: 0;
-	margin-right: 6px;
-}
-
-.richeditor .sceditor-container .sceditor-toolbar .sceditor-group:last-child {
-	margin-right: 0;
+	margin-right: 12px;
 }
 
 .richeditor .sceditor-container .sceditor-toolbar .sceditor-group .sceditor-button {
@@ -1791,7 +1787,13 @@ table tr.colhead {
     height: 26px;
     background: red;
     padding: 0 !important;
+    margin-right: 6px;
     vertical-align: top;
+}
+
+.richeditor .sceditor-container .sceditor-toolbar .sceditor-group:last-child,
+.richeditor .sceditor-container .sceditor-toolbar .sceditor-group .sceditor-button:last-child {
+	margin-right: 0;
 }
 
 .richeditor .sceditor-container .sceditor-toolbar .sceditor-group .sceditor-button:hover,
