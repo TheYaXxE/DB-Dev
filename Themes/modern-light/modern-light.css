@@ -1830,7 +1830,6 @@ table tr.colhead {
     content: '';
     width: 16px;
     height: 16px;
-    background: #000;
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto 16px;
