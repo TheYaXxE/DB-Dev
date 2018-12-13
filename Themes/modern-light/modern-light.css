@@ -1876,7 +1876,7 @@ table tr.colhead {
 }
 
 .richeditor .sceditor-container .sceditor-toolbar .sceditor-group .sceditor-button.sceditor-button-size div::before {
-	width: 22px;
+	width: 24px;
 	background-image: url(assets/editor-icon_font-size.png);
 }
 
@@ -1893,17 +1893,17 @@ table tr.colhead {
 }
 
 .richeditor .sceditor-container .sceditor-toolbar .sceditor-group .sceditor-button.sceditor-button-image div::before {
-	width: 22px;
+	width: 24px;
 	background-image: url(assets/editor-icon_image.png);
 }
 
 .richeditor .sceditor-container .sceditor-toolbar .sceditor-group .sceditor-button.sceditor-button-link div::before {
-	width: 22px;
+	width: 24px;
 	background-image: url(assets/editor-icon_link.png);
 }
 
 .richeditor .sceditor-container .sceditor-toolbar .sceditor-group .sceditor-button.sceditor-button-unlink div::before {
-	width: 22px;
+	width: 24px;
 	background-image: url(assets/editor-icon_unlink.png);
 }
 
@@ -1912,7 +1912,7 @@ table tr.colhead {
 }
 
 .richeditor .sceditor-container .sceditor-toolbar .sceditor-group .sceditor-button.sceditor-button-youtube div::before {
-	width: 22px;
+	width: 24px;
 	background-image: url(assets/editor-icon_youtube.png);
 }
 
