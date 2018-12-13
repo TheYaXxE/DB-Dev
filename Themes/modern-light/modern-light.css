@@ -1837,26 +1837,26 @@ table tr.colhead {
     vertical-align: middle;
 }
 
-.sceditor-button.sceditor-button-bold div::before {
+.richeditor .sceditor-container .sceditor-toolbar .sceditor-group .sceditor-button.sceditor-button-bold div::before {
 	background-image: url(assets/editor-icon_bold.png);
 }
 
-.sceditor-button.sceditor-button-italic div::before {
+.richeditor .sceditor-container .sceditor-toolbar .sceditor-group .sceditor-button.sceditor-button-italic div::before {
 	background-image: url(assets/editor-icon_italic.png);
 }
 
-.sceditor-button.sceditor-button-underline div::before {
+.richeditor .sceditor-container .sceditor-toolbar .sceditor-group .sceditor-button.sceditor-button-underline div::before {
 	background-image: url(assets/editor-icon_underline.png);
 }
 
-.sceditor-button.sceditor-button-strike div::before {
+.richeditor .sceditor-container .sceditor-toolbar .sceditor-group .sceditor-button.sceditor-button-strike div::before {
 	background-image: url(assets/editor-icon_strike.png);
 }
 
 
-.sceditor-button.sceditor-button-font div::after,
-.sceditor-button.sceditor-button-size div::after,
-.sceditor-button.sceditor-button-color div::after {
+.richeditor .sceditor-container .sceditor-toolbar .sceditor-group .sceditor-button.sceditor-button-font div::after,
+.richeditor .sceditor-container .sceditor-toolbar .sceditor-group .sceditor-button.sceditor-button-size div::after,
+.richeditor .sceditor-container .sceditor-toolbar .sceditor-group .sceditor-button.sceditor-button-color div::after {
 	display: inline-block;
     content: '';
     width: 0;
@@ -1868,47 +1868,47 @@ table tr.colhead {
     vertical-align: top;
     vertical-align: middle;
 }
-.sceditor-button.sceditor-button-font div::before {
+.richeditor .sceditor-container .sceditor-toolbar .sceditor-group .sceditor-button.sceditor-button-font div::before {
 	background-image: url(assets/editor-icon_font-type.png);
 }
 
-.sceditor-button.sceditor-button-font div::before {
+.richeditor .sceditor-container .sceditor-toolbar .sceditor-group .sceditor-button.sceditor-button-font div::before {
 	background-image: url(assets/editor-icon_font-type.png);
 }
 
-.sceditor-button.sceditor-button-size div::before {
+.richeditor .sceditor-container .sceditor-toolbar .sceditor-group .sceditor-button.sceditor-button-size div::before {
 	width: 22px;
 	background-image: url(assets/editor-icon_font-size.png);
 }
 
-.sceditor-button.sceditor-button-color div::before {
+.richeditor .sceditor-container .sceditor-toolbar .sceditor-group .sceditor-button.sceditor-button-color div::before {
 	background-image: url(assets/editor-icon_font-color.png);
 }
 
-.sceditor-button.sceditor-button-removeformat div::before {
+.richeditor .sceditor-container .sceditor-toolbar .sceditor-group .sceditor-button.sceditor-button-removeformat div::before {
 	background-image: url(assets/editor-icon_removeformat.png);
 }
 
-.sceditor-button.sceditor-button-quote div::before {
+.richeditor .sceditor-container .sceditor-toolbar .sceditor-group .sceditor-button.sceditor-button-quote div::before {
 	background-image: url(assets/editor-icon_quote.png);
 }
 
-.sceditor-button.sceditor-button-image div::before {
+.richeditor .sceditor-container .sceditor-toolbar .sceditor-group .sceditor-button.sceditor-button-image div::before {
 	width: 22px;
 	background-image: url(assets/editor-icon_image.png);
 }
 
-.sceditor-button.sceditor-button-link div::before {
+.richeditor .sceditor-container .sceditor-toolbar .sceditor-group .sceditor-button.sceditor-button-link div::before {
 	width: 22px;
 	background-image: url(assets/editor-icon_link.png);
 }
 
-.sceditor-button.sceditor-button-unlink div::before {
+.richeditor .sceditor-container .sceditor-toolbar .sceditor-group .sceditor-button.sceditor-button-unlink div::before {
 	width: 22px;
 	background-image: url(assets/editor-icon_unlink.png);
 }
 
-.sceditor-button.sceditor-button-emoticon div::before {
+.richeditor .sceditor-container .sceditor-toolbar .sceditor-group .sceditor-button.sceditor-button-emoticon div::before {
 	background-image: url(assets/editor-icon_emoticon.png);
 }
 
