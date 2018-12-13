@@ -1761,12 +1761,26 @@ table tr.colhead {
 }
 
 .richeditor .container .sceditor-container .sceditor-toolbar .sceditor-group {
+	display: inline-block;
+	height: 26px;
+	background-color: rgba(255,255,255,8) !important;
+	border-radius: 4px !important;
+	border: none !important;
+	box-shadow: 0 1px 0 0 rgba(1,1,1,0.06);
+	padding: 0;
+	margin: 0;
+	margin-right: 6px;
+}
+
+.richeditor .container .sceditor-container .sceditor-toolbar .sceditor-group:last-child {
+	margin-right: 0;
+}
+
+.richeditor .container .sceditor-container .sceditor-toolbar .sceditor-group .sceditor-button {
     display: inline-block;
+    width: 32px;
     height: 26px;
-    background-color: rgba(255,255,255,8) !important;
-    border-radius: 4px !important;
-    border: none !important;
-    box-shadow: 0 1px 0 0 rgba(1,1,1,0.06);
+    vertical-align: top;
 }
 
 .richeditor .container .sceditor-container iframe {
