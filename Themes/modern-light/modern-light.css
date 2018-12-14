@@ -449,17 +449,30 @@ select {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.pagination a.prev:nth-child(1):before,
+.pagination a.prev:nth-child(2):before,
+.pagination a.next:nth-last-of-type(2):before,
+.pagination a.next:nth-last-of-type(1):before {
+	display: inline-block;
+	content: '';
+	background-size: 20px;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: 5px;
+}
 .pagination a.prev:nth-child(1):before {
-    content: 'Første';
+    background: url(assets/pagination_2.svg);
+    transform: rotate(180deg);
 }
 .pagination a.prev:nth-child(2):before {
-    content: "Forrige";
+	background: url(assets/pagination_1.svg);
+	transform: rotate(180deg);
 }
 .pagination a.next:nth-last-of-type(2):before {
-    content: 'Næste';
+	background: url(assets/pagination_1.svg);
 }
 .pagination a.next:nth-last-of-type(1):before {
-    content: 'Sidste';
+	background: url(assets/pagination_2.svg);
 }
 
 
