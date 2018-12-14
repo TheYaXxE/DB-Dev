@@ -1165,7 +1165,10 @@ ul#userinfo_username:after {
     width: 260px;
 }
 
-/* Sidebar on frontpage */
+#content .sidebar .box .pad {
+	padding: 								12px;
+}
+
 .sidebar .box {
     height: initial !important;
 }
@@ -1329,6 +1332,73 @@ ul#userinfo_username:after {
 	background:								rgba(255,255,255,0.9);
 	padding: 								6px;
 }
+
+/*------------------------{  8.3. Poll  }------------------------*/
+.box .pad #poll_results {
+	font-size: 								0;
+	color: 									rgba(0,0,0,0.55);
+	margin-top: 							10px;
+}
+
+.box .pad #poll_results input[type=radio] + label {
+	display: 								block;
+	font-size:								13px;
+	min-height: 							16px;
+	line-height: 							16px;
+	position: 								relative;
+	vertical-align: 						top;
+	padding-left: 							24px;
+	margin-bottom: 							10px;
+	cursor: 								pointer;
+}
+
+.box .pad #poll_results input[type=radio]#answer_0 + label {
+	margin-top: 							10px;
+}
+
+.box .pad #poll_results input[type=radio] + label:before {
+	display:								inline-block;
+	content:								'';
+	width:									16px;
+	height:									16px;
+	box-shadow: 							inset 0 0 0 1px rgba(0,0,0,0.3);
+	border-radius: 							50%;
+	position: 								absolute;
+	top: 									0;
+	left: 									0;
+	vertical-align: 						top;
+	margin-right: 							7px;
+	-webkit-transition:						all .12s ease-in-out;
+	-moz-transition:						all .12s ease-in-out;
+	-o-transition:							all .12s ease-in-out;
+	-ms-transition:							all .12s ease-in-out;
+	transition:								all .12s ease-in-out;
+}
+
+.box .pad #poll_results input[type=radio]:checked + label {
+	color: 									rgba(0,0,0,0.9);							
+}
+
+.box .pad #poll_results input[type=radio]:checked + label:before {
+	box-shadow: 							inset 0 0 0 5px rgba(44,129,188,1);
+}
+
+.box .pad #poll_results input[type=button] {
+	color: 									rgba(0,0,0,0.2);
+	background: 							#f3f3f3;
+	background: 							#FFF;
+	box-shadow: 							inset 0 0 0 1px rgba(0,0,0,0.1);
+	pointer-events:							none;
+	margin-top: 							5px;
+}
+
+.box .pad #poll_results input[type=radio]:checked ~ input[type=button] {
+	color: 									rgba(0,0,0,0.6);
+	background: 							#ecedee;
+	box-shadow: 							none;
+	pointer-events:							initial;
+}
+
 
 /* Pull Results */
 .box .pad ul.poll.nobullet {
@@ -2065,7 +2135,7 @@ img[src*="/symbols/Banv1.png"] {
 
 #footer:after {
 	display: block;
-	content: 'v.0.1.8 (Beta)';
+	content: 'v.0.1.7 (Beta)';
 	font-size: 14px;
 	text-align: right;
 	color: rgba(0,0,0,.8);
