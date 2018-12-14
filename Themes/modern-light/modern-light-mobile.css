@@ -746,6 +746,7 @@ ul#userinfo_username:after {
 	font-weight: 							600;
 	position: 								relative;
 	vertical-align:							top;
+	pointer-events:	none;
 }
 
 #header > #userinfo > ul#userinfo_username li a.username:after {
@@ -2135,7 +2136,7 @@ img[src*="/symbols/Banv1.png"] {
 
 #footer:after {
 	display: block;
-	content: 'v.0.1.7 (Beta)';
+	content: 'v.0.1.7 (M Beta)';
 	font-size: 14px;
 	text-align: right;
 	color: rgba(0,0,0,.8);
