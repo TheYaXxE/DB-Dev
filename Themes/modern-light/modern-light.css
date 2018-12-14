@@ -1285,6 +1285,12 @@ ul#userinfo_username:after {
 }
 
 
+/*----------------------{  ?.?. DB Games  }----------------------*/
+.sidebar .box:nth-child(3) table tr:first-child {
+	display: none;
+}
+
+
 /*--------------{  8.2. Popular Movies and Shows  }--------------*/
 .box.newspage #show-case {
 	width: 									100% !important;
@@ -1333,7 +1339,76 @@ ul#userinfo_username:after {
 	padding: 								6px;
 }
 
-/*------------------------{  8.3. Poll  }------------------------*/
+/*------------------------{  ? Boxes  }-----------------------*/
+.box,
+.forum_post,
+.torrent_table,
+.searchtable {
+	width: 									100%;
+	margin-bottom: 							30px;
+	border-radius: 							4px;
+	box-shadow: 							0 0 0 1px rgba(0,0,0,.05),
+											0 2px 8px rgba(0,0,0,.03);
+	position:								relative;
+	overflow: 								hidden;
+}
+
+.box:last-of-type {
+	margin-bottom: 							0;
+}
+
+.box .head,
+.forum_post .colhead_dark,
+table tr.colhead {
+	width: 									100%;
+	height: 								46px;
+	font-family: 							"Open Sans", Helvetica;
+	font-size: 								15px;
+	font-weight: 							600;
+	color: 									rgba(0,0,0,0.8);
+	text-align: 							center;
+	background: 							rgba(243,243,243,0.54);
+	background:								rgba(250,250,250,.54);
+	padding: 								0 15px;
+		overflow: 								hidden;
+	box-shadow: 							inset 0 -1px 0 rgba(1,1,1,0.06);
+}
+
+.box .head:not(tr),
+.forum_post .colhead_dark:not(tr) {
+	line-height: 							46px;
+}
+
+.box .head span.time,
+.forum_post .colhead_dark span.time,
+.torrent span.time {
+	font-size: 								13px !important;
+	color: 									rgba(0,0,0,0.3);
+	margin-left: 							5px;
+	font-weight: 							400;
+}
+
+.box table tr {
+    width: 100%;
+    height: 35px;
+    font-size: 13px;
+}
+
+.box .pad,
+.box .body,
+.forum_post .body {
+	font-size: 								13px;
+	color: 									rgba(0,0,0,0.55);
+	clear: 									both;
+	word-break:								break-word;
+}
+
+.box .pad {
+	background: 							#FFF;
+	padding:								15px 25px;
+}
+
+/*------------------------{  ?.1. Poll  }------------------------*/
 .box .pad #poll_results {
 	font-size: 								0;
 	color: 									rgba(0,0,0,0.55);
@@ -1446,77 +1521,6 @@ ul#userinfo_username:after {
 }
 
 
-/*------------------------{  ? Boxes  }-----------------------*/
-.box,
-.forum_post,
-.torrent_table,
-.searchtable {
-	width: 									100%;
-	margin-bottom: 							30px;
-	border-radius: 							4px;
-	box-shadow: 							0 0 0 1px rgba(0,0,0,.05),
-											0 2px 8px rgba(0,0,0,.03);
-	position:								relative;
-	overflow: 								hidden;
-}
-
-.box:last-of-type {
-	margin-bottom: 							0;
-}
-
-.box .head,
-.forum_post .colhead_dark,
-table tr.colhead {
-	width: 									100%;
-	height: 								46px;
-	font-family: 							"Open Sans", Helvetica;
-	font-size: 								15px;
-	font-weight: 							600;
-	color: 									rgba(0,0,0,0.8);
-	text-align: 							center;
-	background: 							rgba(243,243,243,0.54);
-	background:								rgba(250,250,250,.54);
-	padding: 								0 15px;
-		overflow: 								hidden;
-	box-shadow: 							inset 0 -1px 0 rgba(1,1,1,0.06);
-}
-
-.box .head:not(tr),
-.forum_post .colhead_dark:not(tr) {
-	line-height: 							46px;
-}
-
-.box .head span.time,
-.forum_post .colhead_dark span.time,
-.torrent span.time {
-	font-size: 								13px !important;
-	color: 									rgba(0,0,0,0.3);
-	margin-left: 							5px;
-	font-weight: 							400;
-}
-
-.box table tr {
-    width: 100%;
-    height: 35px;
-    font-size: 13px;
-}
-
-.box .pad,
-.box .body,
-.forum_post .body {
-	font-size: 								13px;
-	color: 									rgba(0,0,0,0.55);
-	clear: 									both;
-	word-break:								break-word;
-}
-
-.box .pad {
-	background: 							#FFF;
-	padding: 15px 25px;
-}
-
-
-
 
 
 
@@ -1621,6 +1625,10 @@ table tr.colhead {
 .forum_post.vispost tr.colhead_dark td:first-of-type strong img {
 	float: left;
 	margin-right: 6px;
+}
+
+.forum_post.vispost tr.colhead_dark td:first-of-type strong a img {
+    margin-right: 0;
 }
 
 /* Time */
@@ -2148,73 +2156,6 @@ img[src*="/symbols/Banv1.png"] {
 }
 
 
-/* Xmas edition  */
-/*
-body {
-	background: linear-gradient(#7290ab,#395165) center fixed
-}
-
-#extra1:before {
-	display: block;
-	content: '';
-	height: 100%;
-	width: 100%;
-	position: fixed;
-	top: 0;
-	left: 0;
-	background-image: url(http://gdurl.com/dIoP);
-	z-index: 99999999;
-	pointer-events: none;
-	-moz-animation: snowFront 20s linear infinite;
-	-webkit-animation: snowFront 20s linear infinite;
-	animation: snowFront 20s linear infinite;
-	backface-visibility: hidden;
-}
-
-#extra1 span {
-	display: block;
-	height: 100%;
-	width: 100%;
-	position: fixed;
-	top: 0;
-	left: 0;
-	background-image: url(http://gdurl.com/G5Vp),
-	url(http://gdurl.com/m9Yz);
-	z-index: -1;
-	pointer-events: none;
-	-moz-animation: snowBehind 20s linear infinite;
-	-webkit-animation: snowBehind 20s linear infinite;
-	animation: snowBehind 20s linear infinite;
-	backface-visibility: hidden;
-}
-
-@-moz-keyframes snowFront {
-	0% { background-position: 0 0; }
-	100% { background-position: 500px 1000px; }
-}
-@-webkit-keyframes snowFront {
-	0% { background-position: 0 0; }
-	100% { background-position: 500px 1000px; }
-}
-@keyframes snowFront {
-	0% { background-position: 0 0; }
-	100% { background-position: 500px 1000px; }
-}
-
-@-moz-keyframes snowBehind {
-	0% { background-position: 0 0, 0 0; }
-	100% { background-position: 0 400px, 0 300px; }
-}
-@-webkit-keyframes snowBehind {
-	0% { background-position: 0 0, 0 0; }
-	100% { background-position: 0 400px, 0 300px; }
-}
-@keyframes snowBehind {
-	0% { background-position: 0 0, 0 0; }
-	100% { background-position: 0 400px, 0 300px; }
-}
-*/
-
 
 /* Torrent Side - Søgeboks */
 table.searchtable td.searchbox {
@@ -2260,3 +2201,8 @@ table.searchtable td.searchbox > div input[type="submit"]:not([name="setdefault"
 	border-radius: 0 4px 4px 0;
 }
 
+
+
+
+/* Import DB Modern Xmas */
+@import url("modern-xmas.css");
