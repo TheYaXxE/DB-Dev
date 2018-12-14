@@ -349,6 +349,7 @@ select {
 
 .linkbox .center {
 	display: inline-block;
+	font-size: 0;
 	vertical-align: top;
 	text-align: right;
 	order: 2;
@@ -368,8 +369,8 @@ select {
 	border: none !important;
 	vertical-align: top;
 	padding: 0 10px;
-	margin: 0 !important;
-	margin-right: 8px !important;
+	margin: 0;
+	margin-right: 8px;
 	overflow: hidden;
 }
 
@@ -2210,7 +2211,7 @@ img[src*="/symbols/Banv1.png"] {
 
 #footer:after {
 	display: block;
-	content: 'v.0.1.8 (Beta)';
+	content: 'v.0.1.9 (Beta)';
 	font-size: 14px;
 	text-align: right;
 	color: rgba(0,0,0,.8);
