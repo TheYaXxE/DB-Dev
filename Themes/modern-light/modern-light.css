@@ -5,7 +5,7 @@
 // 															     //
 //  Version:											0.3.0.6  //
 //	Created by:								 		   TheYaXxE  //
-// 	Last change:									   11-12-18  //
+// 	Last change:									   14-12-18  //
 //  Licensed to:								 DanishBits.org  //
 // 															     //
 // 	Description:											     //
@@ -375,7 +375,8 @@ select {
 	overflow: hidden;
 }
 
-.linkbox .center a:before {
+.linkbox .center a:before,
+.linkbox .center a:after {
 	display: block;
 	content: '';
 	position: absolute;
@@ -395,8 +396,8 @@ select {
 
 /* Pagination - Global */
 .pagination {
-	display: block !important;
-	width: 100% !important;
+	display: inline-block !important;
+	width: auto !important;
 	font-size: 0 !important;
 	text-align: center !important;
 	margin: 0 0 15px 0 !important;
