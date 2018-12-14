@@ -83,6 +83,7 @@ rgba(43, 88, 199, 0.77)
 -----------------------------------------------------------------*/
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Open+Sans+Condensed:300,700');
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url("https://rawcdn.githack.com/TheYaXxE/DB-Dev/4926365b509d2a6eebf0d4b2da0ba23b4e6225ac/Themes/modern-light/modern-xmas.css");
 
 /* Theme Colors */
 /*
@@ -2200,9 +2201,3 @@ table.searchtable td.searchbox > div input[type="submit"]:not([name="setdefault"
 	right: 0;
 	border-radius: 0 4px 4px 0;
 }
-
-
-
-
-/* Import DB Modern Xmas */
-@import url("https://rawcdn.githack.com/TheYaXxE/DB-Dev/4926365b509d2a6eebf0d4b2da0ba23b4e6225ac/Themes/modern-light/modern-xmas.css");

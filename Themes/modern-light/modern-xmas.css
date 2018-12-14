@@ -3,6 +3,7 @@ body {
 	background: linear-gradient(#7290ab,#395165) center fixed
 }
 
+/*
 #extra1:before {
 	display: block;
 	content: '';
@@ -36,6 +37,7 @@ body {
 	animation: snowBehind 20s linear infinite;
 	backface-visibility: hidden;
 }
+*/
 
 @-moz-keyframes snowFront {
 	0% { background-position: 0 0; }
