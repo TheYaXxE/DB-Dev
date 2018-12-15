@@ -1690,6 +1690,10 @@ table tr.colhead {
 	border-radius: 4px;
 	padding: 0 8px;
 }
+.forum_post.vispost tr.colhead_dark td:first-of-type > b {
+	color: rgb(26, 112, 195);
+	background: #FFF;
+}
 .forum_post.vispost tr.colhead_dark td:first-of-type > b:before {
 	display: block;
 	content: '';
@@ -2253,7 +2257,7 @@ img[src*="/symbols/Banv1.png"] {
 
 #footer:after {
 	display: block;
-	content: 'v.0.2.0 (Beta)';
+	content: 'v.0.1.9 (Beta)';
 	font-size: 14px;
 	text-align: right;
 	color: rgba(0,0,0,.8);
