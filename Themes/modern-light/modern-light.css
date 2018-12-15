@@ -263,7 +263,6 @@ h2 {
 	line-height: 78%;
 	font-size: 22px;
 	font-weight: 600;
-	float: left;
 	margin-bottom: 15px !important;
 }
 
@@ -287,6 +286,12 @@ h2 a:after {
 	text-rendering: auto;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+}
+
+.thin600 h2 {
+	line-height: normal !important;
+	font-size: 16px !important;
+	margin: 0 !important;
 }
 
 #alerts {
