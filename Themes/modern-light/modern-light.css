@@ -1696,7 +1696,19 @@ table tr.colhead {
 	width: 100%;
 	height: 46px;
 	background: rgb(26, 112, 195);
+	position: absolute;
+    top: 0;
+    left: 0;
 	z-index: -1;
+}
+.forum_post.vispost tr.colhead_dark td:first-of-type > b ~ span,
+.forum_post.vispost tr.colhead_dark td:first-of-type > b ~ strong,
+.forum_post.vispost tr.colhead_dark td:first-of-type > b ~ strong a {
+	color: #FFF;
+}
+
+.forum_post.vispost tr.colhead_dark td:first-of-type > b ~ .time {
+	color: rgba(255, 255, 255, 0.54);
 }
 
 /* OP */
@@ -2241,7 +2253,7 @@ img[src*="/symbols/Banv1.png"] {
 
 #footer:after {
 	display: block;
-	content: 'v.0.1.9 (Beta)';
+	content: 'v.0.2.0 (Beta)';
 	font-size: 14px;
 	text-align: right;
 	color: rgba(0,0,0,.8);
