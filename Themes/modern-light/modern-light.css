@@ -5,7 +5,7 @@
 // 															     //
 //  Version:											0.3.0.6  //
 //	Created by:								 		   TheYaXxE  //
-// 	Last change:									   11-12-18  //
+// 	Last change:									   15-12-18  //
 //  Licensed to:								 DanishBits.org  //
 // 															     //
 // 	Description:											     //
@@ -1296,6 +1296,13 @@ ul#userinfo_username:after {
 	display: inline-block;
 	content: "S";
 	font-size: 13px !important;
+}
+
+.sidebar .box.newspage table tr:last-child td > span a:hover,
+.sidebar .box.newspage table tr:last-child td > span a:hover:before,
+.sidebar .box.newspage table tr:last-child td > span a:hover:after {
+	color: #FFF;
+	background: rgb(26, 112, 195,1);
 }
 
 .sidebar .box.newspage table tr td > span {
