@@ -906,7 +906,7 @@ ul#userinfo_username:after {
 	opacity: 1;
 }
 
-#header > #userinfo:hover > ul#userinfo_username li a.username:before {
+#header > #userinfo > ul#userinfo_username:hover li a.username:before {
 	pointer-events: auto;
 	background: blue !important;
 }
@@ -2310,7 +2310,7 @@ img[src*="/symbols/Banv1.png"] {
 
 #footer:after {
 	display: block;
-	content: 'v.0.2.2 (Beta)';
+	content: 'v.0.2.5 (Beta)';
 	font-size: 14px;
 	text-align: right;
 	color: rgba(0,0,0,.8);
