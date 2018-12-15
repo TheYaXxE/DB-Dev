@@ -849,22 +849,23 @@ ul#userinfo_username:after {
 #header > #userinfo > ul#userinfo_major {
 	display: 								block;
 	width: 									212px;
-	height: 								220px;
+	height: 								245px;
 	font-size: 								0;
 	text-align: 							left;
 	background: 							#FFF;
-	border: 1px solid rgba(0,0,0,.05);
-    border-top: 0;
-    box-shadow: 0 2px 8px rgba(0,0,0,.03);
+	border: 								1px solid rgba(0,0,0,.05);
+	border-top: 							0;
+	box-shadow: 							0 2px 8px rgba(0,0,0,.03);
 	position: 								absolute;
-	top: 60px;
-	right: -20px; /* User menu offset */
+	top: 									60px;
+	right: 									-20px; /* User menu offset */
 	z-index: 								80;
-	padding: 8px;
-	border-radius: 0 0 4px 4px;
-	transform-origin: 0px 0px;
-    transform: rotateX(-90deg);
-	background-clip: padding-box;
+	padding: 								8px;
+	padding-top: 							38px;
+	border-radius: 							0 0 4px 4px;
+	transform-origin: 						0px 0px;
+	transform: 								rotateX(-90deg);
+	background-clip: 						padding-box;
 }
 
 /* Usermenu arrow */
@@ -880,6 +881,36 @@ ul#userinfo_username:after {
     position: absolute;
     top: -5px;
     right: 25px;
+}
+
+/* My Profile in Usermenu */
+#header > #userinfo > ul#userinfo_username li a.username:before {
+	content: 'Min Profil';
+	display: block;
+	width: 194px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	font-weight: normal;
+	padding: 0 12px;
+	text-align: left;
+	background: red;
+	position: absolute;
+	z-index: 100;
+	border-radius: 4px;
+	top: 37px;
+	right: -11px;
+	box-sizing: border-box;
+	pointer-events: none;
+	opacity: 0;
+}
+
+#header > #userinfo > ul#userinfo_username:hover li a.username:before {
+	pointer-events: auto;
+}
+
+#header > #userinfo > ul#userinfo_username li a.username:hover:before {
+	opacity: 1;
 }
 
 /* Bottom buttons area */
@@ -923,6 +954,7 @@ ul#userinfo_username:after {
 #header > #userinfo > ul#userinfo_major li.brackets a {
 	display: inline-block;
 	width: 100%;
+	height: 30px;
 	font-size: 14px;
 	color: #000;
 	padding: 6px 12px;
@@ -954,7 +986,7 @@ ul#userinfo_username:after {
 
 #header > #userinfo > ul#userinfo_username li.user_stat_pics {
     bottom: initial;
-    top: 201px;
+    top: 226px;
     opacity: 0;
 }
 
@@ -1111,9 +1143,6 @@ ul#userinfo_username:after {
     vertical-align: top;
 }
 
-
-
-
 /* Hide user menu by default */
 #userinfo_major,
 #userinfo_username .user_stat_pics {
@@ -1260,7 +1289,7 @@ ul#userinfo_username:after {
 -----------------------------------------------------------------*/
 #content .sidebar {
 	float: left;
-    width: 260px;
+	width: 260px;
 }
 
 #content .sidebar .box .pad {
