@@ -1218,9 +1218,11 @@ ul#userinfo_username:after {
 }
 
 #content .thin {
+	/*
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
+	*/
     width: 1100px;
     min-width: auto !important;
     position: relative;
@@ -1248,6 +1250,7 @@ ul#userinfo_username:after {
 }
 
 #content .main_column {
+	float: right;
     width: calc( 100% - (260px + 30px) );
 }
 
@@ -1256,6 +1259,7 @@ ul#userinfo_username:after {
 ----------------------{  ?. Sidebar Section  }---------------------
 -----------------------------------------------------------------*/
 #content .sidebar {
+	float: left;
     width: 260px;
 }
 
