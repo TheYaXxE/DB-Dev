@@ -821,6 +821,7 @@ ul#userinfo_username:after {
 	font-weight: 							600;
 	position: 								relative;
 	vertical-align:							top;
+	pointer-events: 						none;
 }
 
 #header > #userinfo > ul#userinfo_username li a.username:after {
@@ -901,12 +902,12 @@ ul#userinfo_username:after {
 	top: 37px;
 	right: -11px;
 	box-sizing: border-box;
-	pointer-events: none;
+	pointer-events: auto;
 	opacity: 0;
 }
 
 #header > #userinfo > ul#userinfo_username:hover li a.username:before {
-	pointer-events: auto;
+	background: blue;
 }
 
 #header > #userinfo > ul#userinfo_username li a.username:hover:before {
