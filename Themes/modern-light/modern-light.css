@@ -903,13 +903,15 @@ ul#userinfo_username:after {
 	right: -11px;
 	box-sizing: border-box;
 	pointer-events: none;
-	opacity: 0;
+	opacity: 1;
 }
 
 #header > #userinfo:hover > ul#userinfo_username li a.username:before {
 	pointer-events: auto;
+	background: blue !important;
 }
 
+/*
 #header > #userinfo > ul#userinfo_username li a:hover.username:before {
 	background: orange;
 }
@@ -917,6 +919,7 @@ ul#userinfo_username:after {
 #header > #userinfo > ul#userinfo_username li a.username:hover:before {
 	opacity: 1;
 }
+*/
 
 /* Bottom buttons area */
 #header > #userinfo > ul#userinfo_major:after {
@@ -2307,7 +2310,7 @@ img[src*="/symbols/Banv1.png"] {
 
 #footer:after {
 	display: block;
-	content: 'v.0.2.1 (Beta)';
+	content: 'v.0.2.2 (Beta)';
 	font-size: 14px;
 	text-align: right;
 	color: rgba(0,0,0,.8);
