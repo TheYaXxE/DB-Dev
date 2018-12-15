@@ -255,6 +255,10 @@ a {
 	color: rgb(26, 112, 195);
 }
 
+a:hover {
+	color: #f16d09;
+}
+
 h2 {
 	line-height: 78%;
 	font-size: 22px;
@@ -1613,10 +1617,9 @@ table tr.colhead {
 
 
 
-
-
-/*------------------------{  ? Forum  }-----------------------*/
-
+/*--------------------------------------------------------------
+----------------------{  ?. Forum  }----------------------------
+--------------------------------------------------------------*/
 
 /*---- Single Post -----*/
 .forum_post.vispost tr.colhead_dark td {
@@ -2273,7 +2276,9 @@ img[src*="/symbols/Banv1.png"] {
 
 
 
-/* Torrent Side - Søgeboks */
+/*--------------------------------------------------------------
+----------------------{  ?. Torrent  }--------------------------
+--------------------------------------------------------------*/
 table.searchtable td.searchbox {
 	padding: 0 100px;
 }
@@ -2316,3 +2321,18 @@ table.searchtable td.searchbox > div input[type="submit"]:not([name="setdefault"
 	right: 0;
 	border-radius: 0 4px 4px 0;
 }
+
+
+
+/*--------------------------------------------------------------
+----------------------{  ?. Bonus  }----------------------------
+--------------------------------------------------------------*/
+body#bonus #content > center + div[style*="width:400px"] {
+	width: 600px !important;
+}
+
+body#bonus #content > center + div[style*="width:400px"] {
+	width: 600px !important;
+}
+
+
