@@ -895,19 +895,23 @@ ul#userinfo_username:after {
 	font-weight: normal;
 	padding: 0 12px;
 	text-align: left;
-	background: red;
+	background: green;
 	position: absolute;
 	z-index: 100;
 	border-radius: 4px;
 	top: 37px;
 	right: -11px;
 	box-sizing: border-box;
-	pointer-events: auto;
+	pointer-events: none;
 	opacity: 0;
 }
 
 #header > #userinfo > ul#userinfo_username:hover li a.username:before {
-	background: blue;
+	pointer-events: auto;
+}
+
+#header > #userinfo > ul#userinfo_username li a:hover.username:before {
+	background: orange;
 }
 
 #header > #userinfo > ul#userinfo_username li a.username:hover:before {
