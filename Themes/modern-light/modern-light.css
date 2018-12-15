@@ -2269,7 +2269,7 @@ img[src*="/symbols/Banv1.png"] {
 
 #footer:after {
 	display: block;
-	content: 'v.0.1.9 (Beta)';
+	content: 'v.0.2.0 (Beta)';
 	font-size: 14px;
 	text-align: right;
 	color: rgba(0,0,0,.8);
