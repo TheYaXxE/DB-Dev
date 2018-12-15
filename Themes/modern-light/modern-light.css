@@ -37,7 +37,8 @@
 Button-color
 Button-hover-color
 Header button-color
-Header-button 
+Header-button
+Blue: rgb(26, 112, 195);
 
 
 
@@ -251,7 +252,7 @@ table {
 }
 
 a {
-	color: rgb(36, 124, 210);
+	color: rgb(26, 112, 195);
 }
 
 h2 {
@@ -1338,6 +1339,7 @@ ul#userinfo_username:after {
 .sidebar .box.newspage table tr:hover:not(:last-child) {
 	color: #FFF;
     background: rgba(44,129,188,0.9);
+    background: rgb(26, 112, 195,.9);
     -webkit-font-smoothing: auto;
 }
 
