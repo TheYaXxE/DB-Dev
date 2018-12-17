@@ -254,11 +254,6 @@ table {
 
 a {
 	color: rgb(26, 112, 195);
-	-webkit-transition: color .12s ease-in-out;
-	-moz-transition: color .12s ease-in-out;
-	-o-transition: color .12s ease-in-out;
-	-ms-transition: color .12s ease-in-out;
-	transition: color .12s ease-in-out;
 }
 
 a:hover {
