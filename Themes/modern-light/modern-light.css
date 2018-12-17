@@ -848,7 +848,50 @@ ul#userinfo_username:after {
 }
 
 #header > #userinfo > ul#userinfo_username li .new-subscriptions {
-	display: none;
+	content: '';
+	display: block;
+	min-width: 20px;
+	max-width: 20px;
+	height: 20px;
+	line-height: 20px;
+	background: #3a3a3a;
+	position: absolute;
+	top: 0;
+	right: calc( 100% + 10px );
+	border-radius: 10px;
+	padding: 0 15px;
+	vertical-align: top;
+	box-sizing: border-box;
+	overflow: hidden;
+	transition: all .12s ease-in-out;
+}
+#header > #userinfo > ul#userinfo_username li .new-subscriptions:hover {
+	max-width: 130px !important;
+	opacity: 1;
+	overflow: visible;
+}
+#header > #userinfo > ul#userinfo_username li .new-subscriptions:before {
+	content: 'Ny underretning';
+	font-size: 12px;
+	color: #FFF;
+	opacity: 0;
+	vertical-align: top;
+	white-space: nowrap;
+	transition: all .12s ease-in-out;
+}
+#header > #userinfo > ul#userinfo_username li .new-subscriptions:hover:before {
+	opacity: 1;
+}
+#header > #userinfo > ul#userinfo_username li .new-subscriptions:after {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 10px;
+	background: transparent;
+	position: absolute;
+	bottom: -10px;
+	left: 0;
+	right: 0;
 }
 
 
@@ -2281,7 +2324,7 @@ img[src*="/symbols/Banv1.png"] {
 
 #footer:after {
 	display: block;
-	content: 'v.0.3.0 (Beta)';
+	content: 'v.0.2.0 (Beta)';
 	font-size: 14px;
 	text-align: right;
 	color: rgba(0,0,0,.8);
