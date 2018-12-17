@@ -1432,11 +1432,29 @@ ul#userinfo_username:after {
 .sidebar .box:nth-child(3) table tr:first-child {
 	display: none;
 }
-.sidebar .box table tr:nth-child(odd) {
+.sidebar .box:nth-child(3) table tr:nth-child(odd) {
 	background: rgba(247,247,247,0.8);
 }
-.sidebar .box table tr:nth-child(even) {
+.sidebar .box:nth-child(3) table tr:nth-child(even) {
 	background: rgba(255,255,255,.9);
+}
+
+.sidebar .box:nth-child(3) table tr,
+.sidebar .box:nth-child(3) table tr li,
+.sidebar .box:nth-child(3) table tr li a {
+	height: 35px;
+	line-height: 35px;
+}
+
+.sidebar .box:nth-child(3) table tr li a:after {
+	display: block;
+	content: '';
+	background: red;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
 }
 
 
