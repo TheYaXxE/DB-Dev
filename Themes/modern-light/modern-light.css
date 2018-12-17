@@ -827,7 +827,6 @@ ul#userinfo_username:after {
 	font-weight: 							600;
 	position: 								relative;
 	vertical-align:							top;
-	pointer-events: 						none;
 }
 
 #header > #userinfo > ul#userinfo_username li a.username:after {
@@ -1432,6 +1431,12 @@ ul#userinfo_username:after {
 /*----------------------{  ?.?. DB Games  }----------------------*/
 .sidebar .box:nth-child(3) table tr:first-child {
 	display: none;
+}
+.sidebar .box table tr:nth-child(odd) {
+	background: rgba(247,247,247,0.8);
+}
+.sidebar .box table tr:nth-child(even) {
+	background: rgba(255,255,255,.9);
 }
 
 
