@@ -859,7 +859,7 @@ ul#userinfo_username:after {
 	top: 0;
 	right: calc( 100% + 10px );
 	border-radius: 10px;
-	padding: 0 15px;
+	padding: 0 10px;
 	vertical-align: top;
 	box-sizing: border-box;
 	overflow: hidden;
@@ -869,6 +869,7 @@ ul#userinfo_username:after {
 	max-width: 130px !important;
 	opacity: 1;
 	overflow: visible;
+	padding: 0 15px;
 }
 #header > #userinfo > ul#userinfo_username li .new-subscriptions:before {
 	content: 'Ny underretning';
@@ -2309,7 +2310,7 @@ img[src*="/symbols/Banv1.png"] {
 
 #footer:after {
 	display: block;
-	content: 'v.0.3.1 (Beta)';
+	content: 'v.0.3.2 (Beta)';
 	font-size: 14px;
 	text-align: right;
 	color: rgba(0,0,0,.8);
