@@ -1147,23 +1147,8 @@ ul#userinfo_username:after {
 }
 
 /* New subscription icon */
-#header > #userinfo > ul#userinfo_username li.brackets {
-    font-size: 0 !important;
-    line-height: 0 !important;
-}
+/* Move here */
 
-#header > #userinfo > ul#userinfo_username li .new-subscriptions:before {
-    content: '';
-    display: block;
-    width: 20px;
-    height: 20px;
-    background: red;
-    position: absolute;
-    top: 0;
-    left: -25px;
-    border-radius: 50%;
-    vertical-align: top;
-}
 
 /* Hide user menu by default */
 #userinfo_major,
@@ -2324,7 +2309,7 @@ img[src*="/symbols/Banv1.png"] {
 
 #footer:after {
 	display: block;
-	content: 'v.0.2.0 (Beta)';
+	content: 'v.0.3.1 (Beta)';
 	font-size: 14px;
 	text-align: right;
 	color: rgba(0,0,0,.8);
