@@ -39,6 +39,7 @@ Button-hover-color
 Header button-color
 Header-button
 Blue: rgb(26, 112, 195);
+Alt. red = bd4435
 
 
 
@@ -253,6 +254,11 @@ table {
 
 a {
 	color: rgb(26, 112, 195);
+	-webkit-transition: color .12s ease-in-out;
+	-moz-transition: color .12s ease-in-out;
+	-o-transition: color .12s ease-in-out;
+	-ms-transition: color .12s ease-in-out;
+	transition: color .12s ease-in-out;
 }
 
 a:hover {
@@ -935,9 +941,13 @@ ul#userinfo_username:after {
 	border-radius: 4px;
 }
 
+#header > #userinfo > ul#userinfo_major li:not(.user_stat_pics) a span[style*="red"] {
+	color: #e61428 !important;
+}
+
 /* User menu items hover */
 #header > #userinfo > ul#userinfo_major li:not(.user_stat_pics) a:hover {
-	background: #bd4435;
+	background: rgb(26, 112, 195);
 }
 #header > #userinfo > ul#userinfo_major li:not(.user_stat_pics) a:hover,
 #header > #userinfo > ul#userinfo_major li:not(.user_stat_pics) a:hover span {
@@ -1309,7 +1319,7 @@ ul#userinfo_username:after {
 .sidebar .box.newspage table tr:last-child td > span a:hover:before,
 .sidebar .box.newspage table tr:last-child td > span a:hover:after {
 	color: #FFF;
-	background: rgb(26, 112, 195,1);
+	background: rgb(26, 112, 195);
 }
 
 .sidebar .box.newspage table tr td > span {
@@ -1357,7 +1367,7 @@ ul#userinfo_username:after {
 .sidebar .box.newspage table tr:hover:not(:last-child) {
 	color: #FFF;
     background: rgba(44,129,188,0.9);
-    background: rgb(26, 112, 195,.9);
+    background: rgb(26, 112, 195);
     -webkit-font-smoothing: auto;
 }
 
@@ -2276,7 +2286,7 @@ img[src*="/symbols/Banv1.png"] {
 
 #footer:after {
 	display: block;
-	content: 'v.0.2.0 (Beta)';
+	content: 'v.0.3.0 (Beta)';
 	font-size: 14px;
 	text-align: right;
 	color: rgba(0,0,0,.8);
