@@ -1308,9 +1308,13 @@ ul#userinfo_username:after {
     height: initial !important;
 }
 
+
+.sidebar .box table tr {
+	color: rgba(0,0,0,0.55);
+}
+
 .sidebar .box.newspage table tr {
     height: 25px;
-    color: rgba(0,0,0,0.55);
 }
 
 .sidebar .box.newspage table tr:last-child {
