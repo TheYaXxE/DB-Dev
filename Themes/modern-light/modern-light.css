@@ -1993,6 +1993,19 @@ table tr.colhead {
     box-shadow: 0 0 0 2px rgb(36, 124, 210), 0 2px 8px rgba(0,0,0,.03);
 }
 
+.thinforum > .linkbox:last-child:before {
+	display: block;
+	content: 'Tråden er lukket';
+	width: 100%;
+	font-size: 14px;
+	color: rgba(0,0,0,.5);
+	padding: 20px;
+	text-align: center;
+	border: 1px dashed rgba(0,0,0,.3);
+	margin-top: 20px;
+	border-radius: 4px;
+}
+
 .thinforum h3 {
 	display: inline-block;
 	font-size: 20px;
