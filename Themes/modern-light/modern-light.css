@@ -1265,11 +1265,11 @@ ul#userinfo_username:after {
     position: relative;
 }
 
-#content,
-#content .thin {
-	width: 1100px;
-	min-width: auto !important;
-	position: relative;
+#content:after,
+#content .thin:after {
+	display: table;
+	content: '';
+	clear: both;
 }
 
 /* Whole-site message box */
