@@ -1572,6 +1572,7 @@ table tr.colhead {
     font-size: 13px;
 }
 
+.box.pad,
 .box .pad,
 .box .body,
 .forum_post .body {
@@ -1581,6 +1582,7 @@ table tr.colhead {
 	word-break:								break-word;
 }
 
+.box.pad,
 .box .pad {
 	background: 							#FFF;
 	padding:								15px 25px;
