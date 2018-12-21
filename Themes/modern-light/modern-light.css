@@ -1588,6 +1588,11 @@ table tr.colhead {
 	padding:								15px 25px;
 }
 
+.forum_post ~ .box.pad {
+    padding: 								0;
+    background: 							transparent;
+}
+
 /*------------------------{  ?.1. Poll  }------------------------*/
 .box .pad #poll_results {
 	font-size: 								0;
