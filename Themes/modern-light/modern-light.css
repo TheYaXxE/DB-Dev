@@ -353,6 +353,49 @@ select {
 	padding-right: 30px;
 }
 
+input[type="button"],
+input[type="submit"] {
+	display:								inline-block;
+	height: 								28px;
+	font-size: 								13px;
+	position: 								relative;
+	overflow: 								hidden;
+	border-radius:								4px;
+	padding: 								0 15px;
+	cursor: 								pointer;
+}
+
+input[type="button"] {
+	color: 									rgba(0,0,0,0.6);
+	background: 							#ecedee;
+}
+
+input[type="button"]:hover {
+	color: 									#FFF !important;
+	background:								#3d8ac1 !important;
+}
+
+input[type="submit"] {
+    color: 									#FFF;
+    background: 							#3d8ac1;
+}
+
+input[type="radio"] {
+	appearance:								radio;
+	-webkit-appearance:						radio;
+	-moz-appearance:						radio;
+	-o-appearance:							radio;
+	-ms-appearance:							radio;
+}
+
+input[type="checkbox"] {
+	appearance:								checkbox;
+	-webkit-appearance:						checkbox;
+	-moz-appearance:						checkbox;
+	-o-appearance:							checkbox;
+	-ms-appearance:							checkbox;
+}
+
 .linkbox {
 	clear: both;
 	display: flex;
