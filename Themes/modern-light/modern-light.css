@@ -2073,7 +2073,8 @@ table tr.colhead {
 	transform: translate3d(-50%,0,0);
 }
 
-.thinforum h3:before, h3:after {
+.thinforum h3:before,
+.thinforum h3:after {
 	content: '';
 	display: block;
 	width: calc( ((1100px - 100%) /2) - 20px );
